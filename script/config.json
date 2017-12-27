@@ -1,0 +1,32 @@
+{
+  "HelperMax": 56,
+  "PlayerProjectileMax": 50,
+  "ExplodMax": 256,
+  "AfterImageMax": 8,
+  "Attack.LifeToPowerMul": 0.7,
+  "GetHit.LifeToPowerMul": 0.6,
+  "Width": 640,
+  "Height": 480,
+  "Super.TargetDefenceMul": 1.5,
+  "LifebarFontScale": 0.5,
+  "System": "script/main.lua",
+  "KeyConfig": [
+    {
+      "Joystick": -1,
+      "Buttons": ["UP", "DOWN", "LEFT", "RIGHT",
+        "z", "x", "c", "a", "s", "d",
+        "RETURN"]
+    }
+  ],
+  "_comment": {
+    "_comment": "ジョイスティック (0番) の場合の KeyConfig",
+    "KeyConfig": [
+      {
+        "Joystick": 0,
+        "Buttons": [-3, -4, -1, -2,
+          1, 2, 7, 0, 3, 5,
+          9]
+      }
+    ]
+  }
+}

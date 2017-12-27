@@ -1,0 +1,15 @@
+﻿--[=====[
+addChar([[
+Strider-Hiryu
+Tetsu
+Giano
+EvilKen
+Silvermoon
+Scorpion
+]])
+
+addStage([[
+SpaceRainbowLowRes.def
+Clouds.def
+]])
+--]=====]
