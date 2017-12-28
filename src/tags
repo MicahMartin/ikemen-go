@@ -1,0 +1,2212 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	input.go	/^func (__ *AiInput) A() bool {$/;"	f
+A	input.go	/^func (kc KeyConfig) A() bool { return JoystickState(kc.Joy, kc.a) }$/;"	f
+AT_AA	bytecode.go	/^	AT_AA  = AT_NA | AT_SA | AT_HA$/;"	c
+AT_AH	bytecode.go	/^	AT_AH  = AT_HA | AT_HT | AT_HP$/;"	c
+AT_ALL	bytecode.go	/^	AT_ALL = AT_AA | AT_AT | AT_AP$/;"	c
+AT_AN	bytecode.go	/^	AT_AN  = AT_NA | AT_NT | AT_NP$/;"	c
+AT_AP	bytecode.go	/^	AT_AP  = AT_NP | AT_SP | AT_HP$/;"	c
+AT_AS	bytecode.go	/^	AT_AS  = AT_SA | AT_ST | AT_SP$/;"	c
+AT_AT	bytecode.go	/^	AT_AT  = AT_NT | AT_ST | AT_HT$/;"	c
+AT_Dodge	char.go	/^	AT_Dodge$/;"	c
+AT_HA	bytecode.go	/^	AT_HA$/;"	c
+AT_HP	bytecode.go	/^	AT_HP$/;"	c
+AT_HT	bytecode.go	/^	AT_HT$/;"	c
+AT_Hit	char.go	/^	AT_Hit AiuchiType = iota$/;"	c
+AT_Miss	char.go	/^	AT_Miss$/;"	c
+AT_NA	bytecode.go	/^	AT_NA AttackType = 1 << (iota + 6)$/;"	c
+AT_NP	bytecode.go	/^	AT_NP$/;"	c
+AT_NT	bytecode.go	/^	AT_NT$/;"	c
+AT_SA	bytecode.go	/^	AT_SA$/;"	c
+AT_SP	bytecode.go	/^	AT_SP$/;"	c
+AT_ST	bytecode.go	/^	AT_ST$/;"	c
+Abs	common.go	/^func Abs(i int32) int32 {$/;"	f
+AbsF	common.go	/^func AbsF(f float32) float32 {$/;"	f
+Accept	input.go	/^func (ni *NetInput) Accept(port string) error {$/;"	f
+Action	anim.go	/^func (a *Animation) Action() {$/;"	f
+Action	common.go	/^func (al *AnimLayout) Action() {$/;"	f
+Action	common.go	/^func (ats *AnimTextSnd) Action() { ats.anim.Action() }$/;"	f
+Add	bytecode.go	/^func (sp *StringPool) Add(s string) int {$/;"	f
+Add	char.go	/^func (cr *ClsnRect) Add(clsn []float32, x, y, xs, ys float32) {$/;"	f
+Add	input.go	/^func (cl *CommandList) Add(c Command) {$/;"	f
+AddPos	anim.go	/^func (a *Anim) AddPos(x, y float32) {$/;"	f
+AddSelectedChar	system.go	/^func (s *Select) AddSelectedChar(tn, cn, pl int) bool {$/;"	f
+AddStage	system.go	/^func (s *Select) AddStage(def string) error {$/;"	f
+AfterImage	char.go	/^type AfterImage struct {$/;"	t
+AiInput	input.go	/^type AiInput struct {$/;"	t
+AiuchiType	char.go	/^type AiuchiType int32$/;"	t
+Alloc	bytecode.go	/^func (bs *BytecodeStack) Alloc(size int) []BytecodeValue {$/;"	f
+Anim	anim.go	/^type Anim struct {$/;"	t
+AnimElemNo	anim.go	/^func (a *Animation) AnimElemNo(time int32) int32 {$/;"	f
+AnimElemTime	anim.go	/^func (a *Animation) AnimElemTime(elem int32) int32 {$/;"	f
+AnimFrame	anim.go	/^type AnimFrame struct {$/;"	t
+AnimLayout	common.go	/^type AnimLayout struct {$/;"	t
+AnimTextSnd	common.go	/^type AnimTextSnd struct {$/;"	t
+AnimTime	anim.go	/^func (a *Animation) AnimTime() int32 {$/;"	f
+Animation	anim.go	/^type Animation struct {$/;"	t
+AnimationTable	anim.go	/^type AnimationTable map[int32]*Animation$/;"	t
+AnyButton	input.go	/^func (fi *FileInput) AnyButton() bool {$/;"	f
+AnyButton	input.go	/^func (ni *NetInput) AnyButton() bool {$/;"	f
+At	input.go	/^func (cl *CommandList) At(i int) []Command {$/;"	f
+Atof	common.go	/^func Atof(str string) float64 {$/;"	f
+Atoi	common.go	/^func Atoi(str string) int32 {$/;"	f
+AttackType	bytecode.go	/^type AttackType int32$/;"	t
+AudioSource	sound.go	/^type AudioSource struct {$/;"	t
+B	input.go	/^func (__ *AiInput) B() bool {$/;"	f
+B	input.go	/^func (kc KeyConfig) B() bool { return JoystickState(kc.Joy, kc.b) }$/;"	f
+BT_Anim	stage.go	/^	BT_Anim$/;"	c
+BT_Enable	stage.go	/^	BT_Enable$/;"	c
+BT_Null	stage.go	/^	BT_Null BgcType = iota$/;"	c
+BT_PosAdd	stage.go	/^	BT_PosAdd$/;"	c
+BT_PosSet	stage.go	/^	BT_PosSet$/;"	c
+BT_SinX	stage.go	/^	BT_SinX$/;"	c
+BT_SinY	stage.go	/^	BT_SinY$/;"	c
+BT_VelAdd	stage.go	/^	BT_VelAdd$/;"	c
+BT_VelSet	stage.go	/^	BT_VelSet$/;"	c
+BT_Visible	stage.go	/^	BT_Visible$/;"	c
+BaseScale	camera.go	/^func (c *Camera) BaseScale() float32 {$/;"	f
+BgcType	stage.go	/^type BgcType int32$/;"	t
+Btoi	common.go	/^func Btoi(b bool) int32 {$/;"	f
+BufReset	input.go	/^func (cl *CommandList) BufReset() {$/;"	f
+BytecodeBool	bytecode.go	/^func BytecodeBool(b bool) BytecodeValue {$/;"	f
+BytecodeExp	bytecode.go	/^type BytecodeExp []OpCode$/;"	t
+BytecodeFloat	bytecode.go	/^func BytecodeFloat(f float32) BytecodeValue {$/;"	f
+BytecodeInt	bytecode.go	/^func BytecodeInt(i int32) BytecodeValue {$/;"	f
+BytecodeSF	bytecode.go	/^func BytecodeSF() BytecodeValue {$/;"	f
+BytecodeStack	bytecode.go	/^type BytecodeStack []BytecodeValue$/;"	t
+BytecodeValue	bytecode.go	/^type BytecodeValue struct {$/;"	t
+C	input.go	/^func (__ *AiInput) C() bool {$/;"	f
+C	input.go	/^func (kc KeyConfig) C() bool { return JoystickState(kc.Joy, kc.c) }$/;"	f
+CK_B	input.go	/^	CK_B CommandKey = iota$/;"	c
+CK_Bs	input.go	/^	CK_Bs$/;"	c
+CK_D	input.go	/^	CK_D$/;"	c
+CK_DB	input.go	/^	CK_DB$/;"	c
+CK_DBs	input.go	/^	CK_DBs$/;"	c
+CK_DF	input.go	/^	CK_DF$/;"	c
+CK_DFs	input.go	/^	CK_DFs$/;"	c
+CK_Ds	input.go	/^	CK_Ds$/;"	c
+CK_F	input.go	/^	CK_F$/;"	c
+CK_Fs	input.go	/^	CK_Fs$/;"	c
+CK_Last	input.go	/^	CK_Last = CK_ns$/;"	c
+CK_U	input.go	/^	CK_U$/;"	c
+CK_UB	input.go	/^	CK_UB$/;"	c
+CK_UBs	input.go	/^	CK_UBs$/;"	c
+CK_UF	input.go	/^	CK_UF$/;"	c
+CK_UFs	input.go	/^	CK_UFs$/;"	c
+CK_Us	input.go	/^	CK_Us$/;"	c
+CK_a	input.go	/^	CK_a$/;"	c
+CK_b	input.go	/^	CK_b$/;"	c
+CK_c	input.go	/^	CK_c$/;"	c
+CK_nB	input.go	/^	CK_nB$/;"	c
+CK_nBs	input.go	/^	CK_nBs$/;"	c
+CK_nD	input.go	/^	CK_nD$/;"	c
+CK_nDB	input.go	/^	CK_nDB$/;"	c
+CK_nDBs	input.go	/^	CK_nDBs$/;"	c
+CK_nDF	input.go	/^	CK_nDF$/;"	c
+CK_nDFs	input.go	/^	CK_nDFs$/;"	c
+CK_nDs	input.go	/^	CK_nDs$/;"	c
+CK_nF	input.go	/^	CK_nF$/;"	c
+CK_nFs	input.go	/^	CK_nFs$/;"	c
+CK_nU	input.go	/^	CK_nU$/;"	c
+CK_nUB	input.go	/^	CK_nUB$/;"	c
+CK_nUBs	input.go	/^	CK_nUBs$/;"	c
+CK_nUF	input.go	/^	CK_nUF$/;"	c
+CK_nUFs	input.go	/^	CK_nUFs$/;"	c
+CK_nUs	input.go	/^	CK_nUs$/;"	c
+CK_na	input.go	/^	CK_na$/;"	c
+CK_nb	input.go	/^	CK_nb$/;"	c
+CK_nc	input.go	/^	CK_nc$/;"	c
+CK_ns	input.go	/^	CK_ns$/;"	c
+CK_nx	input.go	/^	CK_nx$/;"	c
+CK_ny	input.go	/^	CK_ny$/;"	c
+CK_nz	input.go	/^	CK_nz$/;"	c
+CK_s	input.go	/^	CK_s$/;"	c
+CK_x	input.go	/^	CK_x$/;"	c
+CK_y	input.go	/^	CK_y$/;"	c
+CK_z	input.go	/^	CK_z$/;"	c
+CSF_angledraw	char.go	/^	CSF_angledraw$/;"	c
+CSF_assertspecial	char.go	/^	CSF_assertspecial CharSpecialFlag = CSF_nostandguard | CSF_nocrouchguard |$/;"	c
+CSF_backedge	char.go	/^	CSF_backedge$/;"	c
+CSF_backwidth	char.go	/^	CSF_backwidth$/;"	c
+CSF_destroy	char.go	/^	CSF_destroy$/;"	c
+CSF_frontedge	char.go	/^	CSF_frontedge$/;"	c
+CSF_frontwidth	char.go	/^	CSF_frontwidth$/;"	c
+CSF_gethit	char.go	/^	CSF_gethit$/;"	c
+CSF_invisible	char.go	/^	CSF_invisible$/;"	c
+CSF_movecamera_x	char.go	/^	CSF_movecamera_x$/;"	c
+CSF_movecamera_y	char.go	/^	CSF_movecamera_y$/;"	c
+CSF_noairguard	char.go	/^		CSF_noairguard | CSF_noshadow | CSF_invisible | CSF_unguardable |$/;"	c
+CSF_noairguard	char.go	/^	CSF_noairguard$/;"	c
+CSF_noautoturn	char.go	/^	CSF_noautoturn$/;"	c
+CSF_nocrouchguard	char.go	/^	CSF_nocrouchguard$/;"	c
+CSF_nojugglecheck	char.go	/^		CSF_nojugglecheck | CSF_noautoturn | CSF_nowalk$/;"	c
+CSF_nojugglecheck	char.go	/^	CSF_nojugglecheck$/;"	c
+CSF_noshadow	char.go	/^	CSF_noshadow$/;"	c
+CSF_nostandguard	char.go	/^	CSF_nostandguard CharSpecialFlag = 1 << iota$/;"	c
+CSF_nowalk	char.go	/^	CSF_nowalk$/;"	c
+CSF_playerpush	char.go	/^	CSF_playerpush$/;"	c
+CSF_posfreeze	char.go	/^	CSF_posfreeze$/;"	c
+CSF_screenbound	char.go	/^	CSF_screenbound$/;"	c
+CSF_trans	char.go	/^	CSF_trans$/;"	c
+CSF_unguardable	char.go	/^	CSF_unguardable$/;"	c
+Camera	camera.go	/^type Camera struct {$/;"	t
+Char	char.go	/^type Char struct {$/;"	t
+CharData	char.go	/^type CharData struct {$/;"	t
+CharGlobalInfo	char.go	/^type CharGlobalInfo struct {$/;"	t
+CharList	char.go	/^type CharList struct {$/;"	t
+CharMovement	char.go	/^type CharMovement struct {$/;"	t
+CharSize	char.go	/^type CharSize struct {$/;"	t
+CharSpecialFlag	char.go	/^type CharSpecialFlag uint32$/;"	t
+CharSystemVar	char.go	/^type CharSystemVar struct {$/;"	t
+CharVelocity	char.go	/^type CharVelocity struct {$/;"	t
+CharWidth	font.go	/^func (f *Fnt) CharWidth(c rune) int32 {$/;"	f
+Clear	bytecode.go	/^func (bs *BytecodeStack) Clear()                { *bs = (*bs)[:0] }$/;"	f
+Clear	bytecode.go	/^func (sp *StringPool) Clear() {$/;"	f
+Clear	input.go	/^func (c *Command) Clear() {$/;"	f
+ClearSelected	system.go	/^func (s *Select) ClearSelected() {$/;"	f
+Close	input.go	/^func (fi *FileInput) Close() {$/;"	f
+Close	input.go	/^func (ni *NetInput) Close() {$/;"	f
+Clsn1	anim.go	/^func (af *AnimFrame) Clsn1() []float32 {$/;"	f
+Clsn2	anim.go	/^func (af *AnimFrame) Clsn2() []float32 {$/;"	f
+ClsnRect	char.go	/^type ClsnRect [][4]float32$/;"	t
+Command	input.go	/^type Command struct {$/;"	t
+CommandBuffer	input.go	/^type CommandBuffer struct {$/;"	t
+CommandKey	input.go	/^type CommandKey byte$/;"	t
+CommandKeyRemap	input.go	/^type CommandKeyRemap struct {$/;"	t
+CommandList	input.go	/^type CommandList struct {$/;"	t
+Compile	compiler.go	/^func (c *Compiler) Compile(pn int, def string) (map[int32]StateBytecode,$/;"	f
+Compiler	compiler.go	/^type Compiler struct {$/;"	t
+Connect	input.go	/^func (ni *NetInput) Connect(server, port string) {$/;"	f
+CopyList	input.go	/^func (cl *CommandList) CopyList(src CommandList) {$/;"	f
+CurrentFrame	anim.go	/^func (a *Animation) CurrentFrame() *AnimFrame {$/;"	f
+D	input.go	/^func (__ *AiInput) D() bool {$/;"	f
+D	input.go	/^func (kc KeyConfig) D() bool { return JoystickState(kc.Joy, kc.d) }$/;"	f
+Delete	sound.go	/^func (s *AudioSource) Delete() {$/;"	f
+Draw	anim.go	/^func (a *Anim) Draw() {$/;"	f
+Draw	anim.go	/^func (a *Animation) Draw(window *[4]int32, x, y, xcs, ycs, xs, xbs, ys,$/;"	f
+Draw	common.go	/^func (al *AnimLayout) Draw(x, y float32, layerno int16) {$/;"	f
+Draw	common.go	/^func (ats *AnimTextSnd) Draw(x, y float32, layerno int16, f []*Fnt) {$/;"	f
+Draw	font.go	/^func (ts *TextSprite) Draw() {$/;"	f
+Draw	image.go	/^func (s *Sprite) Draw(x, y, xscale, yscale float32, pal []uint32) {$/;"	f
+DrawAnim	common.go	/^func (l *Layout) DrawAnim(r *[4]int32, x, y, scl float32, ln int16,$/;"	f
+DrawList	anim.go	/^type DrawList []*SprData$/;"	t
+DrawSprite	common.go	/^func (l *Layout) DrawSprite(x, y float32, ln int16, s *Sprite, fx *PalFX) {$/;"	f
+DrawText	common.go	/^func (l *Layout) DrawText(x, y, scl float32, ln int16,$/;"	f
+DrawText	font.go	/^func (f *Fnt) DrawText(txt string, x, y, xscl, yscl float32,$/;"	f
+Dup	bytecode.go	/^func (bs *BytecodeStack) Dup() {$/;"	f
+End	common.go	/^func (ats *AnimTextSnd) End(dt int32) bool {$/;"	f
+EnvShake	stage.go	/^type EnvShake struct {$/;"	t
+Error	common.go	/^func (e Error) Error() string { return string(e) }$/;"	f
+Error	common.go	/^type Error string$/;"	t
+Explod	char.go	/^type Explod struct {$/;"	t
+FPS	system.go	/^	FPS      = 60$/;"	c
+FT_DKO	lifebar.go	/^	FT_DKO$/;"	c
+FT_KO	lifebar.go	/^	FT_KO$/;"	c
+FT_NotYet	lifebar.go	/^	FT_NotYet FinishType = iota$/;"	c
+FT_TO	lifebar.go	/^	FT_TO$/;"	c
+FT_TODraw	lifebar.go	/^	FT_TODraw$/;"	c
+Fall	char.go	/^type Fall struct {$/;"	t
+FileExist	common.go	/^func FileExist(filename string) string {$/;"	f
+FileInput	input.go	/^type FileInput struct {$/;"	t
+FillRect	render.go	/^func FillRect(rect [4]int32, color uint32, trans int32) {$/;"	f
+FinishType	lifebar.go	/^type FinishType int32$/;"	t
+Fnt	font.go	/^type Fnt struct {$/;"	t
+FntCharImage	font.go	/^type FntCharImage struct {$/;"	t
+GSF_globalnoshadow	char.go	/^	GSF_globalnoshadow$/;"	c
+GSF_intro	char.go	/^	GSF_intro GlobalSpecialFlag = 1 << iota$/;"	c
+GSF_nobardisplay	char.go	/^	GSF_nobardisplay$/;"	c
+GSF_nobg	char.go	/^	GSF_nobg$/;"	c
+GSF_nofg	char.go	/^	GSF_nofg$/;"	c
+GSF_noko	char.go	/^	GSF_noko$/;"	c
+GSF_nokoslow	char.go	/^	GSF_nokoslow$/;"	c
+GSF_nokosnd	char.go	/^	GSF_nokosnd$/;"	c
+GSF_nomusic	char.go	/^	GSF_nomusic$/;"	c
+GSF_roundnotover	char.go	/^	GSF_roundnotover$/;"	c
+GSF_timerfreeze	char.go	/^	GSF_timerfreeze$/;"	c
+Get	image.go	/^func (pl *PaletteList) Get(i int) []uint32 {$/;"	f
+Get	input.go	/^func (cl *CommandList) Get(name string) []Command {$/;"	f
+Get	sound.go	/^func (s *Snd) Get(gn [2]int32) *Wave {$/;"	f
+GetChannel	sound.go	/^func (s Sounds) GetChannel() *Sound {$/;"	f
+GetChar	system.go	/^func (s *Select) GetChar(i int) *SelectChar {$/;"	f
+GetCharNo	system.go	/^func (s *Select) GetCharNo(i int) int {$/;"	f
+GetHitVar	char.go	/^type GetHitVar struct {$/;"	t
+GetHostGuestRemap	input.go	/^func (ni *NetInput) GetHostGuestRemap() (host, guest int) {$/;"	f
+GetInput	input.go	/^func (ib InputBits) GetInput(cb *CommandBuffer, facing int32) {$/;"	f
+GetPal	image.go	/^func (s *Sprite) GetPal(pl *PaletteList) []uint32 {$/;"	f
+GetPalMap	image.go	/^func (pl *PaletteList) GetPalMap() []int {$/;"	f
+GetSprite	image.go	/^func (s *Sff) GetSprite(g, n int16) *Sprite {$/;"	f
+GetStageName	system.go	/^func (s *Select) GetStageName(n int) string {$/;"	f
+GetState	input.go	/^func (cl *CommandList) GetState(name string) bool {$/;"	f
+GetStr	script.go	/^func (cli *commandLineInput) GetStr() string {$/;"	f
+GlobalSpecialFlag	char.go	/^type GlobalSpecialFlag uint32$/;"	t
+GroundLevel	camera.go	/^func (c *Camera) GroundLevel() float32 {$/;"	f
+HMF	char.go	/^type HMF int32$/;"	t
+HMF_F	char.go	/^	HMF_F$/;"	c
+HMF_H	char.go	/^	HMF_H HMF = iota$/;"	c
+HMF_M	char.go	/^	HMF_M$/;"	c
+HT_High	char.go	/^	HT_High    HitType = 1$/;"	c
+HT_Low	char.go	/^	HT_Low     HitType = 2$/;"	c
+HT_None	char.go	/^	HT_None    HitType = 0$/;"	c
+HT_Trip	char.go	/^	HT_Trip    HitType = 3$/;"	c
+HT_Unknown	char.go	/^	HT_Unknown HitType = -1$/;"	c
+HealthBar	lifebar.go	/^type HealthBar struct {$/;"	t
+HitBy	char.go	/^type HitBy struct {$/;"	t
+HitDef	char.go	/^type HitDef struct {$/;"	t
+HitOverride	char.go	/^type HitOverride struct {$/;"	t
+HitType	char.go	/^type HitType int32$/;"	t
+I32ToI16	common.go	/^func I32ToI16(i32 int32) int16 {$/;"	f
+I32ToU16	common.go	/^func I32ToU16(i32 int32) uint16 {$/;"	f
+IB_A	input.go	/^	IB_A$/;"	c
+IB_B	input.go	/^	IB_B$/;"	c
+IB_C	input.go	/^	IB_C$/;"	c
+IB_D	input.go	/^	IB_D$/;"	c
+IB_L	input.go	/^	IB_L$/;"	c
+IB_R	input.go	/^	IB_R$/;"	c
+IB_S	input.go	/^	IB_S$/;"	c
+IB_U	input.go	/^	IB_U InputBits = 1 << iota$/;"	c
+IB_X	input.go	/^	IB_X$/;"	c
+IB_Y	input.go	/^	IB_Y$/;"	c
+IB_Z	input.go	/^	IB_Z$/;"	c
+IB_anybutton	input.go	/^	IB_anybutton = IB_A | IB_B | IB_C | IB_X | IB_Y | IB_Z$/;"	c
+IErr	common.go	/^	IErr = ^IMax$/;"	c
+IMax	common.go	/^	IMax = int32(^uint32(0) >> 1)$/;"	c
+IniSection	common.go	/^type IniSection map[string]string$/;"	t
+Init	camera.go	/^func (c *Camera) Init() {$/;"	f
+Input	input.go	/^func (__ *CommandBuffer) Input(B, D, F, U, a, b, c, x, y, z, s bool) {$/;"	f
+Input	input.go	/^func (cl *CommandList) Input(i int, facing int32) bool {$/;"	f
+Input	input.go	/^func (fi *FileInput) Input(cb *CommandBuffer, i int, facing int32) {$/;"	f
+Input	input.go	/^func (ni *NetInput) Input(cb *CommandBuffer, i int, facing int32) {$/;"	f
+InputBits	input.go	/^func (__ *CommandBuffer) InputBits(ib InputBits, f int32) {$/;"	f
+InputBits	input.go	/^type InputBits int32$/;"	t
+InputDialog	script.go	/^type InputDialog interface {$/;"	t
+IsConnected	input.go	/^func (ni *NetInput) IsConnected() bool {$/;"	f
+IsDToB	input.go	/^func (ce *cmdElem) IsDToB(next cmdElem) bool {$/;"	f
+IsDirection	input.go	/^func (ce *cmdElem) IsDirection() bool {$/;"	f
+IsDone	script.go	/^func (cli *commandLineInput) IsDone() bool {$/;"	f
+IsFinite	common.go	/^func IsFinite(f float32) bool {$/;"	f
+IsNone	bytecode.go	/^func (bv BytecodeValue) IsNone() bool { return bv.t == VT_None }$/;"	f
+IsSF	bytecode.go	/^func (bv BytecodeValue) IsSF() bool   { return bv.t == VT_SFalse }$/;"	f
+JoystickState	input.go	/^func JoystickState(joy, button int) bool {$/;"	f
+KeyConfig	input.go	/^type KeyConfig struct{ Joy, u, d, l, r, a, b, c, x, y, z, s int }$/;"	t
+L	input.go	/^func (__ *AiInput) L() bool {$/;"	f
+L	input.go	/^func (kc KeyConfig) L() bool { return JoystickState(kc.Joy, kc.l) }$/;"	f
+LS_Cancel	system.go	/^	LS_Cancel$/;"	c
+LS_Complete	system.go	/^	LS_Complete$/;"	c
+LS_Error	system.go	/^	LS_Error$/;"	c
+LS_Loading	system.go	/^	LS_Loading$/;"	c
+LS_NotYet	system.go	/^	LS_NotYet LoaderState = iota$/;"	c
+LastChangeTime	input.go	/^func (__ *CommandBuffer) LastChangeTime() int32 {$/;"	f
+LastDirectionTime	input.go	/^func (__ *CommandBuffer) LastDirectionTime() int32 {$/;"	f
+Layout	common.go	/^type Layout struct {$/;"	t
+LifeBarCombo	lifebar.go	/^type LifeBarCombo struct {$/;"	t
+LifeBarFace	lifebar.go	/^type LifeBarFace struct {$/;"	t
+LifeBarName	lifebar.go	/^type LifeBarName struct {$/;"	t
+LifeBarRound	lifebar.go	/^type LifeBarRound struct {$/;"	t
+LifeBarTime	lifebar.go	/^type LifeBarTime struct {$/;"	t
+LifeBarWinIcon	lifebar.go	/^type LifeBarWinIcon struct {$/;"	t
+Lifebar	lifebar.go	/^type Lifebar struct {$/;"	t
+LoadFile	common.go	/^func (is IniSection) LoadFile(name, deffile string,$/;"	f
+LoadFile	common.go	/^func LoadFile(file *string, deffile string, load func(string) error) error {$/;"	f
+LoadSnd	sound.go	/^func LoadSnd(filename string) (*Snd, error) {$/;"	f
+LoadText	common.go	/^func LoadText(filename string) (string, error) {$/;"	f
+Loader	system.go	/^type Loader struct {$/;"	t
+LoaderState	system.go	/^type LoaderState int32$/;"	t
+Lz5Decode	image.go	/^func (s *Sprite) Lz5Decode(rle []byte) (p []byte) {$/;"	f
+MC_Guarded	char.go	/^	MC_Guarded$/;"	c
+MC_Hit	char.go	/^	MC_Hit MoveContact = iota$/;"	c
+MC_Reversed	char.go	/^	MC_Reversed$/;"	c
+MT_A	bytecode.go	/^	MT_A$/;"	c
+MT_H	bytecode.go	/^	MT_H$/;"	c
+MT_I	bytecode.go	/^	MT_I MoveType = 1 << (iota + 15)$/;"	c
+MT_MNS	bytecode.go	/^	MT_MNS = MT_I$/;"	c
+MT_PLS	bytecode.go	/^	MT_PLS = MT_H$/;"	c
+MT_U	bytecode.go	/^	MT_U$/;"	c
+Max	common.go	/^func Max(arg ...int32) (max int32) {$/;"	f
+MaxF	common.go	/^func MaxF(arg ...float32) (max float32) {$/;"	f
+MaxPalNo	char.go	/^const MaxPalNo = 12$/;"	c
+MaxSimul	system.go	/^	MaxSimul = 4$/;"	c
+Min	common.go	/^func Min(arg ...int32) (min int32) {$/;"	f
+MinF	common.go	/^func MinF(arg ...float32) (min float32) {$/;"	f
+Mix	sound.go	/^func (m *Mixer) Mix(wav []byte, fidx float64, bytesPerSample, channels int,$/;"	f
+Mixer	sound.go	/^type Mixer struct {$/;"	t
+MoveContact	char.go	/^type MoveContact int32$/;"	t
+MoveType	bytecode.go	/^type MoveType int32$/;"	t
+NS_End	input.go	/^	NS_End$/;"	c
+NS_Error	input.go	/^	NS_Error$/;"	c
+NS_Playing	input.go	/^	NS_Playing$/;"	c
+NS_Stop	input.go	/^	NS_Stop NetState = iota$/;"	c
+NS_Stopped	input.go	/^	NS_Stopped$/;"	c
+NetBuffer	input.go	/^type NetBuffer struct {$/;"	t
+NetInput	input.go	/^type NetInput struct {$/;"	t
+NetState	input.go	/^type NetState int$/;"	t
+NewAnim	anim.go	/^func NewAnim(sff *Sff, action string) *Anim {$/;"	f
+NewAnimationTable	anim.go	/^func NewAnimationTable() AnimationTable {$/;"	f
+NewAudioSource	sound.go	/^func NewAudioSource() (s *AudioSource) {$/;"	f
+NewCommandBuffer	input.go	/^func NewCommandBuffer() (c *CommandBuffer) {$/;"	f
+NewCommandKeyRemap	input.go	/^func NewCommandKeyRemap() *CommandKeyRemap {$/;"	f
+NewCommandList	input.go	/^func NewCommandList(cb *CommandBuffer) *CommandList {$/;"	f
+NewIniSection	common.go	/^func NewIniSection() IniSection { return IniSection(make(map[string]string)) }$/;"	f
+NewNetInput	input.go	/^func NewNetInput(replayfile string) *NetInput {$/;"	f
+NewNormalizer	sound.go	/^func NewNormalizer() *Normalizer {$/;"	f
+NewPal	image.go	/^func (pl *PaletteList) NewPal() (i int, p []uint32) {$/;"	f
+NewShortcutKey	input.go	/^func NewShortcutKey(key glfw.Key, ctrl, alt, shift bool) *ShortcutKey {$/;"	f
+NewStringPool	bytecode.go	/^func NewStringPool() *StringPool {$/;"	f
+NewTextSprite	font.go	/^func NewTextSprite() *TextSprite {$/;"	f
+NoDisplay	common.go	/^func (ats *AnimTextSnd) NoDisplay() bool {$/;"	f
+NoSound	common.go	/^func (ats *AnimTextSnd) NoSound() bool { return ats.snd[0] < 0 }$/;"	f
+Normalizer	sound.go	/^type Normalizer struct {$/;"	t
+NormalizerLR	sound.go	/^type NormalizerLR struct {$/;"	t
+NullStateController	bytecode.go	/^type NullStateController struct{}$/;"	t
+NumFvar	bytecode.go	/^	NumFvar    = OC_sysfvar0 - OC_fvar0$/;"	c
+NumSysFvar	bytecode.go	/^	NumSysFvar = OC_var - OC_sysfvar0$/;"	c
+NumSysVar	bytecode.go	/^	NumSysVar  = OC_fvar0 - OC_sysvar0$/;"	c
+NumVar	bytecode.go	/^	NumVar     = OC_sysvar0 - OC_var0$/;"	c
+OC_abs	bytecode.go	/^	OC_abs$/;"	c
+OC_acos	bytecode.go	/^	OC_acos$/;"	c
+OC_add	bytecode.go	/^	OC_add$/;"	c
+OC_ailevel	bytecode.go	/^	OC_ailevel$/;"	c
+OC_alive	bytecode.go	/^	OC_alive$/;"	c
+OC_and	bytecode.go	/^	OC_and$/;"	c
+OC_anim	bytecode.go	/^	OC_anim$/;"	c
+OC_animelemno	bytecode.go	/^	OC_animelemno$/;"	c
+OC_animelemtime	bytecode.go	/^	OC_animelemtime$/;"	c
+OC_animexist	bytecode.go	/^	OC_animexist$/;"	c
+OC_animtime	bytecode.go	/^	OC_animtime$/;"	c
+OC_asin	bytecode.go	/^	OC_asin$/;"	c
+OC_atan	bytecode.go	/^	OC_atan$/;"	c
+OC_backedge	bytecode.go	/^	OC_backedge$/;"	c
+OC_backedgebodydist	bytecode.go	/^	OC_backedgebodydist$/;"	c
+OC_backedgedist	bytecode.go	/^	OC_backedgedist$/;"	c
+OC_bland	bytecode.go	/^	OC_bland$/;"	c
+OC_blnot	bytecode.go	/^	OC_blnot$/;"	c
+OC_blor	bytecode.go	/^	OC_blor$/;"	c
+OC_blxor	bytecode.go	/^	OC_blxor$/;"	c
+OC_bottomedge	bytecode.go	/^	OC_bottomedge$/;"	c
+OC_camerapos_x	bytecode.go	/^	OC_camerapos_x$/;"	c
+OC_camerapos_y	bytecode.go	/^	OC_camerapos_y$/;"	c
+OC_camerazoom	bytecode.go	/^	OC_camerazoom$/;"	c
+OC_canrecover	bytecode.go	/^	OC_canrecover$/;"	c
+OC_ceil	bytecode.go	/^	OC_ceil$/;"	c
+OC_command	bytecode.go	/^	OC_command$/;"	c
+OC_const_	bytecode.go	/^	OC_const_$/;"	c
+OC_const_authorname	bytecode.go	/^	OC_const_authorname$/;"	c
+OC_const_data_airjuggle	bytecode.go	/^	OC_const_data_airjuggle$/;"	c
+OC_const_data_attack	bytecode.go	/^	OC_const_data_attack$/;"	c
+OC_const_data_defence	bytecode.go	/^	OC_const_data_defence$/;"	c
+OC_const_data_fall_defence_mul	bytecode.go	/^	OC_const_data_fall_defence_mul$/;"	c
+OC_const_data_floatpersistindex	bytecode.go	/^	OC_const_data_floatpersistindex$/;"	c
+OC_const_data_guard_sparkno	bytecode.go	/^	OC_const_data_guard_sparkno$/;"	c
+OC_const_data_intpersistindex	bytecode.go	/^	OC_const_data_intpersistindex$/;"	c
+OC_const_data_ko_echo	bytecode.go	/^	OC_const_data_ko_echo$/;"	c
+OC_const_data_liedown_time	bytecode.go	/^	OC_const_data_liedown_time$/;"	c
+OC_const_data_life	bytecode.go	/^	OC_const_data_life OpCode = iota$/;"	c
+OC_const_data_power	bytecode.go	/^	OC_const_data_power$/;"	c
+OC_const_data_sparkno	bytecode.go	/^	OC_const_data_sparkno$/;"	c
+OC_const_movement_air_gethit_airrecover_threshold	bytecode.go	/^	OC_const_movement_air_gethit_airrecover_threshold$/;"	c
+OC_const_movement_air_gethit_airrecover_yaccel	bytecode.go	/^	OC_const_movement_air_gethit_airrecover_yaccel$/;"	c
+OC_const_movement_air_gethit_groundlevel	bytecode.go	/^	OC_const_movement_air_gethit_groundlevel$/;"	c
+OC_const_movement_air_gethit_groundrecover_ground_threshold	bytecode.go	/^	OC_const_movement_air_gethit_groundrecover_ground_threshold$/;"	c
+OC_const_movement_air_gethit_groundrecover_groundlevel	bytecode.go	/^	OC_const_movement_air_gethit_groundrecover_groundlevel$/;"	c
+OC_const_movement_air_gethit_trip_groundlevel	bytecode.go	/^	OC_const_movement_air_gethit_trip_groundlevel$/;"	c
+OC_const_movement_airjump_height	bytecode.go	/^	OC_const_movement_airjump_height$/;"	c
+OC_const_movement_airjump_num	bytecode.go	/^	OC_const_movement_airjump_num$/;"	c
+OC_const_movement_crouch_friction	bytecode.go	/^	OC_const_movement_crouch_friction$/;"	c
+OC_const_movement_crouch_friction_threshold	bytecode.go	/^	OC_const_movement_crouch_friction_threshold$/;"	c
+OC_const_movement_down_bounce_groundlevel	bytecode.go	/^	OC_const_movement_down_bounce_groundlevel$/;"	c
+OC_const_movement_down_bounce_offset_x	bytecode.go	/^	OC_const_movement_down_bounce_offset_x$/;"	c
+OC_const_movement_down_bounce_offset_y	bytecode.go	/^	OC_const_movement_down_bounce_offset_y$/;"	c
+OC_const_movement_down_bounce_yaccel	bytecode.go	/^	OC_const_movement_down_bounce_yaccel$/;"	c
+OC_const_movement_down_friction_threshold	bytecode.go	/^	OC_const_movement_down_friction_threshold$/;"	c
+OC_const_movement_stand_friction	bytecode.go	/^	OC_const_movement_stand_friction$/;"	c
+OC_const_movement_stand_friction_threshold	bytecode.go	/^	OC_const_movement_stand_friction_threshold$/;"	c
+OC_const_movement_yaccel	bytecode.go	/^	OC_const_movement_yaccel$/;"	c
+OC_const_name	bytecode.go	/^	OC_const_name$/;"	c
+OC_const_p2name	bytecode.go	/^	OC_const_p2name$/;"	c
+OC_const_p3name	bytecode.go	/^	OC_const_p3name$/;"	c
+OC_const_p4name	bytecode.go	/^	OC_const_p4name$/;"	c
+OC_const_size_air_back	bytecode.go	/^	OC_const_size_air_back$/;"	c
+OC_const_size_air_front	bytecode.go	/^	OC_const_size_air_front$/;"	c
+OC_const_size_attack_dist	bytecode.go	/^	OC_const_size_attack_dist$/;"	c
+OC_const_size_attack_z_width_back	bytecode.go	/^	OC_const_size_attack_z_width_back$/;"	c
+OC_const_size_attack_z_width_front	bytecode.go	/^	OC_const_size_attack_z_width_front$/;"	c
+OC_const_size_draw_offset_x	bytecode.go	/^	OC_const_size_draw_offset_x$/;"	c
+OC_const_size_draw_offset_y	bytecode.go	/^	OC_const_size_draw_offset_y$/;"	c
+OC_const_size_ground_back	bytecode.go	/^	OC_const_size_ground_back$/;"	c
+OC_const_size_ground_front	bytecode.go	/^	OC_const_size_ground_front$/;"	c
+OC_const_size_head_pos_x	bytecode.go	/^	OC_const_size_head_pos_x$/;"	c
+OC_const_size_head_pos_y	bytecode.go	/^	OC_const_size_head_pos_y$/;"	c
+OC_const_size_height	bytecode.go	/^	OC_const_size_height$/;"	c
+OC_const_size_mid_pos_x	bytecode.go	/^	OC_const_size_mid_pos_x$/;"	c
+OC_const_size_mid_pos_y	bytecode.go	/^	OC_const_size_mid_pos_y$/;"	c
+OC_const_size_proj_attack_dist	bytecode.go	/^	OC_const_size_proj_attack_dist$/;"	c
+OC_const_size_proj_doscale	bytecode.go	/^	OC_const_size_proj_doscale$/;"	c
+OC_const_size_shadowoffset	bytecode.go	/^	OC_const_size_shadowoffset$/;"	c
+OC_const_size_xscale	bytecode.go	/^	OC_const_size_xscale$/;"	c
+OC_const_size_yscale	bytecode.go	/^	OC_const_size_yscale$/;"	c
+OC_const_size_z_width	bytecode.go	/^	OC_const_size_z_width$/;"	c
+OC_const_stagevar_info_author	bytecode.go	/^	OC_const_stagevar_info_author$/;"	c
+OC_const_stagevar_info_displayname	bytecode.go	/^	OC_const_stagevar_info_displayname$/;"	c
+OC_const_stagevar_info_name	bytecode.go	/^	OC_const_stagevar_info_name$/;"	c
+OC_const_velocity_air_gethit_airrecover_add_x	bytecode.go	/^	OC_const_velocity_air_gethit_airrecover_add_x$/;"	c
+OC_const_velocity_air_gethit_airrecover_add_y	bytecode.go	/^	OC_const_velocity_air_gethit_airrecover_add_y$/;"	c
+OC_const_velocity_air_gethit_airrecover_back	bytecode.go	/^	OC_const_velocity_air_gethit_airrecover_back$/;"	c
+OC_const_velocity_air_gethit_airrecover_down	bytecode.go	/^	OC_const_velocity_air_gethit_airrecover_down$/;"	c
+OC_const_velocity_air_gethit_airrecover_fwd	bytecode.go	/^	OC_const_velocity_air_gethit_airrecover_fwd$/;"	c
+OC_const_velocity_air_gethit_airrecover_mul_x	bytecode.go	/^	OC_const_velocity_air_gethit_airrecover_mul_x$/;"	c
+OC_const_velocity_air_gethit_airrecover_mul_y	bytecode.go	/^	OC_const_velocity_air_gethit_airrecover_mul_y$/;"	c
+OC_const_velocity_air_gethit_airrecover_up	bytecode.go	/^	OC_const_velocity_air_gethit_airrecover_up$/;"	c
+OC_const_velocity_air_gethit_groundrecover_x	bytecode.go	/^	OC_const_velocity_air_gethit_groundrecover_x$/;"	c
+OC_const_velocity_air_gethit_groundrecover_y	bytecode.go	/^	OC_const_velocity_air_gethit_groundrecover_y$/;"	c
+OC_const_velocity_airjump_back_x	bytecode.go	/^	OC_const_velocity_airjump_back_x$/;"	c
+OC_const_velocity_airjump_down_x	bytecode.go	/^	OC_const_velocity_airjump_down_x$/;"	c
+OC_const_velocity_airjump_fwd_x	bytecode.go	/^	OC_const_velocity_airjump_fwd_x$/;"	c
+OC_const_velocity_airjump_neu_x	bytecode.go	/^	OC_const_velocity_airjump_neu_x$/;"	c
+OC_const_velocity_airjump_up_x	bytecode.go	/^	OC_const_velocity_airjump_up_x$/;"	c
+OC_const_velocity_airjump_y	bytecode.go	/^	OC_const_velocity_airjump_y$/;"	c
+OC_const_velocity_jump_back_x	bytecode.go	/^	OC_const_velocity_jump_back_x$/;"	c
+OC_const_velocity_jump_down_x	bytecode.go	/^	OC_const_velocity_jump_down_x$/;"	c
+OC_const_velocity_jump_fwd_x	bytecode.go	/^	OC_const_velocity_jump_fwd_x$/;"	c
+OC_const_velocity_jump_neu_x	bytecode.go	/^	OC_const_velocity_jump_neu_x$/;"	c
+OC_const_velocity_jump_up_x	bytecode.go	/^	OC_const_velocity_jump_up_x$/;"	c
+OC_const_velocity_jump_y	bytecode.go	/^	OC_const_velocity_jump_y$/;"	c
+OC_const_velocity_run_back_x	bytecode.go	/^	OC_const_velocity_run_back_x$/;"	c
+OC_const_velocity_run_back_y	bytecode.go	/^	OC_const_velocity_run_back_y$/;"	c
+OC_const_velocity_run_down_x	bytecode.go	/^	OC_const_velocity_run_down_x$/;"	c
+OC_const_velocity_run_down_y	bytecode.go	/^	OC_const_velocity_run_down_y$/;"	c
+OC_const_velocity_run_fwd_x	bytecode.go	/^	OC_const_velocity_run_fwd_x$/;"	c
+OC_const_velocity_run_fwd_y	bytecode.go	/^	OC_const_velocity_run_fwd_y$/;"	c
+OC_const_velocity_run_up_x	bytecode.go	/^	OC_const_velocity_run_up_x$/;"	c
+OC_const_velocity_run_up_y	bytecode.go	/^	OC_const_velocity_run_up_y$/;"	c
+OC_const_velocity_runjump_back_x	bytecode.go	/^	OC_const_velocity_runjump_back_x$/;"	c
+OC_const_velocity_runjump_back_y	bytecode.go	/^	OC_const_velocity_runjump_back_y$/;"	c
+OC_const_velocity_runjump_down_x	bytecode.go	/^	OC_const_velocity_runjump_down_x$/;"	c
+OC_const_velocity_runjump_fwd_x	bytecode.go	/^	OC_const_velocity_runjump_fwd_x$/;"	c
+OC_const_velocity_runjump_up_x	bytecode.go	/^	OC_const_velocity_runjump_up_x$/;"	c
+OC_const_velocity_runjump_y	bytecode.go	/^	OC_const_velocity_runjump_y$/;"	c
+OC_const_velocity_walk_back_x	bytecode.go	/^	OC_const_velocity_walk_back_x$/;"	c
+OC_const_velocity_walk_down_x	bytecode.go	/^	OC_const_velocity_walk_down_x$/;"	c
+OC_const_velocity_walk_fwd_x	bytecode.go	/^	OC_const_velocity_walk_fwd_x$/;"	c
+OC_const_velocity_walk_up_x	bytecode.go	/^	OC_const_velocity_walk_up_x$/;"	c
+OC_cos	bytecode.go	/^	OC_cos$/;"	c
+OC_ctrl	bytecode.go	/^	OC_ctrl$/;"	c
+OC_div	bytecode.go	/^	OC_div$/;"	c
+OC_dup	bytecode.go	/^	OC_dup$/;"	c
+OC_enemy	bytecode.go	/^	OC_enemy$/;"	c
+OC_enemynear	bytecode.go	/^	OC_enemynear$/;"	c
+OC_eq	bytecode.go	/^	OC_eq$/;"	c
+OC_ex_	bytecode.go	/^	OC_ex_$/;"	c
+OC_ex_drawgame	bytecode.go	/^	OC_ex_drawgame$/;"	c
+OC_ex_drawpalno	bytecode.go	/^	OC_ex_drawpalno$/;"	c
+OC_ex_gethitvar_airtype	bytecode.go	/^	OC_ex_gethitvar_airtype$/;"	c
+OC_ex_gethitvar_animtype	bytecode.go	/^	OC_ex_gethitvar_animtype$/;"	c
+OC_ex_gethitvar_chainid	bytecode.go	/^	OC_ex_gethitvar_chainid$/;"	c
+OC_ex_gethitvar_ctrltime	bytecode.go	/^	OC_ex_gethitvar_ctrltime$/;"	c
+OC_ex_gethitvar_damage	bytecode.go	/^	OC_ex_gethitvar_damage$/;"	c
+OC_ex_gethitvar_fall	bytecode.go	/^	OC_ex_gethitvar_fall$/;"	c
+OC_ex_gethitvar_fall_damage	bytecode.go	/^	OC_ex_gethitvar_fall_damage$/;"	c
+OC_ex_gethitvar_fall_envshake_ampl	bytecode.go	/^	OC_ex_gethitvar_fall_envshake_ampl$/;"	c
+OC_ex_gethitvar_fall_envshake_freq	bytecode.go	/^	OC_ex_gethitvar_fall_envshake_freq$/;"	c
+OC_ex_gethitvar_fall_envshake_phase	bytecode.go	/^	OC_ex_gethitvar_fall_envshake_phase$/;"	c
+OC_ex_gethitvar_fall_envshake_time	bytecode.go	/^	OC_ex_gethitvar_fall_envshake_time$/;"	c
+OC_ex_gethitvar_fall_kill	bytecode.go	/^	OC_ex_gethitvar_fall_kill$/;"	c
+OC_ex_gethitvar_fall_recover	bytecode.go	/^	OC_ex_gethitvar_fall_recover$/;"	c
+OC_ex_gethitvar_fall_recovertime	bytecode.go	/^	OC_ex_gethitvar_fall_recovertime$/;"	c
+OC_ex_gethitvar_fall_time	bytecode.go	/^	OC_ex_gethitvar_fall_time$/;"	c
+OC_ex_gethitvar_fall_xvel	bytecode.go	/^	OC_ex_gethitvar_fall_xvel$/;"	c
+OC_ex_gethitvar_fall_yvel	bytecode.go	/^	OC_ex_gethitvar_fall_yvel$/;"	c
+OC_ex_gethitvar_fallcount	bytecode.go	/^	OC_ex_gethitvar_fallcount$/;"	c
+OC_ex_gethitvar_groundtype	bytecode.go	/^	OC_ex_gethitvar_groundtype$/;"	c
+OC_ex_gethitvar_guarded	bytecode.go	/^	OC_ex_gethitvar_guarded$/;"	c
+OC_ex_gethitvar_hitcount	bytecode.go	/^	OC_ex_gethitvar_hitcount$/;"	c
+OC_ex_gethitvar_hitshaketime	bytecode.go	/^	OC_ex_gethitvar_hitshaketime$/;"	c
+OC_ex_gethitvar_hittime	bytecode.go	/^	OC_ex_gethitvar_hittime$/;"	c
+OC_ex_gethitvar_isbound	bytecode.go	/^	OC_ex_gethitvar_isbound$/;"	c
+OC_ex_gethitvar_recovertime	bytecode.go	/^	OC_ex_gethitvar_recovertime$/;"	c
+OC_ex_gethitvar_slidetime	bytecode.go	/^	OC_ex_gethitvar_slidetime$/;"	c
+OC_ex_gethitvar_xoff	bytecode.go	/^	OC_ex_gethitvar_xoff$/;"	c
+OC_ex_gethitvar_xvel	bytecode.go	/^	OC_ex_gethitvar_xvel$/;"	c
+OC_ex_gethitvar_yaccel	bytecode.go	/^	OC_ex_gethitvar_yaccel$/;"	c
+OC_ex_gethitvar_yoff	bytecode.go	/^	OC_ex_gethitvar_yoff$/;"	c
+OC_ex_gethitvar_yvel	bytecode.go	/^	OC_ex_gethitvar_yvel$/;"	c
+OC_ex_ishometeam	bytecode.go	/^	OC_ex_ishometeam$/;"	c
+OC_ex_lose	bytecode.go	/^	OC_ex_lose$/;"	c
+OC_ex_loseko	bytecode.go	/^	OC_ex_loseko$/;"	c
+OC_ex_losetime	bytecode.go	/^	OC_ex_losetime$/;"	c
+OC_ex_majorversion	bytecode.go	/^	OC_ex_majorversion$/;"	c
+OC_ex_matchno	bytecode.go	/^	OC_ex_matchno$/;"	c
+OC_ex_matchover	bytecode.go	/^	OC_ex_matchover$/;"	c
+OC_ex_p2bodydist_x	bytecode.go	/^	OC_ex_p2bodydist_x$/;"	c
+OC_ex_p2dist_x	bytecode.go	/^	OC_ex_p2dist_x OpCode = iota$/;"	c
+OC_ex_p2dist_y	bytecode.go	/^	OC_ex_p2dist_y$/;"	c
+OC_ex_parentdist_x	bytecode.go	/^	OC_ex_parentdist_x$/;"	c
+OC_ex_parentdist_y	bytecode.go	/^	OC_ex_parentdist_y$/;"	c
+OC_ex_rootdist_x	bytecode.go	/^	OC_ex_rootdist_x$/;"	c
+OC_ex_rootdist_y	bytecode.go	/^	OC_ex_rootdist_y$/;"	c
+OC_ex_roundno	bytecode.go	/^	OC_ex_roundno$/;"	c
+OC_ex_tickspersecond	bytecode.go	/^	OC_ex_tickspersecond$/;"	c
+OC_ex_timemod	bytecode.go	/^	OC_ex_timemod$/;"	c
+OC_ex_win	bytecode.go	/^	OC_ex_win$/;"	c
+OC_ex_winko	bytecode.go	/^	OC_ex_winko$/;"	c
+OC_ex_winperfect	bytecode.go	/^	OC_ex_winperfect$/;"	c
+OC_ex_wintime	bytecode.go	/^	OC_ex_wintime$/;"	c
+OC_exp	bytecode.go	/^	OC_exp$/;"	c
+OC_facing	bytecode.go	/^	OC_facing$/;"	c
+OC_float	bytecode.go	/^	OC_float$/;"	c
+OC_floor	bytecode.go	/^	OC_floor$/;"	c
+OC_frontedge	bytecode.go	/^	OC_frontedge$/;"	c
+OC_frontedgebodydist	bytecode.go	/^	OC_frontedgebodydist$/;"	c
+OC_frontedgedist	bytecode.go	/^	OC_frontedgedist$/;"	c
+OC_fvar	bytecode.go	/^	OC_fvar$/;"	c
+OC_fvar0	bytecode.go	/^	OC_fvar0    = 65$/;"	c
+OC_gameheight	bytecode.go	/^	OC_gameheight$/;"	c
+OC_gametime	bytecode.go	/^	OC_gametime$/;"	c
+OC_gamewidth	bytecode.go	/^	OC_gamewidth$/;"	c
+OC_ge	bytecode.go	/^	OC_ge$/;"	c
+OC_gt	bytecode.go	/^	OC_gt$/;"	c
+OC_helper	bytecode.go	/^	OC_helper$/;"	c
+OC_hitcount	bytecode.go	/^	OC_hitcount$/;"	c
+OC_hitdefattr	bytecode.go	/^	OC_hitdefattr$/;"	c
+OC_hitfall	bytecode.go	/^	OC_hitfall$/;"	c
+OC_hitover	bytecode.go	/^	OC_hitover$/;"	c
+OC_hitpausetime	bytecode.go	/^	OC_hitpausetime$/;"	c
+OC_hitshakeover	bytecode.go	/^	OC_hitshakeover$/;"	c
+OC_hitvel_x	bytecode.go	/^	OC_hitvel_x$/;"	c
+OC_hitvel_y	bytecode.go	/^	OC_hitvel_y$/;"	c
+OC_id	bytecode.go	/^	OC_id$/;"	c
+OC_ifelse	bytecode.go	/^	OC_ifelse$/;"	c
+OC_inguarddist	bytecode.go	/^	OC_inguarddist$/;"	c
+OC_int	bytecode.go	/^	OC_int$/;"	c
+OC_int8	bytecode.go	/^	OC_int8$/;"	c
+OC_ishelper	bytecode.go	/^	OC_ishelper$/;"	c
+OC_jmp	bytecode.go	/^	OC_jmp$/;"	c
+OC_jmp8	bytecode.go	/^	OC_jmp8$/;"	c
+OC_jnz	bytecode.go	/^	OC_jnz$/;"	c
+OC_jnz8	bytecode.go	/^	OC_jnz8$/;"	c
+OC_jsf8	bytecode.go	/^	OC_jsf8$/;"	c
+OC_jz	bytecode.go	/^	OC_jz$/;"	c
+OC_jz8	bytecode.go	/^	OC_jz8$/;"	c
+OC_le	bytecode.go	/^	OC_le$/;"	c
+OC_leftedge	bytecode.go	/^	OC_leftedge$/;"	c
+OC_life	bytecode.go	/^	OC_life$/;"	c
+OC_lifemax	bytecode.go	/^	OC_lifemax$/;"	c
+OC_ln	bytecode.go	/^	OC_ln$/;"	c
+OC_localvar	bytecode.go	/^	OC_localvar$/;"	c
+OC_log	bytecode.go	/^	OC_log$/;"	c
+OC_lt	bytecode.go	/^	OC_lt$/;"	c
+OC_mod	bytecode.go	/^	OC_mod$/;"	c
+OC_movecontact	bytecode.go	/^	OC_movecontact$/;"	c
+OC_moveguarded	bytecode.go	/^	OC_moveguarded$/;"	c
+OC_movehit	bytecode.go	/^	OC_movehit$/;"	c
+OC_movereversed	bytecode.go	/^	OC_movereversed$/;"	c
+OC_movetype	bytecode.go	/^	OC_movetype$/;"	c
+OC_mul	bytecode.go	/^	OC_mul$/;"	c
+OC_ne	bytecode.go	/^	OC_ne$/;"	c
+OC_neg	bytecode.go	/^	OC_neg$/;"	c
+OC_nordrun	bytecode.go	/^	OC_nordrun$/;"	c
+OC_not	bytecode.go	/^	OC_not$/;"	c
+OC_numenemy	bytecode.go	/^	OC_numenemy$/;"	c
+OC_numexplod	bytecode.go	/^	OC_numexplod$/;"	c
+OC_numhelper	bytecode.go	/^	OC_numhelper$/;"	c
+OC_numpartner	bytecode.go	/^	OC_numpartner$/;"	c
+OC_numproj	bytecode.go	/^	OC_numproj$/;"	c
+OC_numprojid	bytecode.go	/^	OC_numprojid$/;"	c
+OC_numtarget	bytecode.go	/^	OC_numtarget$/;"	c
+OC_or	bytecode.go	/^	OC_or$/;"	c
+OC_p2	bytecode.go	/^	OC_p2$/;"	c
+OC_palno	bytecode.go	/^	OC_palno$/;"	c
+OC_parent	bytecode.go	/^	OC_parent$/;"	c
+OC_partner	bytecode.go	/^	OC_partner$/;"	c
+OC_playerid	bytecode.go	/^	OC_playerid$/;"	c
+OC_playeridexist	bytecode.go	/^	OC_playeridexist$/;"	c
+OC_pop	bytecode.go	/^	OC_pop$/;"	c
+OC_pos_x	bytecode.go	/^	OC_pos_x$/;"	c
+OC_pos_y	bytecode.go	/^	OC_pos_y$/;"	c
+OC_pow	bytecode.go	/^	OC_pow$/;"	c
+OC_power	bytecode.go	/^	OC_power$/;"	c
+OC_powermax	bytecode.go	/^	OC_powermax$/;"	c
+OC_prevstateno	bytecode.go	/^	OC_prevstateno$/;"	c
+OC_projcanceltime	bytecode.go	/^	OC_projcanceltime$/;"	c
+OC_projcontacttime	bytecode.go	/^	OC_projcontacttime$/;"	c
+OC_projguardedtime	bytecode.go	/^	OC_projguardedtime$/;"	c
+OC_projhittime	bytecode.go	/^	OC_projhittime$/;"	c
+OC_random	bytecode.go	/^	OC_random$/;"	c
+OC_rdreset	bytecode.go	/^	OC_rdreset$/;"	c
+OC_rightedge	bytecode.go	/^	OC_rightedge$/;"	c
+OC_root	bytecode.go	/^	OC_root$/;"	c
+OC_roundsexisted	bytecode.go	/^	OC_roundsexisted$/;"	c
+OC_roundstate	bytecode.go	/^	OC_roundstate$/;"	c
+OC_run	bytecode.go	/^	OC_run$/;"	c
+OC_screenheight	bytecode.go	/^	OC_screenheight$/;"	c
+OC_screenpos_x	bytecode.go	/^	OC_screenpos_x$/;"	c
+OC_screenpos_y	bytecode.go	/^	OC_screenpos_y$/;"	c
+OC_screenwidth	bytecode.go	/^	OC_screenwidth$/;"	c
+OC_selfanimexist	bytecode.go	/^	OC_selfanimexist$/;"	c
+OC_sin	bytecode.go	/^	OC_sin$/;"	c
+OC_st_	bytecode.go	/^	OC_st_$/;"	c
+OC_st_fvar	bytecode.go	/^	OC_st_fvar$/;"	c
+OC_st_fvar0	bytecode.go	/^	OC_st_fvar0       = OC_fvar0$/;"	c
+OC_st_fvar0add	bytecode.go	/^	OC_st_fvar0add    = OC_var + OC_fvar0$/;"	c
+OC_st_fvaradd	bytecode.go	/^	OC_st_fvaradd$/;"	c
+OC_st_sysfvar	bytecode.go	/^	OC_st_sysfvar$/;"	c
+OC_st_sysfvar0	bytecode.go	/^	OC_st_sysfvar0    = OC_sysfvar0$/;"	c
+OC_st_sysfvar0add	bytecode.go	/^	OC_st_sysfvar0add = OC_var + OC_sysfvar0$/;"	c
+OC_st_sysfvaradd	bytecode.go	/^	OC_st_sysfvaradd$/;"	c
+OC_st_sysvar	bytecode.go	/^	OC_st_sysvar$/;"	c
+OC_st_sysvar0	bytecode.go	/^	OC_st_sysvar0     = OC_sysvar0$/;"	c
+OC_st_sysvar0add	bytecode.go	/^	OC_st_sysvar0add  = OC_var + OC_sysvar0$/;"	c
+OC_st_sysvaradd	bytecode.go	/^	OC_st_sysvaradd$/;"	c
+OC_st_var	bytecode.go	/^	OC_st_var OpCode = iota + OC_var*2$/;"	c
+OC_st_var0	bytecode.go	/^	OC_st_var0        = OC_var0$/;"	c
+OC_st_var0add	bytecode.go	/^	OC_st_var0add     = OC_var + OC_var0$/;"	c
+OC_st_varadd	bytecode.go	/^	OC_st_varadd$/;"	c
+OC_stateno	bytecode.go	/^	OC_stateno$/;"	c
+OC_statetype	bytecode.go	/^	OC_statetype$/;"	c
+OC_sub	bytecode.go	/^	OC_sub$/;"	c
+OC_swap	bytecode.go	/^	OC_swap$/;"	c
+OC_sysfvar	bytecode.go	/^	OC_sysfvar$/;"	c
+OC_sysfvar0	bytecode.go	/^	OC_sysfvar0 = 105$/;"	c
+OC_sysvar	bytecode.go	/^	OC_sysvar$/;"	c
+OC_sysvar0	bytecode.go	/^	OC_sysvar0  = 60$/;"	c
+OC_tan	bytecode.go	/^	OC_tan$/;"	c
+OC_target	bytecode.go	/^	OC_target$/;"	c
+OC_teammode	bytecode.go	/^	OC_teammode$/;"	c
+OC_teamside	bytecode.go	/^	OC_teamside$/;"	c
+OC_time	bytecode.go	/^	OC_time$/;"	c
+OC_topedge	bytecode.go	/^	OC_topedge$/;"	c
+OC_uniqhitcount	bytecode.go	/^	OC_uniqhitcount$/;"	c
+OC_var	bytecode.go	/^	OC_var OpCode = iota + 110$/;"	c
+OC_var0	bytecode.go	/^	OC_var0     = 0$/;"	c
+OC_vel_x	bytecode.go	/^	OC_vel_x$/;"	c
+OC_vel_y	bytecode.go	/^	OC_vel_y$/;"	c
+OC_xor	bytecode.go	/^	OC_xor$/;"	c
+OldSprintf	common.go	/^func OldSprintf(f string, a ...interface{}) (s string) {$/;"	f
+OpCode	bytecode.go	/^type OpCode byte$/;"	t
+Open	sound.go	/^func (v *Vorbis) Open(file string) {$/;"	f
+OpenFileInput	input.go	/^func OpenFileInput(filename string) *FileInput {$/;"	f
+P1P3Dist	system.go	/^	P1P3Dist = 25$/;"	c
+PC_Cancel	char.go	/^	PC_Cancel$/;"	c
+PC_Guarded	char.go	/^	PC_Guarded$/;"	c
+PC_Hit	char.go	/^	PC_Hit ProjContact = iota$/;"	c
+PT_B	char.go	/^	PT_B$/;"	c
+PT_F	char.go	/^	PT_F$/;"	c
+PT_L	char.go	/^	PT_L$/;"	c
+PT_N	char.go	/^	PT_N$/;"	c
+PT_P1	char.go	/^	PT_P1 PosType = iota$/;"	c
+PT_P2	char.go	/^	PT_P2$/;"	c
+PT_R	char.go	/^	PT_R$/;"	c
+PalFX	image.go	/^type PalFX struct {$/;"	t
+PalFXDef	image.go	/^type PalFXDef struct {$/;"	t
+PaletteList	image.go	/^type PaletteList struct {$/;"	t
+Parse	common.go	/^func (is IniSection) Parse(lines []string, i *int) {$/;"	f
+Pop	bytecode.go	/^func (bs *BytecodeStack) Pop() (bv BytecodeValue) {$/;"	f
+Popup	script.go	/^func (cli *commandLineInput) Popup(title string) bool {$/;"	f
+PosType	char.go	/^type PosType int32$/;"	t
+Pow	common.go	/^func Pow(x, y float32) float32 {$/;"	f
+PowerBar	lifebar.go	/^type PowerBar struct {$/;"	t
+Process	sound.go	/^func (n *Normalizer) Process(l, r float32) (float32, float32) {$/;"	f
+ProjContact	char.go	/^type ProjContact int32$/;"	t
+Projectile	char.go	/^type Projectile struct {$/;"	t
+Push	bytecode.go	/^func (bs *BytecodeStack) Push(bv BytecodeValue) { *bs = append(*bs, bv) }$/;"	f
+PushB	bytecode.go	/^func (bs *BytecodeStack) PushB(b bool)          { bs.Push(BytecodeBool(b)) }$/;"	f
+PushF	bytecode.go	/^func (bs *BytecodeStack) PushF(f float32)       { bs.Push(BytecodeFloat(f)) }$/;"	f
+PushI	bytecode.go	/^func (bs *BytecodeStack) PushI(i int32)         { bs.Push(BytecodeInt(i)) }$/;"	f
+R	input.go	/^func (__ *AiInput) R() bool {$/;"	f
+R	input.go	/^func (kc KeyConfig) R() bool { return JoystickState(kc.Joy, kc.r) }$/;"	f
+RA_Back	char.go	/^	RA_Back    Reaction = 3$/;"	c
+RA_Diagup	char.go	/^	RA_Diagup  Reaction = 5$/;"	c
+RA_Hard	char.go	/^	RA_Hard    Reaction = 2$/;"	c
+RA_Light	char.go	/^	RA_Light   Reaction = 0$/;"	c
+RA_Medium	char.go	/^	RA_Medium  Reaction = 1$/;"	c
+RA_Unknown	char.go	/^	RA_Unknown Reaction = -1$/;"	c
+RA_Up	char.go	/^	RA_Up      Reaction = 4$/;"	c
+Rand	common.go	/^func Rand(min, max int32) int32 { return min + Random()\/(IMax\/(max-min+1)+1) }$/;"	f
+RandF	common.go	/^func RandF(x, y float32) float32 {$/;"	f
+RandI	common.go	/^func RandI(x, y int32) int32 {$/;"	f
+Random	common.go	/^func Random() int32 {$/;"	f
+Reaction	char.go	/^type Reaction int32$/;"	t
+Read	common.go	/^func (al *AnimLayout) Read(pre string, is IniSection, at AnimationTable,$/;"	f
+Read	common.go	/^func (ats *AnimTextSnd) Read(pre string, is IniSection, at AnimationTable,$/;"	f
+Read	common.go	/^func (l *Layout) Read(pre string, is IniSection) {$/;"	f
+Read	image.go	/^func (sh *SffHeader) Read(r io.Reader, lofs *uint32, tofs *uint32) error {$/;"	f
+ReadAction	anim.go	/^func ReadAction(sff *Sff, lines []string, i *int) (no int32, a *Animation) {$/;"	f
+ReadAnimFrame	anim.go	/^func ReadAnimFrame(line string) *AnimFrame {$/;"	f
+ReadAnimLayout	common.go	/^func ReadAnimLayout(pre string, is IniSection,$/;"	f
+ReadAnimTextSnd	common.go	/^func ReadAnimTextSnd(pre string, is IniSection,$/;"	f
+ReadAnimation	anim.go	/^func ReadAnimation(sff *Sff, lines []string, i *int) *Animation {$/;"	f
+ReadAnimationTable	anim.go	/^func ReadAnimationTable(sff *Sff, lines []string, i *int) AnimationTable {$/;"	f
+ReadBool	common.go	/^func (is IniSection) ReadBool(name string, out ...*bool) bool {$/;"	f
+ReadCommand	input.go	/^func ReadCommand(name, cmdstr string, kr *CommandKeyRemap) (*Command, error) {$/;"	f
+ReadF32	common.go	/^func (is IniSection) ReadF32(name string, out ...*float32) bool {$/;"	f
+ReadI32	common.go	/^func (is IniSection) ReadI32(name string, out ...*int32) bool {$/;"	f
+ReadIniSection	common.go	/^func ReadIniSection(lines []string, i *int) ($/;"	f
+ReadLayout	common.go	/^func ReadLayout(pre string, is IniSection, ln int16) *Layout {$/;"	f
+ReadWave	sound.go	/^func ReadWave(f *os.File, ofs int64) (*Wave, error) {$/;"	f
+Remap	image.go	/^func (pl *PaletteList) Remap(source int, destination int) {$/;"	f
+RenderInit	render.go	/^func RenderInit() {$/;"	f
+RenderMugen	render.go	/^func RenderMugen(tex Texture, pal []uint32, mask int32, size [2]uint16,$/;"	f
+RenderMugenFc	render.go	/^func RenderMugenFc(tex Texture, size [2]uint16, x, y float32,$/;"	f
+RenderMugenFcS	render.go	/^func RenderMugenFcS(tex Texture, size [2]uint16, x, y float32,$/;"	f
+RenderMugenPal	render.go	/^func RenderMugenPal(tex Texture, paltex uint32, mask int32, size [2]uint16,$/;"	f
+Reset	anim.go	/^func (a *Animation) Reset() {$/;"	f
+Reset	common.go	/^func (al *AnimLayout) Reset() {$/;"	f
+Reset	common.go	/^func (ats *AnimTextSnd) Reset()  { ats.anim.Reset() }$/;"	f
+Reset	input.go	/^func (__ *CommandBuffer) Reset() {$/;"	f
+ResetRemap	image.go	/^func (pl *PaletteList) ResetRemap() {$/;"	f
+ResetZoomdelay	camera.go	/^func (c *Camera) ResetZoomdelay() {$/;"	f
+Rle5Decode	image.go	/^func (s *Sprite) Rle5Decode(rle []byte) (p []byte) {$/;"	f
+Rle8Decode	image.go	/^func (s *Sprite) Rle8Decode(rle []byte) (p []byte) {$/;"	f
+RlePcxDecode	image.go	/^func (s *Sprite) RlePcxDecode(rle []byte) (p []byte) {$/;"	f
+Run	bytecode.go	/^func (_ NullStateController) Run(_ *Char, _ []int32) bool { return false }$/;"	f
+Run	bytecode.go	/^func (b StateBlock) Run(c *Char, ps []int32) (changeState bool) {$/;"	f
+Run	bytecode.go	/^func (cf callFunction) Run(c *Char, _ []int32) (changeState bool) {$/;"	f
+Run	bytecode.go	/^func (sc afterImage) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc afterImageTime) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc allPalFX) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc angleAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc angleDraw) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc angleMul) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc angleSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc appendToClipboard) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc assertSpecial) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc attackDist) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc attackMulSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc bgPalFX) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc bindToParent) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc bindToRoot) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc bindToTarget) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc changeAnim) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc changeAnim2) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc changeState) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc clearClipboard) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc ctrlSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc defenceMulSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc destroySelf) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc displayToClipboard) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc envColor) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc envShake) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc explod) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc explodBindTime) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc fallEnvShake) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc gameMakeAnim) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc gravity) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc helper) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc hitAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc hitBy) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc hitDef) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc hitFallDamage) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc hitFallSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc hitFallVel) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc hitOverride) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc hitVelSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc lifeAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc lifeSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc makeDust) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc modifyExplod) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc moveHitReset) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc notHitBy) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc offset) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc palFX) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc pause) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc playSnd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc playerPush) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc posAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc posFreeze) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc posSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc powerAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc powerSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc projectile) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc remapPal) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc removeExplod) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc reversalDef) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc screenBound) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc selfState) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc sndPan) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc sprPriority) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc stateDef) Run(c *Char) {$/;"	f
+Run	bytecode.go	/^func (sc stateTypeSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc stopSnd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc superPause) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc tagIn) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc tagOut) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc targetBind) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc targetDrop) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc targetFacing) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc targetLifeAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc targetPowerAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc targetState) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc targetVelAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc targetVelSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc trans) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc turn) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc varRandom) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc varRangeSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc varSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc velAdd) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc velMul) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc velSet) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc victoryQuote) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc width) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (sc zoom) Run(c *Char, _ []int32) bool {$/;"	f
+Run	bytecode.go	/^func (se StateExpr) Run(c *Char, _ []int32) (changeState bool) {$/;"	f
+Run	bytecode.go	/^func (va varAssign) Run(c *Char, _ []int32) (changeState bool) {$/;"	f
+S	input.go	/^func (__ *AiInput) S() bool {$/;"	f
+S	input.go	/^func (kc KeyConfig) S() bool { return JoystickState(kc.Joy, kc.s) }$/;"	f
+SCF_airjump	char.go	/^	SCF_airjump$/;"	c
+SCF_ctrl	char.go	/^	SCF_ctrl$/;"	c
+SCF_guard	char.go	/^	SCF_guard$/;"	c
+SCF_ko	char.go	/^	SCF_ko SystemCharFlag = 1 << iota$/;"	c
+SCF_ko_round_middle	char.go	/^	SCF_ko_round_middle$/;"	c
+SCF_over	char.go	/^	SCF_over$/;"	c
+SCF_standby	char.go	/^	SCF_standby$/;"	c
+ST_A	bytecode.go	/^	ST_A$/;"	c
+ST_C	bytecode.go	/^	ST_C$/;"	c
+ST_D	bytecode.go	/^	ST_D    = ST_L$/;"	c
+ST_F	bytecode.go	/^	ST_F    = ST_N$/;"	c
+ST_L	bytecode.go	/^	ST_L$/;"	c
+ST_MASK	bytecode.go	/^	ST_MASK = 1<<iota - 1$/;"	c
+ST_N	bytecode.go	/^	ST_N$/;"	c
+ST_P	bytecode.go	/^	ST_P    = ST_U$/;"	c
+ST_S	bytecode.go	/^	ST_S StateType = 1 << iota$/;"	c
+ST_SCA	bytecode.go	/^	ST_SCA  = ST_S | ST_C | ST_A$/;"	c
+ST_U	bytecode.go	/^	ST_U$/;"	c
+ScaleBound	camera.go	/^func (c *Camera) ScaleBound(scl float32) float32 {$/;"	f
+SectionName	common.go	/^func SectionName(sec string) (string, string) {$/;"	f
+Select	system.go	/^type Select struct {$/;"	t
+SelectChar	system.go	/^type SelectChar struct {$/;"	t
+SelectStage	system.go	/^func (s *Select) SelectStage(n int) { s.selectedStageNo = n }$/;"	f
+SelectStage	system.go	/^type SelectStage struct {$/;"	t
+SetAlpha	anim.go	/^func (a *Anim) SetAlpha(src, dst int16) {$/;"	f
+SetAnimElem	anim.go	/^func (a *Animation) SetAnimElem(elem int32) {$/;"	f
+SetB	bytecode.go	/^func (bv *BytecodeValue) SetB(b bool) {$/;"	f
+SetColorKey	anim.go	/^func (a *Anim) SetColorKey(mask int16) {$/;"	f
+SetF	bytecode.go	/^func (bv *BytecodeValue) SetF(f float32) {$/;"	f
+SetI	bytecode.go	/^func (bv *BytecodeValue) SetI(i int32) {$/;"	f
+SetInput	input.go	/^func (ib *InputBits) SetInput(in int) {$/;"	f
+SetPan	sound.go	/^func (s *Sound) SetPan(pan float32, offset *float32) {$/;"	f
+SetPerfect	lifebar.go	/^func (wt *WinType) SetPerfect() {$/;"	f
+SetPos	anim.go	/^func (a *Anim) SetPos(x, y float32) {$/;"	f
+SetPxl	image.go	/^func (s *Sprite) SetPxl(px []byte) {$/;"	f
+SetScale	anim.go	/^func (a *Anim) SetScale(x, y float32) {$/;"	f
+SetSource	image.go	/^func (pl *PaletteList) SetSource(i int, p []uint32) {$/;"	f
+SetStageNo	system.go	/^func (s *Select) SetStageNo(n int) int {$/;"	f
+SetTile	anim.go	/^func (a *Anim) SetTile(x, y int32) {$/;"	f
+SetVolume	sound.go	/^func (s *Sound) SetVolume(vol int32) {$/;"	f
+SetWindow	anim.go	/^func (a *Anim) SetWindow(x, y, w, h float32) {$/;"	f
+Sff	image.go	/^type Sff struct {$/;"	t
+SffHeader	image.go	/^type SffHeader struct {$/;"	t
+ShadowDraw	anim.go	/^func (a *Animation) ShadowDraw(x, y, xscl, yscl, vscl, angle float32,$/;"	f
+ShadowList	anim.go	/^type ShadowList []*ShadowSprite$/;"	t
+ShadowSprite	anim.go	/^type ShadowSprite struct {$/;"	t
+ShortcutKey	input.go	/^type ShortcutKey struct {$/;"	t
+ShortcutScript	input.go	/^type ShortcutScript struct {$/;"	t
+Snd	sound.go	/^type Snd struct {$/;"	t
+Sound	sound.go	/^type Sound struct {$/;"	t
+Sounds	sound.go	/^type Sounds []Sound$/;"	t
+SplitAndTrim	common.go	/^func SplitAndTrim(str, sep string) (ss []string) {$/;"	f
+SprData	anim.go	/^type SprData struct {$/;"	t
+Sprite	image.go	/^type Sprite struct {$/;"	t
+Srand	common.go	/^func Srand(s int32)             { sys.randseed = s }$/;"	f
+Stage	stage.go	/^type Stage struct {$/;"	t
+State	input.go	/^func (__ *CommandBuffer) State(ck CommandKey) int32 {$/;"	f
+State2	input.go	/^func (__ *CommandBuffer) State2(ck CommandKey) int32 {$/;"	f
+StateBlock	bytecode.go	/^type StateBlock struct {$/;"	t
+StateBytecode	bytecode.go	/^type StateBytecode struct {$/;"	t
+StateController	bytecode.go	/^type StateController interface {$/;"	t
+StateControllerBase	bytecode.go	/^type StateControllerBase []byte$/;"	t
+StateExpr	bytecode.go	/^type StateExpr BytecodeExp$/;"	t
+StateState	char.go	/^type StateState struct {$/;"	t
+StateType	bytecode.go	/^type StateType int32$/;"	t
+Step	input.go	/^func (c *Command) Step(cbuf *CommandBuffer, ai, hitpause bool, buftime int32) {$/;"	f
+Step	input.go	/^func (cl *CommandList) Step(facing int32, ai, hitpause bool,$/;"	f
+Stop	input.go	/^func (ni *NetInput) Stop() {$/;"	f
+StringPool	bytecode.go	/^type StringPool struct {$/;"	t
+StringToKey	input.go	/^func StringToKey(s string) glfw.Key {$/;"	f
+Swap	bytecode.go	/^func (bs *BytecodeStack) Swap() {$/;"	f
+SwapPalMap	image.go	/^func (pl *PaletteList) SwapPalMap(palMap *[]int) bool {$/;"	f
+Synchronize	input.go	/^func (fi *FileInput) Synchronize() {$/;"	f
+Synchronize	input.go	/^func (ni *NetInput) Synchronize() error {$/;"	f
+System	system.go	/^type System struct {$/;"	t
+SystemCharFlag	char.go	/^type SystemCharFlag uint32$/;"	t
+TM_LAST	system.go	/^	TM_LAST = TM_Turns$/;"	c
+TM_Simul	system.go	/^	TM_Simul$/;"	c
+TM_Single	system.go	/^	TM_Single TeamMode = iota$/;"	c
+TM_Turns	system.go	/^	TM_Turns$/;"	c
+TT_add	image.go	/^	TT_add$/;"	c
+TT_add1	image.go	/^	TT_add1$/;"	c
+TT_alpha	image.go	/^	TT_alpha$/;"	c
+TT_default	image.go	/^	TT_default TransType = iota$/;"	c
+TT_none	image.go	/^	TT_none$/;"	c
+TT_sub	image.go	/^	TT_sub$/;"	c
+TeamMode	system.go	/^type TeamMode int32$/;"	t
+Test	input.go	/^func (sk ShortcutKey) Test(k glfw.Key, m glfw.ModifierKey) bool {$/;"	f
+TextSprite	font.go	/^type TextSprite struct {$/;"	t
+TextWidth	font.go	/^func (f *Fnt) TextWidth(txt string) (w int32) {$/;"	f
+Texture	image.go	/^type Texture uint32$/;"	t
+ToB	bytecode.go	/^func (bv BytecodeValue) ToB() bool {$/;"	f
+ToF	bytecode.go	/^func (bv BytecodeValue) ToF() float32 {$/;"	f
+ToI	bytecode.go	/^func (bv BytecodeValue) ToI() int32 {$/;"	f
+Top	bytecode.go	/^func (bs BytecodeStack) Top() *BytecodeValue {$/;"	f
+TransType	image.go	/^type TransType int32$/;"	t
+U	input.go	/^func (__ *AiInput) U() bool {$/;"	f
+U	input.go	/^func (kc KeyConfig) U() bool { return JoystickState(kc.Joy, kc.u) }$/;"	f
+Update	anim.go	/^func (a *Anim) Update() {$/;"	f
+Update	camera.go	/^func (c *Camera) Update(scl, x, y float32) {$/;"	f
+Update	input.go	/^func (__ *AiInput) Update() {$/;"	f
+Update	input.go	/^func (fi *FileInput) Update() bool {$/;"	f
+Update	input.go	/^func (ni *NetInput) Update() bool {$/;"	f
+UpdateSprite	anim.go	/^func (a *Animation) UpdateSprite() {$/;"	f
+VT_Bool	bytecode.go	/^	VT_Bool$/;"	c
+VT_Float	bytecode.go	/^	VT_Float$/;"	c
+VT_Int	bytecode.go	/^	VT_Int$/;"	c
+VT_None	bytecode.go	/^	VT_None ValueType = iota$/;"	c
+VT_SFalse	bytecode.go	/^	VT_SFalse$/;"	c
+ValueType	bytecode.go	/^type ValueType int$/;"	t
+Vorbis	sound.go	/^type Vorbis struct {$/;"	t
+WT_C	lifebar.go	/^	WT_C$/;"	c
+WT_H	lifebar.go	/^	WT_H$/;"	c
+WT_N	lifebar.go	/^	WT_N WinType = iota$/;"	c
+WT_NumTypes	lifebar.go	/^	WT_NumTypes$/;"	c
+WT_PC	lifebar.go	/^	WT_PC$/;"	c
+WT_PH	lifebar.go	/^	WT_PH$/;"	c
+WT_PN	lifebar.go	/^	WT_PN$/;"	c
+WT_PS	lifebar.go	/^	WT_PS$/;"	c
+WT_PSuicide	lifebar.go	/^	WT_PSuicide$/;"	c
+WT_PT	lifebar.go	/^	WT_PT$/;"	c
+WT_PTeammate	lifebar.go	/^	WT_PTeammate$/;"	c
+WT_PThrow	lifebar.go	/^	WT_PThrow$/;"	c
+WT_Perfect	lifebar.go	/^	WT_Perfect$/;"	c
+WT_S	lifebar.go	/^	WT_S$/;"	c
+WT_Suicide	lifebar.go	/^	WT_Suicide$/;"	c
+WT_T	lifebar.go	/^	WT_T$/;"	c
+WT_Teammate	lifebar.go	/^	WT_Teammate$/;"	c
+WT_Throw	lifebar.go	/^	WT_Throw$/;"	c
+Wave	sound.go	/^type Wave struct {$/;"	t
+WinType	lifebar.go	/^type WinType int32$/;"	t
+X	input.go	/^func (__ *AiInput) X() bool {$/;"	f
+X	input.go	/^func (kc KeyConfig) X() bool { return JoystickState(kc.Joy, kc.x) }$/;"	f
+XBound	camera.go	/^func (c *Camera) XBound(scl, x float32) float32 {$/;"	f
+Y	input.go	/^func (__ *AiInput) Y() bool {$/;"	f
+Y	input.go	/^func (kc KeyConfig) Y() bool { return JoystickState(kc.Joy, kc.y) }$/;"	f
+YBound	camera.go	/^func (c *Camera) YBound(scl, y float32) float32 {$/;"	f
+Z	input.go	/^func (__ *AiInput) Z() bool {$/;"	f
+Z	input.go	/^func (kc KeyConfig) Z() bool { return JoystickState(kc.Joy, kc.z) }$/;"	f
+abs	bytecode.go	/^func (_ BytecodeExp) abs(v1 *BytecodeValue) {$/;"	f
+acos	bytecode.go	/^func (_ BytecodeExp) acos(v1 *BytecodeValue) {$/;"	f
+act	lifebar.go	/^func (r *LifeBarRound) act() bool {$/;"	f
+action	camera.go	/^func (c *Camera) action(x, y *float32, leftest, rightest, lowest, highest,$/;"	f
+action	char.go	/^func (c *Char) action() {$/;"	f
+action	char.go	/^func (cl *CharList) action(x float32, cvmin, cvmax,$/;"	f
+action	stage.go	/^func (bga *bgAction) action() {$/;"	f
+action	stage.go	/^func (s *Stage) action() {$/;"	f
+action	system.go	/^func (s *System) action(x, y *float32, scl float32) (leftest, rightest,$/;"	f
+add	anim.go	/^func (dl *DrawList) add(sd *SprData, sc, salp int32, so, fo float32) {$/;"	f
+add	anim.go	/^func (sl *ShadowList) add(ss *ShadowSprite) {$/;"	f
+add	bytecode.go	/^func (_ BytecodeExp) add(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+add	bytecode.go	/^func (scb *StateControllerBase) add(id byte, exp []BytecodeExp) {$/;"	f
+add	char.go	/^func (cl *CharList) add(c *Char) {$/;"	f
+add	lifebar.go	/^func (wi *LifeBarWinIcon) add(wt WinType) {$/;"	f
+add	stage.go	/^func (bgct *bgcTimeLine) add(bgc *bgCtrl) {$/;"	f
+addCahr	system.go	/^func (s *Select) addCahr(def string) {$/;"	f
+addChild	char.go	/^func (c *Char) addChild(ch *Char) {$/;"	f
+addFrameTime	system.go	/^func (s *System) addFrameTime(t float32) bool {$/;"	f
+addId	char.go	/^func (ghv *GetHitVar) addId(id, juggle int32) {$/;"	f
+addTarget	char.go	/^func (c *Char) addTarget(id int32) {$/;"	f
+addX	char.go	/^func (c *Char) addX(x float32) {$/;"	f
+addXV	char.go	/^func (c *Char) addXV(xv float32) {$/;"	f
+addY	char.go	/^func (c *Char) addY(y float32) {$/;"	f
+addYV	char.go	/^func (c *Char) addYV(yv float32) {$/;"	f
+afterImage	bytecode.go	/^type afterImage palFX$/;"	t
+afterImage	compiler.go	/^func (c *Compiler) afterImage(is IniSection, sc *StateControllerBase,$/;"	f
+afterImageSub	compiler.go	/^func (c *Compiler) afterImageSub(is IniSection,$/;"	f
+afterImageTime	bytecode.go	/^type afterImageTime StateControllerBase$/;"	t
+afterImageTime	compiler.go	/^func (c *Compiler) afterImageTime(is IniSection, sc *StateControllerBase,$/;"	f
+afterImageTime_time	bytecode.go	/^	afterImageTime_time byte = iota$/;"	c
+afterImage_framegap	bytecode.go	/^	afterImage_framegap$/;"	c
+afterImage_last	bytecode.go	/^	afterImage_last = iota + palFX_last + 1 - 1$/;"	c
+afterImage_length	bytecode.go	/^	afterImage_length$/;"	c
+afterImage_paladd	bytecode.go	/^	afterImage_paladd$/;"	c
+afterImage_palbright	bytecode.go	/^	afterImage_palbright$/;"	c
+afterImage_palcolor	bytecode.go	/^	afterImage_palcolor$/;"	c
+afterImage_palcontrast	bytecode.go	/^	afterImage_palcontrast$/;"	c
+afterImage_palinvertall	bytecode.go	/^	afterImage_palinvertall$/;"	c
+afterImage_palmul	bytecode.go	/^	afterImage_palmul$/;"	c
+afterImage_palpostbright	bytecode.go	/^	afterImage_palpostbright$/;"	c
+afterImage_time	bytecode.go	/^	afterImage_time$/;"	c
+afterImage_timegap	bytecode.go	/^	afterImage_timegap$/;"	c
+afterImage_trans	bytecode.go	/^	afterImage_trans = iota + palFX_last + 1$/;"	c
+aiLevel	char.go	/^func (c *Char) aiLevel() int32 {$/;"	f
+aimgImage	char.go	/^type aimgImage struct {$/;"	t
+alive	char.go	/^func (c *Char) alive() bool {$/;"	f
+allPalFX	bytecode.go	/^type allPalFX palFX$/;"	t
+allPalFX	compiler.go	/^func (c *Compiler) allPalFX(is IniSection, sc *StateControllerBase,$/;"	f
+alpha	anim.go	/^func (a *Animation) alpha() int32 {$/;"	f
+and	bytecode.go	/^func (_ BytecodeExp) and(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+angleAdd	bytecode.go	/^type angleAdd StateControllerBase$/;"	t
+angleAdd	compiler.go	/^func (c *Compiler) angleAdd(is IniSection, sc *StateControllerBase,$/;"	f
+angleAdd_value	bytecode.go	/^	angleAdd_value byte = iota$/;"	c
+angleDraw	bytecode.go	/^type angleDraw StateControllerBase$/;"	t
+angleDraw	compiler.go	/^func (c *Compiler) angleDraw(is IniSection, sc *StateControllerBase,$/;"	f
+angleDraw_scale	bytecode.go	/^	angleDraw_scale$/;"	c
+angleDraw_value	bytecode.go	/^	angleDraw_value byte = iota$/;"	c
+angleMul	bytecode.go	/^type angleMul StateControllerBase$/;"	t
+angleMul	compiler.go	/^func (c *Compiler) angleMul(is IniSection, sc *StateControllerBase,$/;"	f
+angleMul_value	bytecode.go	/^	angleMul_value byte = iota$/;"	c
+angleSet	bytecode.go	/^type angleSet StateControllerBase$/;"	t
+angleSet	char.go	/^func (c *Char) angleSet(a float32) {$/;"	f
+angleSet	compiler.go	/^func (c *Compiler) angleSet(is IniSection, sc *StateControllerBase,$/;"	f
+angleSet_value	bytecode.go	/^	angleSet_value byte = iota$/;"	c
+animElemNo	char.go	/^func (c *Char) animElemNo(time int32) BytecodeValue {$/;"	f
+animElemTime	char.go	/^func (c *Char) animElemTime(e int32) BytecodeValue {$/;"	f
+animExist	char.go	/^func (c *Char) animExist(wc *Char, anim BytecodeValue) BytecodeValue {$/;"	f
+animSeek	anim.go	/^func (a *Animation) animSeek(elem int32) {$/;"	f
+animTime	char.go	/^func (c *Char) animTime() int32 {$/;"	f
+anyButton	system.go	/^func (s *System) anyButton() bool {$/;"	f
+anyHardButton	system.go	/^func (s *System) anyHardButton() bool {$/;"	f
+append	bytecode.go	/^func (be *BytecodeExp) append(op ...OpCode) {$/;"	f
+appendI32Op	bytecode.go	/^func (be *BytecodeExp) appendI32Op(op OpCode, addr int32) {$/;"	f
+appendToClipboard	bytecode.go	/^type appendToClipboard displayToClipboard$/;"	t
+appendToClipboard	compiler.go	/^func (c *Compiler) appendToClipboard(is IniSection, sc *StateControllerBase,$/;"	f
+appendToClipboard	system.go	/^func (s *System) appendToClipboard(pn, sn int, a ...interface{}) {$/;"	f
+appendValue	bytecode.go	/^func (be *BytecodeExp) appendValue(bv BytecodeValue) (ok bool) {$/;"	f
+argExpression	compiler.go	/^func (c *Compiler) argExpression(in *string, vt ValueType) (BytecodeExp,$/;"	f
+asin	bytecode.go	/^func (_ BytecodeExp) asin(v1 *BytecodeValue) {$/;"	f
+assertSpecial	bytecode.go	/^type assertSpecial StateControllerBase$/;"	t
+assertSpecial	compiler.go	/^func (c *Compiler) assertSpecial(is IniSection, sc *StateControllerBase,$/;"	f
+assertSpecial_flag	bytecode.go	/^	assertSpecial_flag byte = iota$/;"	c
+assertSpecial_flag_g	bytecode.go	/^	assertSpecial_flag_g$/;"	c
+atan	bytecode.go	/^func (_ BytecodeExp) atan(v1 *BytecodeValue) {$/;"	f
+attackDist	bytecode.go	/^type attackDist StateControllerBase$/;"	t
+attackDist	compiler.go	/^func (c *Compiler) attackDist(is IniSection, sc *StateControllerBase,$/;"	f
+attackDist_value	bytecode.go	/^	attackDist_value byte = iota$/;"	c
+attackMulSet	bytecode.go	/^type attackMulSet StateControllerBase$/;"	t
+attackMulSet	compiler.go	/^func (c *Compiler) attackMulSet(is IniSection, sc *StateControllerBase,$/;"	f
+attackMulSet_value	bytecode.go	/^	attackMulSet_value byte = iota$/;"	c
+attr	compiler.go	/^func (c *Compiler) attr(text string, hitdef bool) (int32, error) {$/;"	f
+attrCheck	char.go	/^func (c *Char) attrCheck(h *HitDef, pid int32, st StateType) bool {$/;"	f
+audioFrequency	sound.go	/^	audioFrequency = 48000$/;"	c
+audioOpen	system.go	/^func (s *System) audioOpen() {$/;"	f
+audioOutLen	sound.go	/^	audioOutLen    = 2048$/;"	c
+await	system.go	/^func (s *System) await(fps int) bool {$/;"	f
+backEdge	char.go	/^func (c *Char) backEdge() float32 {$/;"	f
+backEdgeBodyDist	char.go	/^func (c *Char) backEdgeBodyDist() float32 {$/;"	f
+backEdgeDist	char.go	/^func (c *Char) backEdgeDist() float32 {$/;"	f
+backGround	stage.go	/^type backGround struct {$/;"	t
+beToExp	bytecode.go	/^func (_ StateControllerBase) beToExp(be ...BytecodeExp) []BytecodeExp {$/;"	f
+bgAction	stage.go	/^type bgAction struct {$/;"	t
+bgCtrl	stage.go	/^type bgCtrl struct {$/;"	t
+bgDraw	lifebar.go	/^func (f *LifeBarFace) bgDraw(layerno int16) {$/;"	f
+bgDraw	lifebar.go	/^func (hb *HealthBar) bgDraw(layerno int16) {$/;"	f
+bgDraw	lifebar.go	/^func (n *LifeBarName) bgDraw(layerno int16) {$/;"	f
+bgDraw	lifebar.go	/^func (pb *PowerBar) bgDraw(layerno int16) {$/;"	f
+bgDraw	lifebar.go	/^func (t *LifeBarTime) bgDraw(layerno int16) {$/;"	f
+bgPalFX	bytecode.go	/^type bgPalFX palFX$/;"	t
+bgPalFX	compiler.go	/^func (c *Compiler) bgPalFX(is IniSection, sc *StateControllerBase,$/;"	f
+bgcTimeLine	stage.go	/^type bgcTimeLine struct {$/;"	t
+bgctNode	stage.go	/^type bgctNode struct {$/;"	t
+bind	char.go	/^func (c *Char) bind() {$/;"	f
+bindToParent	bytecode.go	/^type bindToParent StateControllerBase$/;"	t
+bindToParent	compiler.go	/^func (c *Compiler) bindToParent(is IniSection, sc *StateControllerBase,$/;"	f
+bindToParentSub	compiler.go	/^func (c *Compiler) bindToParentSub(is IniSection,$/;"	f
+bindToParent_facing	bytecode.go	/^	bindToParent_facing$/;"	c
+bindToParent_pos	bytecode.go	/^	bindToParent_pos$/;"	c
+bindToParent_time	bytecode.go	/^	bindToParent_time byte = iota$/;"	c
+bindToRoot	bytecode.go	/^type bindToRoot bindToParent$/;"	t
+bindToRoot	compiler.go	/^func (c *Compiler) bindToRoot(is IniSection, sc *StateControllerBase,$/;"	f
+bindToTarget	bytecode.go	/^type bindToTarget StateControllerBase$/;"	t
+bindToTarget	char.go	/^func (c *Char) bindToTarget(tar []int32, time int32, x, y float32, hmf HMF) {$/;"	f
+bindToTarget	compiler.go	/^func (c *Compiler) bindToTarget(is IniSection, sc *StateControllerBase,$/;"	f
+bindToTarget_id	bytecode.go	/^	bindToTarget_id byte = iota$/;"	c
+bindToTarget_pos	bytecode.go	/^	bindToTarget_pos$/;"	c
+bindToTarget_time	bytecode.go	/^	bindToTarget_time$/;"	c
+bland	bytecode.go	/^func (_ BytecodeExp) bland(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+blnot	bytecode.go	/^func (_ BytecodeExp) blnot(v *BytecodeValue) {$/;"	f
+blor	bytecode.go	/^func (_ BytecodeExp) blor(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+blxor	bytecode.go	/^func (_ BytecodeExp) blxor(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+bodyDistX	char.go	/^func (c *Char) bodyDistX(opp *Char) float32 {$/;"	f
+boolArg	script.go	/^func boolArg(l *lua.LState, argi int) bool {$/;"	f
+bottomEdge	char.go	/^func (c *Char) bottomEdge() float32 {$/;"	f
+bufClear	sound.go	/^func (m *Mixer) bufClear() {$/;"	f
+bufTest	input.go	/^func (c *Command) bufTest(cbuf *CommandBuffer, ai bool,$/;"	f
+bvNone	bytecode.go	/^func bvNone() BytecodeValue {$/;"	f
+bytecodeFunction	bytecode.go	/^type bytecodeFunction struct {$/;"	t
+callFight	lifebar.go	/^func (r *LifeBarRound) callFight() {$/;"	f
+callFunc	compiler.go	/^func (c *Compiler) callFunc(line *string, root bool,$/;"	f
+callFunction	bytecode.go	/^type callFunction struct {$/;"	t
+canRecover	char.go	/^func (c *Char) canRecover() bool {$/;"	f
+ceil	bytecode.go	/^func (_ BytecodeExp) ceil(v1 *BytecodeValue) {$/;"	f
+chainId	char.go	/^func (ghv GetHitVar) chainId() int32 {$/;"	f
+changeAnim	bytecode.go	/^type changeAnim StateControllerBase$/;"	t
+changeAnim	char.go	/^func (c *Char) changeAnim(animNo int32) {$/;"	f
+changeAnim	compiler.go	/^func (c *Compiler) changeAnim(is IniSection, sc *StateControllerBase,$/;"	f
+changeAnim2	bytecode.go	/^type changeAnim2 changeAnim$/;"	t
+changeAnim2	char.go	/^func (c *Char) changeAnim2(animNo int32) {$/;"	f
+changeAnim2	compiler.go	/^func (c *Compiler) changeAnim2(is IniSection, sc *StateControllerBase,$/;"	f
+changeAnimSub	compiler.go	/^func (c *Compiler) changeAnimSub(is IniSection,$/;"	f
+changeAnim_elem	bytecode.go	/^	changeAnim_elem byte = iota$/;"	c
+changeAnim_value	bytecode.go	/^	changeAnim_value$/;"	c
+changeState	bytecode.go	/^type changeState StateControllerBase$/;"	t
+changeState	char.go	/^func (c *Char) changeState(no, anim, ctrl int32) {$/;"	f
+changeState	compiler.go	/^func (c *Compiler) changeState(is IniSection, sc *StateControllerBase,$/;"	f
+changeStateEx	char.go	/^func (c *Char) changeStateEx(no int32, pn int, anim, ctrl int32) {$/;"	f
+changeStateSub	compiler.go	/^func (c *Compiler) changeStateSub(is IniSection,$/;"	f
+changeState_anim	bytecode.go	/^	changeState_anim$/;"	c
+changeState_ctrl	bytecode.go	/^	changeState_ctrl$/;"	c
+changeState_value	bytecode.go	/^	changeState_value byte = iota$/;"	c
+charUpdate	system.go	/^func (s *System) charUpdate(cvmin, cvmax,$/;"	f
+chk	main.go	/^func chk(err error) {$/;"	f
+clear	char.go	/^func (ai *AfterImage) clear() {$/;"	f
+clear	char.go	/^func (cl *CharList) clear() {$/;"	f
+clear	char.go	/^func (e *Explod) clear() {$/;"	f
+clear	char.go	/^func (f *Fall) clear() {$/;"	f
+clear	char.go	/^func (ghv *GetHitVar) clear() {$/;"	f
+clear	char.go	/^func (hd *HitDef) clear() {$/;"	f
+clear	char.go	/^func (ho *HitOverride) clear() {$/;"	f
+clear	char.go	/^func (p *Projectile) clear() {$/;"	f
+clear	char.go	/^func (ss *StateState) clear() {$/;"	f
+clear	image.go	/^func (pf *PalFX) clear() {$/;"	f
+clear	lifebar.go	/^func (wi *LifeBarWinIcon) clear() { wi.wins = nil }$/;"	f
+clear	sound.go	/^func (v *Vorbis) clear() {$/;"	f
+clear	stage.go	/^func (bga *bgAction) clear() {$/;"	f
+clear	stage.go	/^func (bgct *bgcTimeLine) clear() {$/;"	f
+clear	stage.go	/^func (es *EnvShake) clear() {$/;"	f
+clear1	char.go	/^func (c *Char) clear1() {$/;"	f
+clear2	char.go	/^func (c *Char) clear2() {$/;"	f
+clear2	image.go	/^func (pf *PalFX) clear2(nt bool) {$/;"	f
+clearClipboard	bytecode.go	/^type clearClipboard StateControllerBase$/;"	t
+clearClipboard	compiler.go	/^func (c *Compiler) clearClipboard(is IniSection, sc *StateControllerBase,$/;"	f
+clearClipboard_	bytecode.go	/^	clearClipboard_ byte = iota$/;"	c
+clearHitCount	char.go	/^func (c *Char) clearHitCount() {$/;"	f
+clearHitDef	char.go	/^func (c *Char) clearHitDef() {$/;"	f
+clearMoveHit	char.go	/^func (c *Char) clearMoveHit() {$/;"	f
+clearOff	char.go	/^func (ghv *GetHitVar) clearOff() {$/;"	f
+clearPCTime	char.go	/^func (cgi *CharGlobalInfo) clearPCTime() {$/;"	f
+clearState	char.go	/^func (c *Char) clearState() {$/;"	f
+clearWw	char.go	/^func (ss *StateState) clearWw() {$/;"	f
+clsn	char.go	/^func (cl *CharList) clsn(getter *Char, proj bool) {$/;"	f
+clsn	char.go	/^func (p *Projectile) clsn(playerNo int) {$/;"	f
+clsnCheck	char.go	/^func (c *Char) clsnCheck(atk *Char, c1atk, c1slf bool) bool {$/;"	f
+clsnHantei	system.go	/^func (s *System) clsnHantei(clsn1 []float32, scl1, pos1 [2]float32,$/;"	f
+cmdElem	input.go	/^type cmdElem struct {$/;"	t
+command	char.go	/^func (c *Char) command(pn, i int) bool {$/;"	f
+commandByName	char.go	/^func (c *Char) commandByName(name string) bool {$/;"	f
+commandLineInput	script.go	/^type commandLineInput struct {$/;"	t
+commandUpdate	system.go	/^func (s *System) commandUpdate() {$/;"	f
+computeDamage	char.go	/^func (c *Char) computeDamage(damage float64, kill, absolute bool,$/;"	f
+copyParent	char.go	/^func (c *Char) copyParent(p *Char) {$/;"	f
+cos	bytecode.go	/^func (_ BytecodeExp) cos(v1 *BytecodeValue) {$/;"	f
+ctrl	char.go	/^func (c *Char) ctrl() bool {$/;"	f
+ctrlOver	char.go	/^func (c *Char) ctrlOver() bool {$/;"	f
+ctrlSet	bytecode.go	/^type ctrlSet StateControllerBase$/;"	t
+ctrlSet	compiler.go	/^func (c *Compiler) ctrlSet(is IniSection, sc *StateControllerBase,$/;"	f
+ctrlSet_value	bytecode.go	/^	ctrlSet_value byte = iota$/;"	c
+cueDraw	char.go	/^func (c *Char) cueDraw() {$/;"	f
+cueDraw	char.go	/^func (cl *CharList) cueDraw() {$/;"	f
+cueDraw	char.go	/^func (p *Projectile) cueDraw(oldVer bool, playerNo int) {$/;"	f
+curFrame	anim.go	/^func (a *Animation) curFrame() *AnimFrame {$/;"	f
+debugScriptInit	script.go	/^func debugScriptInit(l *lua.LState, file string) error {$/;"	f
+defBW	char.go	/^func (c *Char) defBW() float32 {$/;"	f
+defFW	char.go	/^func (c *Char) defFW() float32 {$/;"	f
+defenceMulSet	bytecode.go	/^type defenceMulSet StateControllerBase$/;"	t
+defenceMulSet	compiler.go	/^func (c *Compiler) defenceMulSet(is IniSection, sc *StateControllerBase,$/;"	f
+defenceMulSet_value	bytecode.go	/^	defenceMulSet_value byte = iota$/;"	c
+delete	char.go	/^func (cl *CharList) delete(dc *Char) {$/;"	f
+destroy	char.go	/^func (c *Char) destroy() {$/;"	f
+destroySelf	bytecode.go	/^type destroySelf StateControllerBase$/;"	t
+destroySelf	char.go	/^func (c *Char) destroySelf(recursive, removeexplods bool) bool {$/;"	f
+destroySelf	compiler.go	/^func (c *Compiler) destroySelf(is IniSection, sc *StateControllerBase,$/;"	f
+destroySelf_recursive	bytecode.go	/^	destroySelf_recursive = iota$/;"	c
+destroySelf_removeexplods	bytecode.go	/^	destroySelf_removeexplods$/;"	c
+displayToClipboard	bytecode.go	/^type displayToClipboard StateControllerBase$/;"	t
+displayToClipboard	compiler.go	/^func (c *Compiler) displayToClipboard(is IniSection, sc *StateControllerBase,$/;"	f
+displayToClipboardSub	compiler.go	/^func (c *Compiler) displayToClipboardSub(is IniSection,$/;"	f
+displayToClipboard_params	bytecode.go	/^	displayToClipboard_params byte = iota$/;"	c
+displayToClipboard_text	bytecode.go	/^	displayToClipboard_text$/;"	c
+distX	char.go	/^func (c *Char) distX(opp *Char) float32 {$/;"	f
+div	bytecode.go	/^func (_ BytecodeExp) div(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+draw	anim.go	/^func (dl DrawList) draw(x, y, scl float32) {$/;"	f
+draw	anim.go	/^func (sl ShadowList) draw(x, y, scl float32) {$/;"	f
+draw	char.go	/^func (cr ClsnRect) draw(trans int32) {$/;"	f
+draw	lifebar.go	/^func (c *LifeBarCombo) draw(layerno int16, f []*Fnt) {$/;"	f
+draw	lifebar.go	/^func (f *LifeBarFace) draw(layerno int16, fx *PalFX, superplayer bool) {$/;"	f
+draw	lifebar.go	/^func (hb *HealthBar) draw(layerno int16, life float32) {$/;"	f
+draw	lifebar.go	/^func (l *Lifebar) draw(layerno int16) {$/;"	f
+draw	lifebar.go	/^func (n *LifeBarName) draw(layerno int16, f []*Fnt, name string) {$/;"	f
+draw	lifebar.go	/^func (pb *PowerBar) draw(layerno int16, power float32,$/;"	f
+draw	lifebar.go	/^func (r *LifeBarRound) draw(layerno int16) {$/;"	f
+draw	lifebar.go	/^func (t *LifeBarTime) draw(layerno int16, f []*Fnt) {$/;"	f
+draw	lifebar.go	/^func (wi *LifeBarWinIcon) draw(layerno int16, f []*Fnt) {$/;"	f
+draw	stage.go	/^func (bg backGround) draw(pos [2]float32, scl, bgscl, lclscl float32,$/;"	f
+draw	stage.go	/^func (s *Stage) draw(top bool, x, y, scl float32) {$/;"	f
+draw	system.go	/^func (s *System) draw(x, y, scl float32) {$/;"	f
+drawChar	font.go	/^func (f *Fnt) drawChar(x, y, xscl, yscl float32, bank int32, c rune,$/;"	f
+drawFrame	anim.go	/^func (a *Animation) drawFrame() *AnimFrame {$/;"	f
+drawQuads	render.go	/^func drawQuads(x1, y1, x2, y2, x3, y3, x4, y4, r, g, b, a, pers float32) {$/;"	f
+drawReflection	anim.go	/^func (sl ShadowList) drawReflection(x, y, scl float32) {$/;"	f
+drawSub1	anim.go	/^func (a *Animation) drawSub1(angle float32) (h, v, agl float32) {$/;"	f
+drawgame	char.go	/^func (c *Char) drawgame() bool {$/;"	f
+dropId	char.go	/^func (ghv *GetHitVar) dropId(id int32) {$/;"	f
+end	input.go	/^func (ni *NetInput) end() {$/;"	f
+enemy	char.go	/^func (c *Char) enemy(n int32) *Char {$/;"	f
+enemyExplodsRemove	char.go	/^func (c *Char) enemyExplodsRemove(en int) {$/;"	f
+enemyNear	char.go	/^func (c *Char) enemyNear(n int32) *Char {$/;"	f
+enemyNear	char.go	/^func (cl *CharList) enemyNear(c *Char, n int32, p2 bool) *Char {$/;"	f
+enemyNearClear	char.go	/^func (c *Char) enemyNearClear() {$/;"	f
+envColor	bytecode.go	/^type envColor StateControllerBase$/;"	t
+envColor	compiler.go	/^func (c *Compiler) envColor(is IniSection, sc *StateControllerBase,$/;"	f
+envColor_time	bytecode.go	/^	envColor_time$/;"	c
+envColor_under	bytecode.go	/^	envColor_under$/;"	c
+envColor_value	bytecode.go	/^	envColor_value byte = iota$/;"	c
+envShake	bytecode.go	/^type envShake StateControllerBase$/;"	t
+envShake	compiler.go	/^func (c *Compiler) envShake(is IniSection, sc *StateControllerBase,$/;"	f
+envShake_ampl	bytecode.go	/^	envShake_ampl$/;"	c
+envShake_freq	bytecode.go	/^	envShake_freq$/;"	c
+envShake_phase	bytecode.go	/^	envShake_phase$/;"	c
+envShake_time	bytecode.go	/^	envShake_time byte = iota$/;"	c
+eq	bytecode.go	/^func (_ BytecodeExp) eq(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+evalB	bytecode.go	/^func (be BytecodeExp) evalB(c *Char) bool {$/;"	f
+evalF	bytecode.go	/^func (be BytecodeExp) evalF(c *Char) float32 {$/;"	f
+evalI	bytecode.go	/^func (be BytecodeExp) evalI(c *Char) int32 {$/;"	f
+eventUpdate	system.go	/^func (s *System) eventUpdate() bool {$/;"	f
+exitTarget	char.go	/^func (c *Char) exitTarget(explremove bool) {$/;"	f
+exp	bytecode.go	/^func (_ BytecodeExp) exp(v1 *BytecodeValue) {$/;"	f
+expAdsb	compiler.go	/^func (c *Compiler) expAdsb(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expAnd	compiler.go	/^func (c *Compiler) expAnd(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expBoolAnd	compiler.go	/^func (c *Compiler) expBoolAnd(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expBoolOr	compiler.go	/^func (c *Compiler) expBoolOr(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expBoolXor	compiler.go	/^func (c *Compiler) expBoolXor(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expEqne	compiler.go	/^func (c *Compiler) expEqne(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expFunc	compiler.go	/^type expFunc func(out *BytecodeExp, in *string) (BytecodeValue, error)$/;"	t
+expGrls	compiler.go	/^func (c *Compiler) expGrls(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expMldv	compiler.go	/^func (c *Compiler) expMldv(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expOneOp	compiler.go	/^func (c *Compiler) expOneOp(out *BytecodeExp, in *string, ef expFunc,$/;"	f
+expOneOpSub	compiler.go	/^func (_ *Compiler) expOneOpSub(out *BytecodeExp, in *string, bv *BytecodeValue,$/;"	f
+expOr	compiler.go	/^func (c *Compiler) expOr(out *BytecodeExp, in *string) (BytecodeValue, error) {$/;"	f
+expPostNot	compiler.go	/^func (c *Compiler) expPostNot(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expPow	compiler.go	/^func (c *Compiler) expPow(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+expRange	compiler.go	/^func (c *Compiler) expRange(out *BytecodeExp, in *string,$/;"	f
+expValue	compiler.go	/^func (c *Compiler) expValue(out *BytecodeExp, in *string,$/;"	f
+expXor	compiler.go	/^func (c *Compiler) expXor(out *BytecodeExp, in *string) (BytecodeValue,$/;"	f
+explod	bytecode.go	/^type explod StateControllerBase$/;"	t
+explod	compiler.go	/^func (c *Compiler) explod(is IniSection, sc *StateControllerBase,$/;"	f
+explodBindTime	bytecode.go	/^type explodBindTime StateControllerBase$/;"	t
+explodBindTime	char.go	/^func (c *Char) explodBindTime(id, time int32) {$/;"	f
+explodBindTime	compiler.go	/^func (c *Compiler) explodBindTime(is IniSection, sc *StateControllerBase,$/;"	f
+explodBindTime_id	bytecode.go	/^	explodBindTime_id byte = iota$/;"	c
+explodBindTime_time	bytecode.go	/^	explodBindTime_time$/;"	c
+explodSub	compiler.go	/^func (c *Compiler) explodSub(is IniSection,$/;"	f
+explod_accel	bytecode.go	/^	explod_accel$/;"	c
+explod_angle	bytecode.go	/^	explod_angle$/;"	c
+explod_anim	bytecode.go	/^	explod_anim$/;"	c
+explod_bindtime	bytecode.go	/^	explod_bindtime$/;"	c
+explod_facing	bytecode.go	/^	explod_facing$/;"	c
+explod_id	bytecode.go	/^	explod_id$/;"	c
+explod_ignorehitpause	bytecode.go	/^	explod_ignorehitpause$/;"	c
+explod_ontop	bytecode.go	/^	explod_ontop$/;"	c
+explod_ownpal	bytecode.go	/^	explod_ownpal byte = iota$/;"	c
+explod_pausemovetime	bytecode.go	/^	explod_pausemovetime$/;"	c
+explod_pos	bytecode.go	/^	explod_pos$/;"	c
+explod_postype	bytecode.go	/^	explod_postype$/;"	c
+explod_random	bytecode.go	/^	explod_random$/;"	c
+explod_remappal	bytecode.go	/^	explod_remappal$/;"	c
+explod_removeongethit	bytecode.go	/^	explod_removeongethit$/;"	c
+explod_removetime	bytecode.go	/^	explod_removetime$/;"	c
+explod_scale	bytecode.go	/^	explod_scale$/;"	c
+explod_shadow	bytecode.go	/^	explod_shadow$/;"	c
+explod_sprpriority	bytecode.go	/^	explod_sprpriority$/;"	c
+explod_strictontop	bytecode.go	/^	explod_strictontop$/;"	c
+explod_supermove	bytecode.go	/^	explod_supermove$/;"	c
+explod_supermovetime	bytecode.go	/^	explod_supermovetime$/;"	c
+explod_trans	bytecode.go	/^	explod_trans$/;"	c
+explod_velocity	bytecode.go	/^	explod_velocity$/;"	c
+explod_vfacing	bytecode.go	/^	explod_vfacing$/;"	c
+explod_xangle	bytecode.go	/^	explod_xangle$/;"	c
+explod_yangle	bytecode.go	/^	explod_yangle$/;"	c
+exprs	compiler.go	/^func (c *Compiler) exprs(data string, vt ValueType,$/;"	f
+fToExp	bytecode.go	/^func (_ StateControllerBase) fToExp(f ...float32) (exp []BytecodeExp) {$/;"	f
+fallEnvShake	bytecode.go	/^type fallEnvShake StateControllerBase$/;"	t
+fallEnvShake	compiler.go	/^func (c *Compiler) fallEnvShake(is IniSection, sc *StateControllerBase,$/;"	f
+fallEnvShake_	bytecode.go	/^	fallEnvShake_ byte = iota$/;"	c
+fight	system.go	/^func (s *System) fight() (reload bool) {$/;"	f
+finalizer	image.go	/^func (t *Texture) finalizer() {$/;"	f
+floor	bytecode.go	/^func (_ BytecodeExp) floor(v1 *BytecodeValue) {$/;"	f
+frontEdge	char.go	/^func (c *Char) frontEdge() float32 {$/;"	f
+frontEdgeBodyDist	char.go	/^func (c *Char) frontEdgeBodyDist() float32 {$/;"	f
+frontEdgeDist	char.go	/^func (c *Char) frontEdgeDist() float32 {$/;"	f
+fullExpression	compiler.go	/^func (c *Compiler) fullExpression(in *string, vt ValueType) (BytecodeExp,$/;"	f
+furimuki	char.go	/^func (c *Char) furimuki() {$/;"	f
+fvarAdd	char.go	/^func (c *Char) fvarAdd(i int32, v float32) BytecodeValue {$/;"	f
+fvarGet	char.go	/^func (c *Char) fvarGet(i int32) BytecodeValue {$/;"	f
+fvarRangeSet	char.go	/^func (c *Char) fvarRangeSet(s, e int32, v float32) {$/;"	f
+fvarSet	char.go	/^func (c *Char) fvarSet(i int32, v float32) BytecodeValue {$/;"	f
+gameHeight	char.go	/^func (c *Char) gameHeight() float32 {$/;"	f
+gameMakeAnim	bytecode.go	/^type gameMakeAnim StateControllerBase$/;"	t
+gameMakeAnim	compiler.go	/^func (c *Compiler) gameMakeAnim(is IniSection, sc *StateControllerBase,$/;"	f
+gameMakeAnim_anim	bytecode.go	/^	gameMakeAnim_anim$/;"	c
+gameMakeAnim_pos	bytecode.go	/^	gameMakeAnim_pos byte = iota$/;"	c
+gameMakeAnim_random	bytecode.go	/^	gameMakeAnim_random$/;"	c
+gameMakeAnim_under	bytecode.go	/^	gameMakeAnim_under$/;"	c
+gameWidth	char.go	/^func (c *Char) gameWidth() float32 {$/;"	f
+ge	bytecode.go	/^func (_ BytecodeExp) ge(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+get	anim.go	/^func (at AnimationTable) get(no int32) *Animation {$/;"	f
+get	char.go	/^func (cl *CharList) get(id int32) *Char {$/;"	f
+getAnim	char.go	/^func (c *Char) getAnim(n int32, ffx bool) (a *Animation) {$/;"	f
+getBg	stage.go	/^func (s *Stage) getBg(id int32) (bg []*backGround) {$/;"	f
+getCharSpr	font.go	/^func (f *Fnt) getCharSpr(c rune, bank int32) *Sprite {$/;"	f
+getEdge	char.go	/^func (c *Char) getEdge(base float32, actually bool) float32 {$/;"	f
+getExplods	char.go	/^func (c *Char) getExplods(id int32) (expls []*Explod) {$/;"	f
+getFcPalFx	image.go	/^func (pf *PalFX) getFcPalFx(transNeg bool) (neg bool, color float32,$/;"	f
+getFxPal	image.go	/^func (pf *PalFX) getFxPal(pal []uint32, neg bool) []uint32 {$/;"	f
+getHit	char.go	/^func (cl *CharList) getHit() {$/;"	f
+getItem	system.go	/^func (wm wincntMap) getItem(def string) []int32 {$/;"	f
+getJuggle	char.go	/^func (ghv GetHitVar) getJuggle(id, defaultJuggle int32) int32 {$/;"	f
+getLevel	system.go	/^func (wm wincntMap) getLevel(p int) int32 {$/;"	f
+getOffset	stage.go	/^func (es *EnvShake) getOffset() float32 {$/;"	f
+getOwnPalSprite	image.go	/^func (s *Sff) getOwnPalSprite(g, n int16) *Sprite {$/;"	f
+getPalMap	char.go	/^func (c *Char) getPalMap() []int {$/;"	f
+getPalfx	char.go	/^func (c *Char) getPalfx() *PalFX {$/;"	f
+getPower	char.go	/^func (c *Char) getPower() int32 {$/;"	f
+getSynFx	image.go	/^func (pf *PalFX) getSynFx() *PalFX {$/;"	f
+getTarget	char.go	/^func (c *Char) getTarget(id int32) []int32 {$/;"	f
+getText	common.go	/^func (is IniSection) getText(name string) (str string, ok bool, err error) {$/;"	f
+getYaccel	char.go	/^func (ghv GetHitVar) getYaccel() float32 {$/;"	f
+gethitAnimtype	char.go	/^func (c *Char) gethitAnimtype() Reaction {$/;"	f
+gethitBindClear	char.go	/^func (c *Char) gethitBindClear() {$/;"	f
+gi	char.go	/^func (c *Char) gi() *CharGlobalInfo {$/;"	f
+glDraw	image.go	/^func (s *Sprite) glDraw(pal []uint32, mask int32, x, y float32, tile *[4]int32,$/;"	f
+gravity	bytecode.go	/^type gravity StateControllerBase$/;"	t
+gravity	char.go	/^func (c *Char) gravity() {$/;"	f
+gravity	compiler.go	/^func (c *Compiler) gravity(is IniSection, sc *StateControllerBase,$/;"	f
+gravity_	bytecode.go	/^	gravity_ byte = iota$/;"	c
+gt	bytecode.go	/^func (_ BytecodeExp) gt(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+hasTarget	char.go	/^func (c *Char) hasTarget(id int32) bool {$/;"	f
+hasTargetOfHitdef	char.go	/^func (c *Char) hasTargetOfHitdef(id int32) bool {$/;"	f
+height	char.go	/^func (c *Char) height() float32 {$/;"	f
+helper	bytecode.go	/^type helper StateControllerBase$/;"	t
+helper	char.go	/^func (c *Char) helper(id int32) *Char {$/;"	f
+helper	compiler.go	/^func (c *Compiler) helper(is IniSection, sc *StateControllerBase,$/;"	f
+helperInit	char.go	/^func (c *Char) helperInit(h *Char, st int32, pt PosType, x, y float32,$/;"	f
+helperPos	char.go	/^func (c *Char) helperPos(pt PosType, pos [2]float32, facing int32,$/;"	f
+helper_facing	bytecode.go	/^	helper_facing$/;"	c
+helper_helpertype	bytecode.go	/^	helper_helpertype byte = iota$/;"	c
+helper_id	bytecode.go	/^	helper_id$/;"	c
+helper_keyctrl	bytecode.go	/^	helper_keyctrl$/;"	c
+helper_name	bytecode.go	/^	helper_name$/;"	c
+helper_ownpal	bytecode.go	/^	helper_ownpal$/;"	c
+helper_pausemovetime	bytecode.go	/^	helper_pausemovetime$/;"	c
+helper_pos	bytecode.go	/^	helper_pos$/;"	c
+helper_postype	bytecode.go	/^	helper_postype$/;"	c
+helper_size_air_back	bytecode.go	/^	helper_size_air_back$/;"	c
+helper_size_air_front	bytecode.go	/^	helper_size_air_front$/;"	c
+helper_size_ground_back	bytecode.go	/^	helper_size_ground_back$/;"	c
+helper_size_ground_front	bytecode.go	/^	helper_size_ground_front$/;"	c
+helper_size_head_pos	bytecode.go	/^	helper_size_head_pos$/;"	c
+helper_size_height	bytecode.go	/^	helper_size_height$/;"	c
+helper_size_mid_pos	bytecode.go	/^	helper_size_mid_pos$/;"	c
+helper_size_proj_doscale	bytecode.go	/^	helper_size_proj_doscale$/;"	c
+helper_size_shadowoffset	bytecode.go	/^	helper_size_shadowoffset$/;"	c
+helper_size_xscale	bytecode.go	/^	helper_size_xscale$/;"	c
+helper_size_yscale	bytecode.go	/^	helper_size_yscale$/;"	c
+helper_stateno	bytecode.go	/^	helper_stateno$/;"	c
+helper_supermovetime	bytecode.go	/^	helper_supermovetime$/;"	c
+hitAdd	bytecode.go	/^type hitAdd StateControllerBase$/;"	t
+hitAdd	char.go	/^func (c *Char) hitAdd(h int32) {$/;"	f
+hitAdd	compiler.go	/^func (c *Compiler) hitAdd(is IniSection, sc *StateControllerBase,$/;"	f
+hitAdd_value	bytecode.go	/^	hitAdd_value byte = iota$/;"	c
+hitBy	bytecode.go	/^type hitBy StateControllerBase$/;"	t
+hitBy	compiler.go	/^func (c *Compiler) hitBy(is IniSection, sc *StateControllerBase,$/;"	f
+hitBySub	compiler.go	/^func (c *Compiler) hitBySub(is IniSection, sc *StateControllerBase) error {$/;"	f
+hitBy_time	bytecode.go	/^	hitBy_time$/;"	c
+hitBy_value	bytecode.go	/^	hitBy_value byte = iota$/;"	c
+hitBy_value2	bytecode.go	/^	hitBy_value2$/;"	c
+hitCheck	char.go	/^func (c *Char) hitCheck(e *Char) bool {$/;"	f
+hitDef	bytecode.go	/^type hitDef afterImage$/;"	t
+hitDef	compiler.go	/^func (c *Compiler) hitDef(is IniSection, sc *StateControllerBase,$/;"	f
+hitDefAttr	char.go	/^func (c *Char) hitDefAttr(attr int32) bool {$/;"	f
+hitDefSub	compiler.go	/^func (c *Compiler) hitDefSub(is IniSection,$/;"	f
+hitDef_affectteam	bytecode.go	/^	hitDef_affectteam$/;"	c
+hitDef_air_animtype	bytecode.go	/^	hitDef_air_animtype$/;"	c
+hitDef_air_cornerpush_veloff	bytecode.go	/^	hitDef_air_cornerpush_veloff$/;"	c
+hitDef_air_fall	bytecode.go	/^	hitDef_air_fall$/;"	c
+hitDef_air_hittime	bytecode.go	/^	hitDef_air_hittime$/;"	c
+hitDef_air_juggle	bytecode.go	/^	hitDef_air_juggle$/;"	c
+hitDef_air_type	bytecode.go	/^	hitDef_air_type$/;"	c
+hitDef_air_velocity	bytecode.go	/^	hitDef_air_velocity$/;"	c
+hitDef_airguard_cornerpush_veloff	bytecode.go	/^	hitDef_airguard_cornerpush_veloff$/;"	c
+hitDef_airguard_ctrltime	bytecode.go	/^	hitDef_airguard_ctrltime$/;"	c
+hitDef_airguard_velocity	bytecode.go	/^	hitDef_airguard_velocity$/;"	c
+hitDef_animtype	bytecode.go	/^	hitDef_animtype$/;"	c
+hitDef_attr	bytecode.go	/^	hitDef_attr = iota + afterImage_last + 1$/;"	c
+hitDef_chainid	bytecode.go	/^	hitDef_chainid$/;"	c
+hitDef_damage	bytecode.go	/^	hitDef_damage$/;"	c
+hitDef_down_bounce	bytecode.go	/^	hitDef_down_bounce$/;"	c
+hitDef_down_cornerpush_veloff	bytecode.go	/^	hitDef_down_cornerpush_veloff$/;"	c
+hitDef_down_hittime	bytecode.go	/^	hitDef_down_hittime$/;"	c
+hitDef_down_velocity	bytecode.go	/^	hitDef_down_velocity$/;"	c
+hitDef_envshake_ampl	bytecode.go	/^	hitDef_envshake_ampl$/;"	c
+hitDef_envshake_freq	bytecode.go	/^	hitDef_envshake_freq$/;"	c
+hitDef_envshake_phase	bytecode.go	/^	hitDef_envshake_phase$/;"	c
+hitDef_envshake_time	bytecode.go	/^	hitDef_envshake_time$/;"	c
+hitDef_fall	bytecode.go	/^	hitDef_fall$/;"	c
+hitDef_fall_animtype	bytecode.go	/^	hitDef_fall_animtype$/;"	c
+hitDef_fall_damage	bytecode.go	/^	hitDef_fall_damage$/;"	c
+hitDef_fall_envshake_ampl	bytecode.go	/^	hitDef_fall_envshake_ampl$/;"	c
+hitDef_fall_envshake_freq	bytecode.go	/^	hitDef_fall_envshake_freq$/;"	c
+hitDef_fall_envshake_phase	bytecode.go	/^	hitDef_fall_envshake_phase$/;"	c
+hitDef_fall_envshake_time	bytecode.go	/^	hitDef_fall_envshake_time$/;"	c
+hitDef_fall_kill	bytecode.go	/^	hitDef_fall_kill$/;"	c
+hitDef_fall_recover	bytecode.go	/^	hitDef_fall_recover$/;"	c
+hitDef_fall_recovertime	bytecode.go	/^	hitDef_fall_recovertime$/;"	c
+hitDef_fall_xvelocity	bytecode.go	/^	hitDef_fall_xvelocity$/;"	c
+hitDef_fall_yvelocity	bytecode.go	/^	hitDef_fall_yvelocity$/;"	c
+hitDef_forcenofall	bytecode.go	/^	hitDef_forcenofall$/;"	c
+hitDef_forcestand	bytecode.go	/^	hitDef_forcestand$/;"	c
+hitDef_getpower	bytecode.go	/^	hitDef_getpower$/;"	c
+hitDef_givepower	bytecode.go	/^	hitDef_givepower$/;"	c
+hitDef_ground_cornerpush_veloff	bytecode.go	/^	hitDef_ground_cornerpush_veloff$/;"	c
+hitDef_ground_hittime	bytecode.go	/^	hitDef_ground_hittime$/;"	c
+hitDef_ground_slidetime	bytecode.go	/^	hitDef_ground_slidetime$/;"	c
+hitDef_ground_type	bytecode.go	/^	hitDef_ground_type$/;"	c
+hitDef_ground_velocity	bytecode.go	/^	hitDef_ground_velocity$/;"	c
+hitDef_ground_velocity_x	bytecode.go	/^	hitDef_ground_velocity_x$/;"	c
+hitDef_ground_velocity_y	bytecode.go	/^	hitDef_ground_velocity_y$/;"	c
+hitDef_guard_cornerpush_veloff	bytecode.go	/^	hitDef_guard_cornerpush_veloff$/;"	c
+hitDef_guard_ctrltime	bytecode.go	/^	hitDef_guard_ctrltime$/;"	c
+hitDef_guard_dist	bytecode.go	/^	hitDef_guard_dist$/;"	c
+hitDef_guard_hittime	bytecode.go	/^	hitDef_guard_hittime$/;"	c
+hitDef_guard_kill	bytecode.go	/^	hitDef_guard_kill$/;"	c
+hitDef_guard_pausetime	bytecode.go	/^	hitDef_guard_pausetime$/;"	c
+hitDef_guard_slidetime	bytecode.go	/^	hitDef_guard_slidetime$/;"	c
+hitDef_guard_sparkno	bytecode.go	/^	hitDef_guard_sparkno$/;"	c
+hitDef_guard_velocity	bytecode.go	/^	hitDef_guard_velocity$/;"	c
+hitDef_guardflag	bytecode.go	/^	hitDef_guardflag$/;"	c
+hitDef_guardsound	bytecode.go	/^	hitDef_guardsound$/;"	c
+hitDef_hitflag	bytecode.go	/^	hitDef_hitflag$/;"	c
+hitDef_hitonce	bytecode.go	/^	hitDef_hitonce$/;"	c
+hitDef_hitsound	bytecode.go	/^	hitDef_hitsound$/;"	c
+hitDef_id	bytecode.go	/^	hitDef_id$/;"	c
+hitDef_kill	bytecode.go	/^	hitDef_kill$/;"	c
+hitDef_last	bytecode.go	/^	hitDef_last = iota + afterImage_last + 1 - 1$/;"	c
+hitDef_maxdist	bytecode.go	/^	hitDef_maxdist$/;"	c
+hitDef_mindist	bytecode.go	/^	hitDef_mindist$/;"	c
+hitDef_nochainid	bytecode.go	/^	hitDef_nochainid$/;"	c
+hitDef_numhits	bytecode.go	/^	hitDef_numhits$/;"	c
+hitDef_p1facing	bytecode.go	/^	hitDef_p1facing$/;"	c
+hitDef_p1getp2facing	bytecode.go	/^	hitDef_p1getp2facing$/;"	c
+hitDef_p1sprpriority	bytecode.go	/^	hitDef_p1sprpriority$/;"	c
+hitDef_p1stateno	bytecode.go	/^	hitDef_p1stateno$/;"	c
+hitDef_p2facing	bytecode.go	/^	hitDef_p2facing$/;"	c
+hitDef_p2getp1state	bytecode.go	/^	hitDef_p2getp1state$/;"	c
+hitDef_p2sprpriority	bytecode.go	/^	hitDef_p2sprpriority$/;"	c
+hitDef_p2stateno	bytecode.go	/^	hitDef_p2stateno$/;"	c
+hitDef_pausetime	bytecode.go	/^	hitDef_pausetime$/;"	c
+hitDef_priority	bytecode.go	/^	hitDef_priority$/;"	c
+hitDef_snap	bytecode.go	/^	hitDef_snap$/;"	c
+hitDef_sparkno	bytecode.go	/^	hitDef_sparkno$/;"	c
+hitDef_sparkxy	bytecode.go	/^	hitDef_sparkxy$/;"	c
+hitDef_yaccel	bytecode.go	/^	hitDef_yaccel$/;"	c
+hitFallDamage	bytecode.go	/^type hitFallDamage StateControllerBase$/;"	t
+hitFallDamage	char.go	/^func (c *Char) hitFallDamage() {$/;"	f
+hitFallDamage	compiler.go	/^func (c *Compiler) hitFallDamage(is IniSection, sc *StateControllerBase,$/;"	f
+hitFallDamage_	bytecode.go	/^	hitFallDamage_ byte = iota$/;"	c
+hitFallSet	bytecode.go	/^type hitFallSet StateControllerBase$/;"	t
+hitFallSet	char.go	/^func (c *Char) hitFallSet(f int32, xv, yv float32) {$/;"	f
+hitFallSet	compiler.go	/^func (c *Compiler) hitFallSet(is IniSection, sc *StateControllerBase,$/;"	f
+hitFallSet_value	bytecode.go	/^	hitFallSet_value byte = iota$/;"	c
+hitFallSet_xvel	bytecode.go	/^	hitFallSet_xvel$/;"	c
+hitFallSet_yvel	bytecode.go	/^	hitFallSet_yvel$/;"	c
+hitFallVel	bytecode.go	/^type hitFallVel StateControllerBase$/;"	t
+hitFallVel	char.go	/^func (c *Char) hitFallVel() {$/;"	f
+hitFallVel	compiler.go	/^func (c *Compiler) hitFallVel(is IniSection, sc *StateControllerBase,$/;"	f
+hitFallVel_	bytecode.go	/^	hitFallVel_ byte = iota$/;"	c
+hitOver	char.go	/^func (c *Char) hitOver() bool {$/;"	f
+hitOverride	bytecode.go	/^type hitOverride StateControllerBase$/;"	t
+hitOverride	compiler.go	/^func (c *Compiler) hitOverride(is IniSection, sc *StateControllerBase,$/;"	f
+hitOverride_attr	bytecode.go	/^	hitOverride_attr byte = iota$/;"	c
+hitOverride_forceair	bytecode.go	/^	hitOverride_forceair$/;"	c
+hitOverride_slot	bytecode.go	/^	hitOverride_slot$/;"	c
+hitOverride_stateno	bytecode.go	/^	hitOverride_stateno$/;"	c
+hitOverride_time	bytecode.go	/^	hitOverride_time$/;"	c
+hitPause	char.go	/^func (c *Char) hitPause() bool {$/;"	f
+hitShakeOver	char.go	/^func (c *Char) hitShakeOver() bool {$/;"	f
+hitVelSet	bytecode.go	/^type hitVelSet StateControllerBase$/;"	t
+hitVelSet	compiler.go	/^func (c *Compiler) hitVelSet(is IniSection, sc *StateControllerBase,$/;"	f
+hitVelSetX	char.go	/^func (c *Char) hitVelSetX() {$/;"	f
+hitVelSetY	char.go	/^func (c *Char) hitVelSetY() {$/;"	f
+hitVelSet_x	bytecode.go	/^	hitVelSet_x byte = iota$/;"	c
+hitVelSet_y	bytecode.go	/^	hitVelSet_y$/;"	c
+hitVelX	char.go	/^func (c *Char) hitVelX() float32 {$/;"	f
+hitVelY	char.go	/^func (c *Char) hitVelY() float32 {$/;"	f
+hittable	char.go	/^func (c *Char) hittable(h *HitDef, e *Char, st StateType,$/;"	f
+iToExp	bytecode.go	/^func (_ StateControllerBase) iToExp(i ...int32) (exp []BytecodeExp) {$/;"	f
+idMatch	char.go	/^func (ghv GetHitVar) idMatch(id int32) bool {$/;"	f
+inGuardState	char.go	/^func (c *Char) inGuardState() bool {$/;"	f
+inclNumVars	compiler.go	/^func (c *Compiler) inclNumVars(numVars *int32) error {$/;"	f
+init	bytecode.go	/^func (sb *StateBytecode) init(c *Char) {$/;"	f
+init	char.go	/^func (c *Char) init(n int, idx int32) {$/;"	f
+init	char.go	/^func (cd *CharData) init() {$/;"	f
+init	char.go	/^func (cm *CharMovement) init() {$/;"	f
+init	char.go	/^func (cs *CharSize) init() {$/;"	f
+init	char.go	/^func (cv *CharVelocity) init() {$/;"	f
+init	image.go	/^func (pl *PaletteList) init() {$/;"	f
+init	main.go	/^func init() {$/;"	f
+init	system.go	/^func (s *System) init(w, h int32) *lua.LState {$/;"	f
+init	system.go	/^func (wm *wincntMap) init() {$/;"	f
+input	input.go	/^func (nb *NetBuffer) input(cb *CommandBuffer, f int32) {$/;"	f
+insertExplod	char.go	/^func (c *Char) insertExplod(i int) {$/;"	f
+insertExplodEx	char.go	/^func (c *Char) insertExplodEx(i int, rp [2]int32) {$/;"	f
+intRange	compiler.go	/^func (c *Compiler) intRange(in *string) (minop OpCode, maxop OpCode,$/;"	f
+integer2	compiler.go	/^func (c *Compiler) integer2(in *string) (int32, error) {$/;"	f
+invalidate	char.go	/^func (hd *HitDef) invalidate(stateType StateType) {$/;"	f
+isBound	char.go	/^func (c *Char) isBound() bool {$/;"	f
+isHelper	char.go	/^func (c *Char) isHelper(hid BytecodeValue) BytecodeValue {$/;"	f
+isOperator	compiler.go	/^func (_ *Compiler) isOperator(token string) int {$/;"	f
+joystick	input.go	/^var joystick = [...]glfw.Joystick{glfw.Joystick1, glfw.Joystick2,$/;"	v
+kaiten	render.go	/^func kaiten(x, y *float32, angle float64, rcx, rcy, vscl float32) {$/;"	f
+kakkohiraku	compiler.go	/^func (c *Compiler) kakkohiraku(in *string) error {$/;"	f
+kakkotojiru	compiler.go	/^func (c *Compiler) kakkotojiru() error {$/;"	f
+keyCallback	input.go	/^func keyCallback(_ *glfw.Window, key glfw.Key, _ int,$/;"	f
+kuuhaktokigou	compiler.go	/^const kuuhaktokigou = " !=<>()|&+-*\/%,[]^:;{}#\\"\\t\\r\\n"$/;"	c
+kyuushiki	compiler.go	/^func (c *Compiler) kyuushiki(in *string) (not bool, err error) {$/;"	f
+kyuushikiSuperDX	compiler.go	/^func (c *Compiler) kyuushikiSuperDX(out *BytecodeExp, in *string,$/;"	f
+kyuushikiThroughNeo	compiler.go	/^func (c *Compiler) kyuushikiThroughNeo(_range bool, in *string) {$/;"	f
+le	bytecode.go	/^func (_ BytecodeExp) le(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+leftEdge	char.go	/^func (c *Char) leftEdge() float32 {$/;"	f
+lifeAdd	bytecode.go	/^type lifeAdd StateControllerBase$/;"	t
+lifeAdd	char.go	/^func (c *Char) lifeAdd(add float64, kill, absolute bool) {$/;"	f
+lifeAdd	compiler.go	/^func (c *Compiler) lifeAdd(is IniSection, sc *StateControllerBase,$/;"	f
+lifeAdd_absolute	bytecode.go	/^	lifeAdd_absolute byte = iota$/;"	c
+lifeAdd_kill	bytecode.go	/^	lifeAdd_kill$/;"	c
+lifeAdd_value	bytecode.go	/^	lifeAdd_value$/;"	c
+lifeSet	bytecode.go	/^type lifeSet StateControllerBase$/;"	t
+lifeSet	char.go	/^func (c *Char) lifeSet(life int32) {$/;"	f
+lifeSet	compiler.go	/^func (c *Compiler) lifeSet(is IniSection, sc *StateControllerBase,$/;"	f
+lifeSet_value	bytecode.go	/^	lifeSet_value byte = iota$/;"	c
+ln	bytecode.go	/^func (_ BytecodeExp) ln(v1 *BytecodeValue) {$/;"	f
+load	char.go	/^func (c *Char) load(def string) error {$/;"	f
+load	system.go	/^func (l *Loader) load() {$/;"	f
+loadChar	system.go	/^func (l *Loader) loadChar(pn int) int {$/;"	f
+loadFnt	font.go	/^func loadFnt(filename string) (*Fnt, error) {$/;"	f
+loadFromSff	image.go	/^func loadFromSff(filename string, g, n int16) (*Sprite, error) {$/;"	f
+loadLifebar	lifebar.go	/^func loadLifebar(deffile string) (*Lifebar, error) {$/;"	f
+loadPallet	char.go	/^func (c *Char) loadPallet() {$/;"	f
+loadSff	image.go	/^func loadSff(filename string, char bool) (*Sff, error) {$/;"	f
+loadStage	stage.go	/^func loadStage(def string) (*Stage, error) {$/;"	f
+loadStage	system.go	/^func (l *Loader) loadStage() bool {$/;"	f
+loadStart	system.go	/^func (s *System) loadStart() {$/;"	f
+loaderReset	system.go	/^func (s *System) loaderReset() {$/;"	f
+localUpdate	input.go	/^func (nb *NetBuffer) localUpdate(in int) {$/;"	f
+log	bytecode.go	/^func (_ BytecodeExp) log(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+lose	char.go	/^func (c *Char) lose() bool {$/;"	f
+loseKO	char.go	/^func (c *Char) loseKO() bool {$/;"	f
+loseTime	char.go	/^func (c *Char) loseTime() bool {$/;"	f
+lt	bytecode.go	/^func (_ BytecodeExp) lt(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+luaRegister	script.go	/^func luaRegister(l *lua.LState, name string, f func(*lua.LState) int) {$/;"	f
+main	anim.go	/^package main$/;"	p
+main	bytecode.go	/^package main$/;"	p
+main	camera.go	/^package main$/;"	p
+main	char.go	/^package main$/;"	p
+main	common.go	/^package main$/;"	p
+main	compiler.go	/^package main$/;"	p
+main	font.go	/^package main$/;"	p
+main	image.go	/^package main$/;"	p
+main	input.go	/^package main$/;"	p
+main	lifebar.go	/^package main$/;"	p
+main	main.go	/^func main() {$/;"	f
+main	main.go	/^package main$/;"	p
+main	render.go	/^package main$/;"	p
+main	script.go	/^package main$/;"	p
+main	sound.go	/^package main$/;"	p
+main	stage.go	/^package main$/;"	p
+main	system.go	/^package main$/;"	p
+makeDust	bytecode.go	/^type makeDust StateControllerBase$/;"	t
+makeDust	char.go	/^func (c *Char) makeDust(x, y float32) {$/;"	f
+makeDust	compiler.go	/^func (c *Compiler) makeDust(is IniSection, sc *StateControllerBase,$/;"	f
+makeDust_pos	bytecode.go	/^	makeDust_pos$/;"	c
+makeDust_pos2	bytecode.go	/^	makeDust_pos2$/;"	c
+makeDust_spacing	bytecode.go	/^	makeDust_spacing byte = iota$/;"	c
+matchId	char.go	/^func (e *Explod) matchId(eid, pid int32) bool {$/;"	f
+matchOver	system.go	/^func (s *System) matchOver() bool {$/;"	f
+mathFunc	compiler.go	/^func (c *Compiler) mathFunc(out *BytecodeExp, in *string, rd bool,$/;"	f
+mix	sound.go	/^func (s *Sound) mix() {$/;"	f
+mixSounds	sound.go	/^func (s Sounds) mixSounds() {$/;"	f
+mod	bytecode.go	/^func (_ BytecodeExp) mod(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+modifyExplod	bytecode.go	/^type modifyExplod explod$/;"	t
+modifyExplod	compiler.go	/^func (c *Compiler) modifyExplod(is IniSection, sc *StateControllerBase,$/;"	f
+moveContact	char.go	/^func (c *Char) moveContact() int32 {$/;"	f
+moveGuarded	char.go	/^func (c *Char) moveGuarded() int32 {$/;"	f
+moveHit	char.go	/^func (c *Char) moveHit() int32 {$/;"	f
+moveHitReset	bytecode.go	/^type moveHitReset StateControllerBase$/;"	t
+moveHitReset	compiler.go	/^func (c *Compiler) moveHitReset(is IniSection, sc *StateControllerBase,$/;"	f
+moveHitReset_	bytecode.go	/^	moveHitReset_ byte = iota$/;"	c
+moveReversed	char.go	/^func (c *Char) moveReversed() int32 {$/;"	f
+mugenShader	render.go	/^var mugenShader uintptr$/;"	v
+mugenShaderFc	render.go	/^var mugenShaderFc uintptr$/;"	v
+mugenShaderFcS	render.go	/^var mugenShaderFcS uintptr$/;"	v
+mul	bytecode.go	/^func (_ BytecodeExp) mul(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+mulXV	char.go	/^func (c *Char) mulXV(xv float32) {$/;"	f
+mulYV	char.go	/^func (c *Char) mulYV(yv float32) {$/;"	f
+ne	bytecode.go	/^func (_ BytecodeExp) ne(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+needToken	compiler.go	/^func (c *Compiler) needToken(t string) error {$/;"	f
+neg	bytecode.go	/^func (_ BytecodeExp) neg(v *BytecodeValue) {$/;"	f
+newAfterImage	char.go	/^func newAfterImage() *AfterImage {$/;"	f
+newAnimFrame	anim.go	/^func newAnimFrame() *AnimFrame {$/;"	f
+newAnimLayout	common.go	/^func newAnimLayout(sff *Sff, ln int16) *AnimLayout {$/;"	f
+newAnimTextSnd	common.go	/^func newAnimTextSnd(sff *Sff, ln int16) *AnimTextSnd {$/;"	f
+newAnimation	anim.go	/^func newAnimation(sff *Sff) *Animation {$/;"	f
+newBackGround	stage.go	/^func newBackGround(sff *Sff) *backGround {$/;"	f
+newBgCtrl	stage.go	/^func newBgCtrl() *bgCtrl {$/;"	f
+newCamera	camera.go	/^func newCamera() *Camera {$/;"	f
+newChannel	char.go	/^func (c *Char) newChannel(ch int32, lowpriority bool) *Sound {$/;"	f
+newChar	char.go	/^func newChar(n int, idx int32) (c *Char) {$/;"	f
+newCharId	system.go	/^func (s *System) newCharId() int32 {$/;"	f
+newCommand	input.go	/^func newCommand() *Command { return &Command{tamei: -1, time: 1, buftime: 1} }$/;"	f
+newCommandLineInput	script.go	/^func newCommandLineInput() *commandLineInput {$/;"	f
+newCompiler	compiler.go	/^func newCompiler() *Compiler {$/;"	f
+newExplod	char.go	/^func (c *Char) newExplod() (*Explod, int) {$/;"	f
+newFnt	font.go	/^func newFnt() *Fnt { return &Fnt{images: make(map[rune]*FntCharImage)} }$/;"	f
+newHelper	char.go	/^func (c *Char) newHelper() (h *Char) {$/;"	f
+newInputDialog	script.go	/^func newInputDialog() InputDialog {$/;"	f
+newLayout	common.go	/^func newLayout(ln int16) *Layout {$/;"	f
+newLifeBarCombo	lifebar.go	/^func newLifeBarCombo() *LifeBarCombo {$/;"	f
+newLifeBarFace	lifebar.go	/^func newLifeBarFace() *LifeBarFace {$/;"	f
+newLifeBarName	lifebar.go	/^func newLifeBarName() *LifeBarName {$/;"	f
+newLifeBarRound	lifebar.go	/^func newLifeBarRound(snd *Snd, fnt []*Fnt) *LifeBarRound {$/;"	f
+newLifeBarTime	lifebar.go	/^func newLifeBarTime() *LifeBarTime {$/;"	f
+newLifeBarWinIcon	lifebar.go	/^func newLifeBarWinIcon() *LifeBarWinIcon {$/;"	f
+newLoader	system.go	/^func newLoader() *Loader {$/;"	f
+newMixer	sound.go	/^func newMixer() *Mixer {$/;"	f
+newPalFX	image.go	/^func newPalFX() *PalFX { return &PalFX{} }$/;"	f
+newPowerBar	lifebar.go	/^func newPowerBar(snd *Snd) (pb *PowerBar) {$/;"	f
+newProj	char.go	/^func (c *Char) newProj() *Projectile {$/;"	f
+newProjectile	char.go	/^func newProjectile() *Projectile {$/;"	f
+newSelect	system.go	/^func newSelect() *Select {$/;"	f
+newSff	image.go	/^func newSff() (s *Sff) {$/;"	f
+newSnd	sound.go	/^func newSnd() *Snd { return &Snd{table: make(map[[2]int32]*Wave)} }$/;"	f
+newSounds	sound.go	/^func newSounds(size int) (s Sounds) {$/;"	f
+newSprite	image.go	/^func newSprite() *Sprite {$/;"	f
+newStage	stage.go	/^func newStage(def string) *Stage {$/;"	f
+newStageCamera	camera.go	/^func newStageCamera() *stageCamera {$/;"	f
+newStateBlock	bytecode.go	/^func newStateBlock() *StateBlock {$/;"	f
+newStateBytecode	bytecode.go	/^func newStateBytecode(pn int) *StateBytecode {$/;"	f
+newStateControllerBase	bytecode.go	/^func newStateControllerBase() *StateControllerBase {$/;"	f
+newTexture	image.go	/^func newTexture() (t *Texture) {$/;"	f
+newUserData	script.go	/^func newUserData(l *lua.LState, value interface{}) *lua.LUserData {$/;"	f
+newVorbis	sound.go	/^func newVorbis() *Vorbis {$/;"	f
+next	stage.go	/^func (es *EnvShake) next() {$/;"	f
+nextLine	compiler.go	/^func (c *Compiler) nextLine() (string, bool) {$/;"	f
+nextRound	system.go	/^func (s *System) nextRound() {$/;"	f
+not	bytecode.go	/^func (_ BytecodeExp) not(v *BytecodeValue) {$/;"	f
+notHitBy	bytecode.go	/^type notHitBy hitBy$/;"	t
+notHitBy	compiler.go	/^func (c *Compiler) notHitBy(is IniSection, sc *StateControllerBase,$/;"	f
+notiling	render.go	/^var notiling = [4]int32{0, 0, 0, 0}$/;"	v
+null	compiler.go	/^func (c *Compiler) null(is IniSection, sc *StateControllerBase,$/;"	f
+nullStateController	bytecode.go	/^var nullStateController NullStateController$/;"	v
+numArg	script.go	/^func numArg(l *lua.LState, argi int) float64 {$/;"	f
+numEnemy	char.go	/^func (c *Char) numEnemy() int32 {$/;"	f
+numExplod	char.go	/^func (c *Char) numExplod(eid BytecodeValue) BytecodeValue {$/;"	f
+numHelper	char.go	/^func (c *Char) numHelper(hid BytecodeValue) BytecodeValue {$/;"	f
+numPartner	char.go	/^func (c *Char) numPartner() int32 {$/;"	f
+numProj	char.go	/^func (c *Char) numProj() int32 {$/;"	f
+numProjID	char.go	/^func (c *Char) numProjID(pid BytecodeValue) BytecodeValue {$/;"	f
+numTarget	char.go	/^func (c *Char) numTarget(hid BytecodeValue) BytecodeValue {$/;"	f
+number	compiler.go	/^func (c *Compiler) number(token string) BytecodeValue {$/;"	f
+offset	bytecode.go	/^type offset StateControllerBase$/;"	t
+offset	compiler.go	/^func (c *Compiler) offset(is IniSection, sc *StateControllerBase,$/;"	f
+offsetX	char.go	/^func (c *Char) offsetX() float32 {$/;"	f
+offsetY	char.go	/^func (c *Char) offsetY() float32 {$/;"	f
+offset_x	bytecode.go	/^	offset_x byte = iota$/;"	c
+offset_y	bytecode.go	/^	offset_y$/;"	c
+oneArg	compiler.go	/^func (c *Compiler) oneArg(out *BytecodeExp, in *string,$/;"	f
+openFile	sound.go	/^func (v *Vorbis) openFile(file string) bool {$/;"	f
+operator	compiler.go	/^func (c *Compiler) operator(in *string) error {$/;"	f
+or	bytecode.go	/^func (_ BytecodeExp) or(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+over	char.go	/^func (c *Char) over() bool {$/;"	f
+p2	char.go	/^func (c *Char) p2() *Char {$/;"	f
+p2BodyDistX	char.go	/^func (c *Char) p2BodyDistX() BytecodeValue {$/;"	f
+pal	anim.go	/^func (a *Animation) pal(pfx *PalFX, neg bool) (p []uint32) {$/;"	f
+palFX	bytecode.go	/^type palFX StateControllerBase$/;"	t
+palFX	compiler.go	/^func (c *Compiler) palFX(is IniSection, sc *StateControllerBase,$/;"	f
+palFXSub	compiler.go	/^func (c *Compiler) palFXSub(is IniSection,$/;"	f
+palFX_add	bytecode.go	/^	palFX_add$/;"	c
+palFX_color	bytecode.go	/^	palFX_color$/;"	c
+palFX_invertall	bytecode.go	/^	palFX_invertall$/;"	c
+palFX_last	bytecode.go	/^	palFX_last = iota - 1$/;"	c
+palFX_mul	bytecode.go	/^	palFX_mul$/;"	c
+palFX_sinadd	bytecode.go	/^	palFX_sinadd$/;"	c
+palFX_time	bytecode.go	/^	palFX_time byte = iota$/;"	c
+panic	char.go	/^func (c *Char) panic() {$/;"	f
+paramPostye	compiler.go	/^func (c *Compiler) paramPostye(is IniSection, sc *StateControllerBase,$/;"	f
+paramTrans	compiler.go	/^func (c *Compiler) paramTrans(is IniSection, sc *StateControllerBase,$/;"	f
+paramValue	compiler.go	/^func (c *Compiler) paramValue(is IniSection, sc *StateControllerBase,$/;"	f
+parent	char.go	/^func (c *Char) parent() *Char {$/;"	f
+parentVarAdd	compiler.go	/^func (c *Compiler) parentVarAdd(is IniSection, sc *StateControllerBase,$/;"	f
+parentVarSet	compiler.go	/^func (c *Compiler) parentVarSet(is IniSection, sc *StateControllerBase,$/;"	f
+parseSection	compiler.go	/^func (c *Compiler) parseSection($/;"	f
+partner	char.go	/^func (c *Char) partner(n int32) *Char {$/;"	f
+pause	bytecode.go	/^type pause StateControllerBase$/;"	t
+pause	char.go	/^func (c *Char) pause() bool {$/;"	f
+pause	compiler.go	/^func (c *Compiler) pause(is IniSection, sc *StateControllerBase,$/;"	f
+pause_endcmdbuftime	bytecode.go	/^	pause_endcmdbuftime$/;"	c
+pause_movetime	bytecode.go	/^	pause_movetime$/;"	c
+pause_pausebg	bytecode.go	/^	pause_pausebg$/;"	c
+pause_time	bytecode.go	/^	pause_time byte = iota$/;"	c
+paused	char.go	/^func (p *Projectile) paused(playerNo int) bool {$/;"	f
+play	sound.go	/^func (s *Snd) play(gn [2]int32) bool {$/;"	f
+playSnd	bytecode.go	/^type playSnd StateControllerBase$/;"	t
+playSnd	compiler.go	/^func (c *Compiler) playSnd(is IniSection, sc *StateControllerBase,$/;"	f
+playSnd_abspan	bytecode.go	/^	playSnd_abspan$/;"	c
+playSnd_channel	bytecode.go	/^	playSnd_channel$/;"	c
+playSnd_freqmul	bytecode.go	/^	playSnd_freqmul$/;"	c
+playSnd_loop	bytecode.go	/^	playSnd_loop$/;"	c
+playSnd_lowpriority	bytecode.go	/^	playSnd_lowpriority$/;"	c
+playSnd_pan	bytecode.go	/^	playSnd_pan$/;"	c
+playSnd_value	bytecode.go	/^	playSnd_value = iota$/;"	c
+playSnd_volume	bytecode.go	/^	playSnd_volume$/;"	c
+playSound	char.go	/^func (c *Char) playSound(f, lowpriority, loop bool, g, n, chNo, vol int32,$/;"	f
+playSound	system.go	/^func (s *System) playSound() {$/;"	f
+playerClear	system.go	/^func (s *System) playerClear(pn int) {$/;"	f
+playerID	system.go	/^func (s *System) playerID(id int32) *Char {$/;"	f
+playerIDExist	system.go	/^func (s *System) playerIDExist(id BytecodeValue) BytecodeValue {$/;"	f
+playerPush	bytecode.go	/^type playerPush StateControllerBase$/;"	t
+playerPush	compiler.go	/^func (c *Compiler) playerPush(is IniSection, sc *StateControllerBase,$/;"	f
+playerPush_value	bytecode.go	/^	playerPush_value byte = iota$/;"	c
+posAdd	bytecode.go	/^type posAdd posSet$/;"	t
+posAdd	compiler.go	/^func (c *Compiler) posAdd(is IniSection, sc *StateControllerBase,$/;"	f
+posFreeze	bytecode.go	/^type posFreeze StateControllerBase$/;"	t
+posFreeze	compiler.go	/^func (c *Compiler) posFreeze(is IniSection, sc *StateControllerBase,$/;"	f
+posFreeze_value	bytecode.go	/^	posFreeze_value byte = iota$/;"	c
+posReset	char.go	/^func (c *Char) posReset() {$/;"	f
+posSet	bytecode.go	/^type posSet StateControllerBase$/;"	t
+posSet	compiler.go	/^func (c *Compiler) posSet(is IniSection, sc *StateControllerBase,$/;"	f
+posSetSub	compiler.go	/^func (c *Compiler) posSetSub(is IniSection,$/;"	f
+posSet_x	bytecode.go	/^	posSet_x byte = iota$/;"	c
+posSet_y	bytecode.go	/^	posSet_y$/;"	c
+posSet_z	bytecode.go	/^	posSet_z$/;"	c
+posUpdate	char.go	/^func (c *Char) posUpdate() {$/;"	f
+pow	bytecode.go	/^func (_ BytecodeExp) pow(v1 *BytecodeValue, v2 BytecodeValue, pn int) {$/;"	f
+powerAdd	bytecode.go	/^type powerAdd StateControllerBase$/;"	t
+powerAdd	char.go	/^func (c *Char) powerAdd(add int32) {$/;"	f
+powerAdd	compiler.go	/^func (c *Compiler) powerAdd(is IniSection, sc *StateControllerBase,$/;"	f
+powerAdd_value	bytecode.go	/^	powerAdd_value byte = iota$/;"	c
+powerSet	bytecode.go	/^type powerSet StateControllerBase$/;"	t
+powerSet	char.go	/^func (c *Char) powerSet(pow int32) {$/;"	f
+powerSet	compiler.go	/^func (c *Compiler) powerSet(is IniSection, sc *StateControllerBase,$/;"	f
+powerSet_value	bytecode.go	/^	powerSet_value byte = iota$/;"	c
+process	sound.go	/^func (n *NormalizerLR) process(bai float64, sam *float32) float64 {$/;"	f
+projCancelTime	char.go	/^func (c *Char) projCancelTime(pid BytecodeValue) BytecodeValue {$/;"	f
+projClsnCheck	char.go	/^func (c *Char) projClsnCheck(p *Projectile, gethit bool) bool {$/;"	f
+projContactTime	char.go	/^func (c *Char) projContactTime(pid BytecodeValue) BytecodeValue {$/;"	f
+projGuardedTime	char.go	/^func (c *Char) projGuardedTime(pid BytecodeValue) BytecodeValue {$/;"	f
+projHitTime	char.go	/^func (c *Char) projHitTime(pid BytecodeValue) BytecodeValue {$/;"	f
+projInit	char.go	/^func (c *Char) projInit(p *Projectile, pt PosType, x, y float32,$/;"	f
+projectile	bytecode.go	/^type projectile hitDef$/;"	t
+projectile	compiler.go	/^func (c *Compiler) projectile(is IniSection, sc *StateControllerBase,$/;"	f
+projectile_accel	bytecode.go	/^	projectile_accel$/;"	c
+projectile_offset	bytecode.go	/^	projectile_offset$/;"	c
+projectile_ownpal	bytecode.go	/^	projectile_ownpal$/;"	c
+projectile_pausemovetime	bytecode.go	/^	projectile_pausemovetime$/;"	c
+projectile_postype	bytecode.go	/^	projectile_postype = iota + hitDef_last + 1$/;"	c
+projectile_projanim	bytecode.go	/^	projectile_projanim$/;"	c
+projectile_projcancelanim	bytecode.go	/^	projectile_projcancelanim$/;"	c
+projectile_projedgebound	bytecode.go	/^	projectile_projedgebound$/;"	c
+projectile_projheightbound	bytecode.go	/^	projectile_projheightbound$/;"	c
+projectile_projhitanim	bytecode.go	/^	projectile_projhitanim$/;"	c
+projectile_projhits	bytecode.go	/^	projectile_projhits$/;"	c
+projectile_projid	bytecode.go	/^	projectile_projid$/;"	c
+projectile_projmisstime	bytecode.go	/^	projectile_projmisstime$/;"	c
+projectile_projpriority	bytecode.go	/^	projectile_projpriority$/;"	c
+projectile_projremanim	bytecode.go	/^	projectile_projremanim$/;"	c
+projectile_projremove	bytecode.go	/^	projectile_projremove$/;"	c
+projectile_projremovetime	bytecode.go	/^	projectile_projremovetime$/;"	c
+projectile_projscale	bytecode.go	/^	projectile_projscale$/;"	c
+projectile_projshadow	bytecode.go	/^	projectile_projshadow$/;"	c
+projectile_projsprpriority	bytecode.go	/^	projectile_projsprpriority$/;"	c
+projectile_projstagebound	bytecode.go	/^	projectile_projstagebound$/;"	c
+projectile_remappal	bytecode.go	/^	projectile_remappal$/;"	c
+projectile_remvelocity	bytecode.go	/^	projectile_remvelocity$/;"	c
+projectile_supermovetime	bytecode.go	/^	projectile_supermovetime$/;"	c
+projectile_velmul	bytecode.go	/^	projectile_velmul$/;"	c
+projectile_velocity	bytecode.go	/^	projectile_velocity$/;"	c
+rdDistX	char.go	/^func (c *Char) rdDistX(rd *Char) BytecodeValue {$/;"	f
+rdDistY	char.go	/^func (c *Char) rdDistY(rd *Char) BytecodeValue {$/;"	f
+read	image.go	/^func (s *Sprite) read(f *os.File, sh *SffHeader, offset int64, datasize uint32,$/;"	f
+read	sound.go	/^func (v *Vorbis) read() []int16 {$/;"	f
+read	stage.go	/^func (bgc *bgCtrl) read(is IniSection, idx int) {$/;"	f
+readAction	anim.go	/^func (at AnimationTable) readAction(sff *Sff,$/;"	f
+readBackGround	stage.go	/^func readBackGround(is IniSection, link *backGround,$/;"	f
+readDigit	common.go	/^func readDigit(d string) (int32, bool) {$/;"	f
+readF32ForStage	common.go	/^func (is IniSection) readF32ForStage(name string, out ...*float32) bool {$/;"	f
+readHeader	image.go	/^func (s *Sprite) readHeader(r io.Reader, ofs, size *uint32,$/;"	f
+readHeaderV2	image.go	/^func (s *Sprite) readHeaderV2(r io.Reader, ofs *uint32, size *uint32,$/;"	f
+readHealthBar	lifebar.go	/^func readHealthBar(pre string, is IniSection,$/;"	f
+readI32	input.go	/^func (ni *NetInput) readI32() (int32, error) {$/;"	f
+readI32CsvForStage	common.go	/^func (is IniSection) readI32CsvForStage(name string) (ary []int32) {$/;"	f
+readI32ForStage	common.go	/^func (is IniSection) readI32ForStage(name string, out ...*int32) bool {$/;"	f
+readKeyValue	compiler.go	/^func (c *Compiler) readKeyValue(is IniSection, end string,$/;"	f
+readLifeBarCombo	lifebar.go	/^func readLifeBarCombo(is IniSection) *LifeBarCombo {$/;"	f
+readLifeBarFace	lifebar.go	/^func readLifeBarFace(pre string, is IniSection,$/;"	f
+readLifeBarName	lifebar.go	/^func readLifeBarName(pre string, is IniSection,$/;"	f
+readLifeBarRound	lifebar.go	/^func readLifeBarRound(is IniSection,$/;"	f
+readLifeBarTime	lifebar.go	/^func readLifeBarTime(is IniSection,$/;"	f
+readLifeBarWinIcon	lifebar.go	/^func readLifeBarWinIcon(pre string, is IniSection,$/;"	f
+readPcxHeader	image.go	/^func (s *Sprite) readPcxHeader(f *os.File, offset int64) error {$/;"	f
+readPowerBar	lifebar.go	/^func readPowerBar(pre string, is IniSection,$/;"	f
+readSentence	compiler.go	/^func (c *Compiler) readSentence(line *string) (s string, a bool, err error) {$/;"	f
+readSentenceLine	compiler.go	/^func (c *Compiler) readSentenceLine(line *string) (s string, assign bool,$/;"	f
+readString	compiler.go	/^func (c *Compiler) readString(line *string) (string, error) {$/;"	f
+readV2	image.go	/^func (s *Sprite) readV2(f *os.File, offset int64, datasize uint32) error {$/;"	f
+recAfterImg	char.go	/^func (ai *AfterImage) recAfterImg(sd *SprData) {$/;"	f
+recAndCue	char.go	/^func (ai *AfterImage) recAndCue(sd *SprData, rec bool) {$/;"	f
+remapPal	bytecode.go	/^type remapPal StateControllerBase$/;"	t
+remapPal	char.go	/^func (c *Char) remapPal(pfx *PalFX, src [2]int32, dst [2]int32) {$/;"	f
+remapPal	compiler.go	/^func (c *Compiler) remapPal(is IniSection, sc *StateControllerBase,$/;"	f
+remapPal_dest	bytecode.go	/^	remapPal_dest$/;"	c
+remapPal_source	bytecode.go	/^	remapPal_source byte = iota$/;"	c
+removeExplod	bytecode.go	/^type removeExplod StateControllerBase$/;"	t
+removeExplod	char.go	/^func (c *Char) removeExplod(id int32) {$/;"	f
+removeExplod	compiler.go	/^func (c *Compiler) removeExplod(is IniSection, sc *StateControllerBase,$/;"	f
+removeExplod_id	bytecode.go	/^	removeExplod_id byte = iota$/;"	c
+removeTarget	char.go	/^func (c *Char) removeTarget(pid int32) {$/;"	f
+renzokuEnzansihaError	compiler.go	/^func (c *Compiler) renzokuEnzansihaError(in *string) error {$/;"	f
+reset	input.go	/^func (nb *NetBuffer) reset(time int32) {$/;"	f
+reset	lifebar.go	/^func (c *LifeBarCombo) reset() {$/;"	f
+reset	lifebar.go	/^func (f *LifeBarFace) reset() {$/;"	f
+reset	lifebar.go	/^func (hb *HealthBar) reset() {$/;"	f
+reset	lifebar.go	/^func (l *Lifebar) reset() {$/;"	f
+reset	lifebar.go	/^func (n *LifeBarName) reset() { n.bg.Reset() }$/;"	f
+reset	lifebar.go	/^func (pb *PowerBar) reset() {$/;"	f
+reset	lifebar.go	/^func (r *LifeBarRound) reset() {$/;"	f
+reset	lifebar.go	/^func (t *LifeBarTime) reset() { t.bg.Reset() }$/;"	f
+reset	lifebar.go	/^func (wi *LifeBarWinIcon) reset() {$/;"	f
+reset	stage.go	/^func (bg *backGround) reset() {$/;"	f
+reset	stage.go	/^func (s *Stage) reset() {$/;"	f
+reset	system.go	/^func (l *Loader) reset() {$/;"	f
+resetFrameTime	system.go	/^func (s *System) resetFrameTime() {$/;"	f
+resetGblEffect	system.go	/^func (s *System) resetGblEffect() {$/;"	f
+resetRemapInput	system.go	/^func (s *System) resetRemapInput() {$/;"	f
+restart	sound.go	/^func (v *Vorbis) restart() bool {$/;"	f
+reversalDef	bytecode.go	/^type reversalDef hitDef$/;"	t
+reversalDef	compiler.go	/^func (c *Compiler) reversalDef(is IniSection, sc *StateControllerBase,$/;"	f
+reversalDef_reversal_attr	bytecode.go	/^	reversalDef_reversal_attr = iota + hitDef_last + 1$/;"	c
+rightEdge	char.go	/^func (c *Char) rightEdge() float32 {$/;"	f
+rmInitSub	render.go	/^func rmInitSub(size [2]uint16, x, y *float32, tile *[4]int32, xts float32,$/;"	f
+rmMainSub	render.go	/^func rmMainSub(a int32, size [2]uint16, x, y float32, tl *[4]int32,$/;"	f
+rmTileHSub	render.go	/^func rmTileHSub(x1, y1, x2, y2, x3, y3, x4, y4, xtw, xbw, xts, xbs float32,$/;"	f
+rmTileSub	render.go	/^func rmTileSub(w, h uint16, x, y float32, tl *[4]int32,$/;"	f
+root	char.go	/^func (c *Char) root() *Char {$/;"	f
+roundEnd	system.go	/^func (s *System) roundEnd() bool {$/;"	f
+roundOver	system.go	/^func (s *System) roundOver() bool {$/;"	f
+roundState	char.go	/^func (c *Char) roundState() int32 {$/;"	f
+roundsExisted	char.go	/^func (c *Char) roundsExisted() int32 {$/;"	f
+run	bytecode.go	/^func (be BytecodeExp) run(c *Char) BytecodeValue {$/;"	f
+run	bytecode.go	/^func (bf bytecodeFunction) run(c *Char, ret []uint8) (changeState bool) {$/;"	f
+run	bytecode.go	/^func (sb *StateBytecode) run(c *Char) (changeState bool) {$/;"	f
+run	bytecode.go	/^func (scb StateControllerBase) run(c *Char,$/;"	f
+runBgCtrl	stage.go	/^func (s *Stage) runBgCtrl(bgc *bgCtrl) {$/;"	f
+runMainThreadTask	system.go	/^func (s *System) runMainThreadTask() {$/;"	f
+runSub	bytecode.go	/^func (sc afterImage) runSub(c *Char, ai *AfterImage,$/;"	f
+runSub	bytecode.go	/^func (sc hitDef) runSub(c *Char, hd *HitDef, id byte, exp []BytecodeExp) bool {$/;"	f
+runSub	bytecode.go	/^func (sc palFX) runSub(c *Char, pfd *PalFXDef,$/;"	f
+runTread	system.go	/^func (l *Loader) runTread() bool {$/;"	f
+run_const	bytecode.go	/^func (be BytecodeExp) run_const(c *Char, i *int) {$/;"	f
+run_ex	bytecode.go	/^func (be BytecodeExp) run_ex(c *Char, i *int) {$/;"	f
+run_st	bytecode.go	/^func (be BytecodeExp) run_st(c *Char, i *int) {$/;"	f
+samToAudioOut	sound.go	/^func (v *Vorbis) samToAudioOut(buf [][]float32) (out []int16) {$/;"	f
+scAdd	compiler.go	/^func (c *Compiler) scAdd(sc *StateControllerBase, id byte,$/;"	f
+scFunc	compiler.go	/^type scFunc func(is IniSection, sc *StateControllerBase,$/;"	t
+scan	compiler.go	/^func (c *Compiler) scan(line *string) string {$/;"	f
+scanI32	compiler.go	/^func (c *Compiler) scanI32(line *string) (int32, error) {$/;"	f
+scf	char.go	/^func (c *Char) scf(scf SystemCharFlag) bool {$/;"	f
+screenBound	bytecode.go	/^type screenBound StateControllerBase$/;"	t
+screenBound	compiler.go	/^func (c *Compiler) screenBound(is IniSection, sc *StateControllerBase,$/;"	f
+screenBound_movecamera	bytecode.go	/^	screenBound_movecamera$/;"	c
+screenBound_value	bytecode.go	/^	screenBound_value byte = iota$/;"	c
+screenHeight	system.go	/^func (s *System) screenHeight() float32 {$/;"	f
+screenPosX	char.go	/^func (c *Char) screenPosX() float32 {$/;"	f
+screenPosY	char.go	/^func (c *Char) screenPosY() float32 {$/;"	f
+screenWidth	system.go	/^func (s *System) screenWidth() float32 {$/;"	f
+scriptCommonInit	script.go	/^func scriptCommonInit(l *lua.LState) {$/;"	f
+selfAnimExist	char.go	/^func (c *Char) selfAnimExist(anim BytecodeValue) BytecodeValue {$/;"	f
+selfState	bytecode.go	/^type selfState changeState$/;"	t
+selfState	char.go	/^func (c *Char) selfState(no, anim, ctrl int32) {$/;"	f
+selfState	compiler.go	/^func (c *Compiler) selfState(is IniSection, sc *StateControllerBase,$/;"	f
+setAnimElem	char.go	/^func (c *Char) setAnimElem(e int32) {$/;"	f
+setBEdge	char.go	/^func (c *Char) setBEdge(be float32) {$/;"	f
+setBWidth	char.go	/^func (c *Char) setBWidth(bw float32) {$/;"	f
+setBindTime	char.go	/^func (c *Char) setBindTime(time int32) {$/;"	f
+setBindToId	char.go	/^func (c *Char) setBindToId(to *Char) {$/;"	f
+setCtrl	char.go	/^func (c *Char) setCtrl(ctrl bool) {$/;"	f
+setDefPhase	stage.go	/^func (es *EnvShake) setDefPhase() {$/;"	f
+setDefault	char.go	/^func (f *Fall) setDefault() {$/;"	f
+setFEdge	char.go	/^func (c *Char) setFEdge(fe float32) {$/;"	f
+setFWidth	char.go	/^func (c *Char) setFWidth(fw float32) {$/;"	f
+setFacing	char.go	/^func (c *Char) setFacing(f float32) {$/;"	f
+setHitdefDefault	char.go	/^func (c *Char) setHitdefDefault(hd *HitDef, proj bool) {$/;"	f
+setItem	system.go	/^func (wm wincntMap) setItem(pn int, item []int32) {$/;"	f
+setJuggle	char.go	/^func (c *Char) setJuggle(juggle int32) {$/;"	f
+setPalBrightB	char.go	/^func (ai *AfterImage) setPalBrightB(addb int32) {$/;"	f
+setPalBrightG	char.go	/^func (ai *AfterImage) setPalBrightG(addg int32) {$/;"	f
+setPalBrightR	char.go	/^func (ai *AfterImage) setPalBrightR(addr int32) {$/;"	f
+setPalColor	char.go	/^func (ai *AfterImage) setPalColor(color int32) {$/;"	f
+setPalContrastB	char.go	/^func (ai *AfterImage) setPalContrastB(mulb int32) {$/;"	f
+setPalContrastG	char.go	/^func (ai *AfterImage) setPalContrastG(mulg int32) {$/;"	f
+setPalContrastR	char.go	/^func (ai *AfterImage) setPalContrastR(mulr int32) {$/;"	f
+setPalInvertall	char.go	/^func (ai *AfterImage) setPalInvertall(invertall bool) {$/;"	f
+setPauseTime	char.go	/^func (c *Char) setPauseTime(pausetime, movetime int32) {$/;"	f
+setPos	char.go	/^func (e *Explod) setPos(c *Char) {$/;"	f
+setPos	char.go	/^func (p *Projectile) setPos(pos [2]float32) {$/;"	f
+setPosX	char.go	/^func (c *Char) setPosX(x float32) {$/;"	f
+setPosY	char.go	/^func (c *Char) setPosY(y float32) {$/;"	f
+setPower	char.go	/^func (c *Char) setPower(pow int32) {$/;"	f
+setSCF	char.go	/^func (c *Char) setSCF(scf SystemCharFlag) {$/;"	f
+setSF	char.go	/^func (c *Char) setSF(csf CharSpecialFlag) {$/;"	f
+setSF	system.go	/^func (s *System) setSF(gsf GlobalSpecialFlag) {$/;"	f
+setSprPriority	char.go	/^func (c *Char) setSprPriority(sprpriority int32) {$/;"	f
+setSuperPauseTime	char.go	/^func (c *Char) setSuperPauseTime(pausetime, movetime int32, unhittable bool) {$/;"	f
+setWindowSize	system.go	/^func (s *System) setWindowSize(w, h int32) {$/;"	f
+setX	char.go	/^func (c *Char) setX(x float32) {$/;"	f
+setX	char.go	/^func (e *Explod) setX(x float32) {$/;"	f
+setXV	char.go	/^func (c *Char) setXV(xv float32) {$/;"	f
+setY	char.go	/^func (c *Char) setY(y float32) {$/;"	f
+setY	char.go	/^func (e *Explod) setY(y float32) {$/;"	f
+setYV	char.go	/^func (c *Char) setYV(yv float32) {$/;"	f
+setupPalFX	char.go	/^func (ai *AfterImage) setupPalFX() {$/;"	f
+sf	char.go	/^func (c *Char) sf(csf CharSpecialFlag) bool {$/;"	f
+sf	system.go	/^func (s *System) sf(gsf GlobalSpecialFlag) bool {$/;"	f
+shareCopy	image.go	/^func (s *Sprite) shareCopy(src *Sprite) {$/;"	f
+sin	bytecode.go	/^func (_ BytecodeExp) sin(v1 *BytecodeValue) {$/;"	f
+sinAdd	image.go	/^func (pf *PalFX) sinAdd(color *[3]int32) {$/;"	f
+sndPan	bytecode.go	/^type sndPan StateControllerBase$/;"	t
+sndPan	compiler.go	/^func (c *Compiler) sndPan(is IniSection, sc *StateControllerBase,$/;"	f
+sndPan_abspan	bytecode.go	/^	sndPan_abspan$/;"	c
+sndPan_channel	bytecode.go	/^	sndPan_channel byte = iota$/;"	c
+sndPan_pan	bytecode.go	/^	sndPan_pan$/;"	c
+soundWrite	system.go	/^func (s *System) soundWrite() {$/;"	f
+sprPriority	bytecode.go	/^type sprPriority StateControllerBase$/;"	t
+sprPriority	compiler.go	/^func (c *Compiler) sprPriority(is IniSection, sc *StateControllerBase,$/;"	f
+sprPriority_value	bytecode.go	/^	sprPriority_value byte = iota$/;"	c
+stCgi	char.go	/^func (c *Char) stCgi() *CharGlobalInfo {$/;"	f
+stageCamera	camera.go	/^type stageCamera struct {$/;"	t
+stagePlayer	stage.go	/^type stagePlayer struct {$/;"	t
+stageShadow	stage.go	/^type stageShadow struct {$/;"	t
+stateBlock	compiler.go	/^func (c *Compiler) stateBlock(line *string, bl *StateBlock, root bool,$/;"	f
+stateChange1	char.go	/^func (c *Char) stateChange1(no int32, pn int) bool {$/;"	f
+stateChange2	char.go	/^func (c *Char) stateChange2() bool {$/;"	f
+stateCompile	compiler.go	/^func (c *Compiler) stateCompile(states map[int32]StateBytecode,$/;"	f
+stateCompileZ	compiler.go	/^func (c *Compiler) stateCompileZ(states map[int32]StateBytecode,$/;"	f
+stateDef	bytecode.go	/^type stateDef StateControllerBase$/;"	t
+stateDef	compiler.go	/^func (c *Compiler) stateDef(is IniSection, sbc *StateBytecode) error {$/;"	f
+stateDef_anim	bytecode.go	/^	stateDef_anim$/;"	c
+stateDef_ctrl	bytecode.go	/^	stateDef_ctrl$/;"	c
+stateDef_facep2	bytecode.go	/^	stateDef_facep2$/;"	c
+stateDef_hitcountpersist	bytecode.go	/^	stateDef_hitcountpersist byte = iota$/;"	c
+stateDef_hitdefpersist	bytecode.go	/^	stateDef_hitdefpersist$/;"	c
+stateDef_juggle	bytecode.go	/^	stateDef_juggle$/;"	c
+stateDef_movehitpersist	bytecode.go	/^	stateDef_movehitpersist$/;"	c
+stateDef_poweradd	bytecode.go	/^	stateDef_poweradd$/;"	c
+stateDef_sprpriority	bytecode.go	/^	stateDef_sprpriority$/;"	c
+stateDef_velset	bytecode.go	/^	stateDef_velset$/;"	c
+stateParam	compiler.go	/^func (c *Compiler) stateParam(is IniSection, name string,$/;"	f
+stateSec	compiler.go	/^func (c *Compiler) stateSec(is IniSection, f func() error) error {$/;"	f
+stateTypeSet	bytecode.go	/^type stateTypeSet StateControllerBase$/;"	t
+stateTypeSet	compiler.go	/^func (c *Compiler) stateTypeSet(is IniSection, sc *StateControllerBase,$/;"	f
+stateTypeSet_movetype	bytecode.go	/^	stateTypeSet_movetype$/;"	c
+stateTypeSet_physics	bytecode.go	/^	stateTypeSet_physics$/;"	c
+stateTypeSet_statetype	bytecode.go	/^	stateTypeSet_statetype byte = iota$/;"	c
+statementEnd	compiler.go	/^func (c *Compiler) statementEnd(line *string) error {$/;"	f
+step	image.go	/^func (pf *PalFX) step() {$/;"	f
+step	lifebar.go	/^func (c *LifeBarCombo) step(combo [2]int32) {$/;"	f
+step	lifebar.go	/^func (f *LifeBarFace) step() {$/;"	f
+step	lifebar.go	/^func (hb *HealthBar) step(life float32, gethit bool) {$/;"	f
+step	lifebar.go	/^func (l *Lifebar) step() {$/;"	f
+step	lifebar.go	/^func (n *LifeBarName) step()  { n.bg.Action() }$/;"	f
+step	lifebar.go	/^func (pb *PowerBar) step(power float32, level int32) {$/;"	f
+step	lifebar.go	/^func (t *LifeBarTime) step()  { t.bg.Action() }$/;"	f
+step	lifebar.go	/^func (wi *LifeBarWinIcon) step(numwin int32) {$/;"	f
+step	stage.go	/^func (bgct *bgcTimeLine) step(s *Stage) {$/;"	f
+stopAllSound	system.go	/^func (s *System) stopAllSound() {$/;"	f
+stopSnd	bytecode.go	/^type stopSnd StateControllerBase$/;"	t
+stopSnd	compiler.go	/^func (c *Compiler) stopSnd(is IniSection, sc *StateControllerBase,$/;"	f
+stopSnd_channel	bytecode.go	/^	stopSnd_channel byte = iota$/;"	c
+strArg	script.go	/^func strArg(l *lua.LState, argi int) string {$/;"	f
+sub	bytecode.go	/^func (_ BytecodeExp) sub(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+subBlock	compiler.go	/^func (c *Compiler) subBlock(line *string, root bool,$/;"	f
+superPause	bytecode.go	/^type superPause StateControllerBase$/;"	t
+superPause	compiler.go	/^func (c *Compiler) superPause(is IniSection, sc *StateControllerBase,$/;"	f
+superPause_anim	bytecode.go	/^	superPause_anim$/;"	c
+superPause_darken	bytecode.go	/^	superPause_darken$/;"	c
+superPause_endcmdbuftime	bytecode.go	/^	superPause_endcmdbuftime$/;"	c
+superPause_movetime	bytecode.go	/^	superPause_movetime$/;"	c
+superPause_p2defmul	bytecode.go	/^	superPause_p2defmul$/;"	c
+superPause_pausebg	bytecode.go	/^	superPause_pausebg$/;"	c
+superPause_pos	bytecode.go	/^	superPause_pos$/;"	c
+superPause_poweradd	bytecode.go	/^	superPause_poweradd$/;"	c
+superPause_sound	bytecode.go	/^	superPause_sound$/;"	c
+superPause_time	bytecode.go	/^	superPause_time byte = iota$/;"	c
+superPause_unhittable	bytecode.go	/^	superPause_unhittable$/;"	c
+synchronize	system.go	/^func (s *System) synchronize() error {$/;"	f
+synthesize	image.go	/^func (pf *PalFX) synthesize(pfx PalFX) {$/;"	f
+sys	system.go	/^var sys = System{$/;"	v
+sysFvarAdd	char.go	/^func (c *Char) sysFvarAdd(i int32, v float32) BytecodeValue {$/;"	f
+sysFvarGet	char.go	/^func (c *Char) sysFvarGet(i int32) BytecodeValue {$/;"	f
+sysFvarRangeSet	char.go	/^func (c *Char) sysFvarRangeSet(s, e int32, v float32) {$/;"	f
+sysFvarSet	char.go	/^func (c *Char) sysFvarSet(i int32, v float32) BytecodeValue {$/;"	f
+sysVarAdd	char.go	/^func (c *Char) sysVarAdd(i, v int32) BytecodeValue {$/;"	f
+sysVarGet	char.go	/^func (c *Char) sysVarGet(i int32) BytecodeValue {$/;"	f
+sysVarRangeSet	char.go	/^func (c *Char) sysVarRangeSet(s, e, v int32) {$/;"	f
+sysVarSet	char.go	/^func (c *Char) sysVarSet(i, v int32) BytecodeValue {$/;"	f
+systemScriptInit	script.go	/^func systemScriptInit(l *lua.LState) {$/;"	f
+tagIn	bytecode.go	/^type tagIn StateControllerBase$/;"	t
+tagIn	compiler.go	/^func (c *Compiler) tagIn(is IniSection, sc *StateControllerBase,$/;"	f
+tagIn_partnerstateno	bytecode.go	/^	tagIn_partnerstateno$/;"	c
+tagIn_stateno	bytecode.go	/^	tagIn_stateno = iota$/;"	c
+tagOut	bytecode.go	/^type tagOut StateControllerBase$/;"	t
+tagOut	compiler.go	/^func (c *Compiler) tagOut(is IniSection, sc *StateControllerBase,$/;"	f
+tagOut_	bytecode.go	/^	tagOut_ = iota$/;"	c
+tan	bytecode.go	/^func (_ BytecodeExp) tan(v1 *BytecodeValue) {$/;"	f
+target	char.go	/^func (c *Char) target(id int32) *Char {$/;"	f
+targetBind	bytecode.go	/^type targetBind StateControllerBase$/;"	t
+targetBind	char.go	/^func (c *Char) targetBind(tar []int32, time int32, x, y float32) {$/;"	f
+targetBind	compiler.go	/^func (c *Compiler) targetBind(is IniSection, sc *StateControllerBase,$/;"	f
+targetBind_id	bytecode.go	/^	targetBind_id byte = iota$/;"	c
+targetBind_pos	bytecode.go	/^	targetBind_pos$/;"	c
+targetBind_time	bytecode.go	/^	targetBind_time$/;"	c
+targetDrop	bytecode.go	/^type targetDrop StateControllerBase$/;"	t
+targetDrop	char.go	/^func (c *Char) targetDrop(excludeid int32, keepone bool) {$/;"	f
+targetDrop	compiler.go	/^func (c *Compiler) targetDrop(is IniSection, sc *StateControllerBase,$/;"	f
+targetDrop_excludeid	bytecode.go	/^	targetDrop_excludeid byte = iota$/;"	c
+targetDrop_keepone	bytecode.go	/^	targetDrop_keepone$/;"	c
+targetFacing	bytecode.go	/^type targetFacing StateControllerBase$/;"	t
+targetFacing	char.go	/^func (c *Char) targetFacing(tar []int32, f int32) {$/;"	f
+targetFacing	compiler.go	/^func (c *Compiler) targetFacing(is IniSection, sc *StateControllerBase,$/;"	f
+targetFacing_id	bytecode.go	/^	targetFacing_id byte = iota$/;"	c
+targetFacing_value	bytecode.go	/^	targetFacing_value$/;"	c
+targetLifeAdd	bytecode.go	/^type targetLifeAdd StateControllerBase$/;"	t
+targetLifeAdd	char.go	/^func (c *Char) targetLifeAdd(tar []int32, add int32, kill, absolute bool) {$/;"	f
+targetLifeAdd	compiler.go	/^func (c *Compiler) targetLifeAdd(is IniSection, sc *StateControllerBase,$/;"	f
+targetLifeAdd_absolute	bytecode.go	/^	targetLifeAdd_absolute$/;"	c
+targetLifeAdd_id	bytecode.go	/^	targetLifeAdd_id byte = iota$/;"	c
+targetLifeAdd_kill	bytecode.go	/^	targetLifeAdd_kill$/;"	c
+targetLifeAdd_value	bytecode.go	/^	targetLifeAdd_value$/;"	c
+targetPowerAdd	bytecode.go	/^type targetPowerAdd StateControllerBase$/;"	t
+targetPowerAdd	char.go	/^func (c *Char) targetPowerAdd(tar []int32, power int32) {$/;"	f
+targetPowerAdd	compiler.go	/^func (c *Compiler) targetPowerAdd(is IniSection, sc *StateControllerBase,$/;"	f
+targetPowerAdd_id	bytecode.go	/^	targetPowerAdd_id byte = iota$/;"	c
+targetPowerAdd_value	bytecode.go	/^	targetPowerAdd_value$/;"	c
+targetState	bytecode.go	/^type targetState StateControllerBase$/;"	t
+targetState	char.go	/^func (c *Char) targetState(tar []int32, state int32) {$/;"	f
+targetState	compiler.go	/^func (c *Compiler) targetState(is IniSection, sc *StateControllerBase,$/;"	f
+targetState_id	bytecode.go	/^	targetState_id byte = iota$/;"	c
+targetState_value	bytecode.go	/^	targetState_value$/;"	c
+targetVelAdd	bytecode.go	/^type targetVelAdd StateControllerBase$/;"	t
+targetVelAdd	compiler.go	/^func (c *Compiler) targetVelAdd(is IniSection, sc *StateControllerBase,$/;"	f
+targetVelAddX	char.go	/^func (c *Char) targetVelAddX(tar []int32, x float32) {$/;"	f
+targetVelAddY	char.go	/^func (c *Char) targetVelAddY(tar []int32, y float32) {$/;"	f
+targetVelAdd_id	bytecode.go	/^	targetVelAdd_id byte = iota$/;"	c
+targetVelAdd_x	bytecode.go	/^	targetVelAdd_x$/;"	c
+targetVelAdd_y	bytecode.go	/^	targetVelAdd_y$/;"	c
+targetVelSet	bytecode.go	/^type targetVelSet StateControllerBase$/;"	t
+targetVelSet	compiler.go	/^func (c *Compiler) targetVelSet(is IniSection, sc *StateControllerBase,$/;"	f
+targetVelSetX	char.go	/^func (c *Char) targetVelSetX(tar []int32, x float32) {$/;"	f
+targetVelSetY	char.go	/^func (c *Char) targetVelSetY(tar []int32, y float32) {$/;"	f
+targetVelSet_id	bytecode.go	/^	targetVelSet_id byte = iota$/;"	c
+targetVelSet_x	bytecode.go	/^	targetVelSet_x$/;"	c
+targetVelSet_y	bytecode.go	/^	targetVelSet_y$/;"	c
+testAttr	char.go	/^func (hd *HitDef) testAttr(attr int32) bool {$/;"	f
+tick	char.go	/^func (c *Char) tick() {$/;"	f
+tick	char.go	/^func (cl *CharList) tick() {$/;"	f
+tick	char.go	/^func (p *Projectile) tick(playerNo int) {$/;"	f
+tickFrame	system.go	/^func (s *System) tickFrame() bool {$/;"	f
+tickInterpola	system.go	/^func (s *System) tickInterpola() float32 {$/;"	f
+tickNextFrame	system.go	/^func (s *System) tickNextFrame() bool {$/;"	f
+time	char.go	/^func (c *Char) time() int32 {$/;"	f
+toUserData	script.go	/^func toUserData(l *lua.LState, argi int) interface{} {$/;"	f
+tokenizer	compiler.go	/^func (_ *Compiler) tokenizer(in *string) string {$/;"	f
+topEdge	char.go	/^func (c *Char) topEdge() float32 {$/;"	f
+trans	bytecode.go	/^type trans StateControllerBase$/;"	t
+trans	compiler.go	/^func (c *Compiler) trans(is IniSection, sc *StateControllerBase,$/;"	f
+trans_trans	bytecode.go	/^	trans_trans byte = iota$/;"	c
+trgAttr	compiler.go	/^func (c *Compiler) trgAttr(in *string) (int32, error) {$/;"	f
+triggerScriptInit	script.go	/^func triggerScriptInit(l *lua.LState) {$/;"	f
+turn	bytecode.go	/^type turn StateControllerBase$/;"	t
+turn	compiler.go	/^func (c *Compiler) turn(is IniSection, sc *StateControllerBase,$/;"	f
+turn_	bytecode.go	/^	turn_ byte = iota$/;"	c
+typedExp	compiler.go	/^func (c *Compiler) typedExp(ef expFunc, in *string,$/;"	f
+uniformA	render.go	/^var uniformA, uniformPal, uniformMsk int32$/;"	v
+uniformAdd	render.go	/^var uniformFcA, uniformNeg, uniformGray, uniformAdd, uniformMul int32$/;"	v
+uniformColor	render.go	/^var uniformFcSA, uniformColor int32$/;"	v
+uniformFcA	render.go	/^var uniformFcA, uniformNeg, uniformGray, uniformAdd, uniformMul int32$/;"	v
+uniformFcSA	render.go	/^var uniformFcSA, uniformColor int32$/;"	v
+uniformGray	render.go	/^var uniformFcA, uniformNeg, uniformGray, uniformAdd, uniformMul int32$/;"	v
+uniformMsk	render.go	/^var uniformA, uniformPal, uniformMsk int32$/;"	v
+uniformMul	render.go	/^var uniformFcA, uniformNeg, uniformGray, uniformAdd, uniformMul int32$/;"	v
+uniformNeg	render.go	/^var uniformFcA, uniformNeg, uniformGray, uniformAdd, uniformMul int32$/;"	v
+uniformPal	render.go	/^var uniformA, uniformPal, uniformMsk int32$/;"	v
+unsetSCF	char.go	/^func (c *Char) unsetSCF(scf SystemCharFlag) {$/;"	f
+unsetSF	char.go	/^func (c *Char) unsetSF(csf CharSpecialFlag) {$/;"	f
+unsetSF	system.go	/^func (s *System) unsetSF(gsf GlobalSpecialFlag) {$/;"	f
+update	char.go	/^func (c *Char) update(cvmin, cvmax,$/;"	f
+update	char.go	/^func (cl *CharList) update(cvmin, cvmax,$/;"	f
+update	char.go	/^func (e *Explod) update(oldVer bool, playerNo int) {$/;"	f
+update	char.go	/^func (p *Projectile) update(playerNo int) {$/;"	f
+update	system.go	/^func (s *System) update() bool {$/;"	f
+update	system.go	/^func (wm *wincntMap) update() {$/;"	f
+userDataError	script.go	/^func userDataError(l *lua.LState, argi int, udtype interface{}) {$/;"	f
+varAdd	char.go	/^func (c *Char) varAdd(i, v int32) BytecodeValue {$/;"	f
+varAdd	compiler.go	/^func (c *Compiler) varAdd(is IniSection, sc *StateControllerBase,$/;"	f
+varAssign	bytecode.go	/^type varAssign struct {$/;"	t
+varGet	char.go	/^func (c *Char) varGet(i int32) BytecodeValue {$/;"	f
+varNameCheck	compiler.go	/^func (c *Compiler) varNameCheck(nm string) (err error) {$/;"	f
+varNames	compiler.go	/^func (c *Compiler) varNames(end string, line *string) ([]string, error) {$/;"	f
+varRandom	bytecode.go	/^type varRandom StateControllerBase$/;"	t
+varRandom	compiler.go	/^func (c *Compiler) varRandom(is IniSection, sc *StateControllerBase,$/;"	f
+varRandom_range	bytecode.go	/^	varRandom_range$/;"	c
+varRandom_v	bytecode.go	/^	varRandom_v byte = iota$/;"	c
+varRangeSet	bytecode.go	/^type varRangeSet StateControllerBase$/;"	t
+varRangeSet	char.go	/^func (c *Char) varRangeSet(s, e, v int32) {$/;"	f
+varRangeSet	compiler.go	/^func (c *Compiler) varRangeSet(is IniSection, sc *StateControllerBase,$/;"	f
+varRangeSet_first	bytecode.go	/^	varRangeSet_first byte = iota$/;"	c
+varRangeSet_fvalue	bytecode.go	/^	varRangeSet_fvalue$/;"	c
+varRangeSet_last	bytecode.go	/^	varRangeSet_last$/;"	c
+varRangeSet_value	bytecode.go	/^	varRangeSet_value$/;"	c
+varSet	bytecode.go	/^type varSet StateControllerBase$/;"	t
+varSet	char.go	/^func (c *Char) varSet(i, v int32) BytecodeValue {$/;"	f
+varSet	compiler.go	/^func (c *Compiler) varSet(is IniSection, sc *StateControllerBase,$/;"	f
+varSetSub	compiler.go	/^func (c *Compiler) varSetSub(is IniSection,$/;"	f
+varSet_	bytecode.go	/^	varSet_ byte = iota$/;"	c
+velAdd	bytecode.go	/^type velAdd posSet$/;"	t
+velAdd	compiler.go	/^func (c *Compiler) velAdd(is IniSection, sc *StateControllerBase,$/;"	f
+velMul	bytecode.go	/^type velMul posSet$/;"	t
+velMul	compiler.go	/^func (c *Compiler) velMul(is IniSection, sc *StateControllerBase,$/;"	f
+velSet	bytecode.go	/^type velSet posSet$/;"	t
+velSet	compiler.go	/^func (c *Compiler) velSet(is IniSection, sc *StateControllerBase,$/;"	f
+victoryQuote	bytecode.go	/^type victoryQuote StateControllerBase$/;"	t
+victoryQuote	compiler.go	/^func (c *Compiler) victoryQuote(is IniSection, sc *StateControllerBase,$/;"	f
+victoryQuote_value	bytecode.go	/^	victoryQuote_value byte = iota$/;"	c
+width	bytecode.go	/^type width StateControllerBase$/;"	t
+width	compiler.go	/^func (c *Compiler) width(is IniSection, sc *StateControllerBase,$/;"	f
+width_edge	bytecode.go	/^	width_edge byte = iota$/;"	c
+width_player	bytecode.go	/^	width_player$/;"	c
+width_value	bytecode.go	/^	width_value$/;"	c
+win	char.go	/^func (c *Char) win() bool {$/;"	f
+winKO	char.go	/^func (c *Char) winKO() bool {$/;"	f
+winPerfect	char.go	/^func (c *Char) winPerfect() bool {$/;"	f
+winTime	char.go	/^func (c *Char) winTime() bool {$/;"	f
+wincntMap	system.go	/^type wincntMap map[string][]int32$/;"	t
+write	sound.go	/^func (m *Mixer) write() bool {$/;"	f
+writeI32	input.go	/^func (ni *NetInput) writeI32(i32 int32) error {$/;"	f
+xEnable	stage.go	/^func (bgc *bgCtrl) xEnable() bool {$/;"	f
+xScreenBound	char.go	/^func (c *Char) xScreenBound() {$/;"	f
+xor	bytecode.go	/^func (_ BytecodeExp) xor(v1 *BytecodeValue, v2 BytecodeValue) {$/;"	f
+xvel	char.go	/^func (f *Fall) xvel() float32 {$/;"	f
+yEnable	stage.go	/^func (bgc *bgCtrl) yEnable() bool {$/;"	f
+yokisinaiToken	compiler.go	/^func (c *Compiler) yokisinaiToken() error {$/;"	f
+zoom	bytecode.go	/^type zoom StateControllerBase$/;"	t
+zoom	compiler.go	/^func (c *Compiler) zoom(is IniSection, sc *StateControllerBase,$/;"	f
+zoom_pos	bytecode.go	/^	zoom_pos byte = iota$/;"	c
+zoom_scale	bytecode.go	/^	zoom_scale$/;"	c

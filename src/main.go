@@ -11,16 +11,24 @@ import (
 )
 
 func init() {
+	//Lock the main thread
 	runtime.LockOSThread()
 }
+
+//Utility function used to panic errors
 func chk(err error) {
 	if err != nil {
 		panic(err)
 	}
 }
 func main() {
+	// Init the window framework
 	chk(glfw.Init())
+	// Defer halt to window being terminated.
+	// Defer is like finally, it will run at the end of the function its in the scope of
 	defer glfw.Terminate()
+
+	// default config
 	defcfg := []byte(strings.Join(strings.Split(`{
   "HelperMax": 56,
   "PlayerProjectileMax": 50,
@@ -54,6 +62,12 @@ func main() {
   }
 }
 `, "\n"), "\r\n"))
+	// defining the struct of the mock system type
+	// first we unmarshall the defcfg object onto the mock system type (tmp)
+	// then if config.json doesnt exist, we'll create it and write defcfg to it.
+	// if config.json does exist, we'll read from it and unmarshall it onto the mock system type
+	// TODO: consider making this a 'UserConfig' type?
+
 	tmp := struct {
 		HelperMax              int32
 		PlayerProjectileMax    int
@@ -85,6 +99,7 @@ func main() {
 		}
 		chk(json.Unmarshal(bytes, &tmp))
 	}
+	// set properties from config.json to sys type
 	sys.helperMax = tmp.HelperMax
 	sys.playerProjectileMax = tmp.PlayerProjectileMax
 	sys.explodMax = tmp.ExplodMax
@@ -114,8 +129,10 @@ func main() {
 				stoki(b[10].(string))})
 		}
 	}
-	l := sys.init(tmp.Width, tmp.Height)
-	if err := l.DoFile(tmp.System); err != nil {
+	// sys init  returns a pointer to a lua state object so we can start
+	// running the user defined system.lua
+	luaState := sys.init(tmp.Width, tmp.Height)
+	if err := luaState.DoFile(tmp.System); err != nil {
 		switch err.(type) {
 		case *lua.ApiError:
 			errstr := strings.Split(err.Error(), "\n")[0]
