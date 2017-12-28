@@ -339,6 +339,8 @@ func (sk ShortcutKey) Test(k glfw.Key, m glfw.ModifierKey) bool {
 	return k == sk.Key &&
 		m&(glfw.ModShift|glfw.ModControl|glfw.ModAlt) == sk.Mod
 }
+
+//IMPORTANT
 func keyCallback(_ *glfw.Window, key glfw.Key, _ int,
 	action glfw.Action, mk glfw.ModifierKey) {
 	switch action {

@@ -16,6 +16,12 @@
       "Buttons": ["UP", "DOWN", "LEFT", "RIGHT",
         "z", "x", "c", "a", "s", "d",
         "RETURN"]
+    },
+    {
+      "Joystick": 0,
+      "Buttons": [-7, -8, -5, -6,
+        1, 2, 7, 0, 3, 5,
+        9]
     }
   ],
   "_comment": {
