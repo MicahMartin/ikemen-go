@@ -1,6 +1,6 @@
 addChar([[
-GokuZ2
-Majin_VegetaZ2
+kfm
+mkfm
 ]])
 
 addStage([[

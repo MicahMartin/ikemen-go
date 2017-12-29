@@ -13,7 +13,7 @@ loadLifebar('data/gms_lifebar/fight.def')
 loadDebugFont('data/gms_lifebar/font2.fnt')
 setDebugScript('script/debug.lua')
 
-selectColumns = 10
+selectColumns = 3
 
 
 require('script.randomtest')
@@ -81,7 +81,8 @@ p2Cmd = commandNew()
 setCommand(p2Cmd)
 
 ------------------------------------------------------------
-selectRows = math.floor(selectColumns * 2 / 5.0)
+-- selectRows = math.floor(selectColumns * 2 / 5.0)
+selectRows = 1
 
 setRandomSpr(sysSff, 151, 0, 5.0/selectColumns, 5.0/selectColumns)
 setSelColRow(selectColumns, selectRows)
