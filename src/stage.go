@@ -350,7 +350,7 @@ func newBgCtrl() *bgCtrl {
 func (bgc *bgCtrl) read(is IniSection, idx int) {
 	bgc.idx = idx
 	xy := false
-	switch is["type"] {
+	switch strings.ToLower(is["type"]) {
 	case "anim":
 		bgc._type = BT_Anim
 	case "visible":
@@ -655,7 +655,7 @@ func loadStage(def string) (*Stage, error) {
 		s.bg = append(s.bg, readBackGround(bgsec, bglink,
 			s.sff, s.at, float32(sys.cam.startx)))
 	}
-	var bgcdef bgCtrl
+	bgcdef := *newBgCtrl()
 	i = 0
 	for i < len(lines) {
 		is, name, _ := ReadIniSection(lines, &i)
@@ -683,6 +683,7 @@ func loadStage(def string) (*Stage, error) {
 			bgc := newBgCtrl()
 			*bgc = bgcdef
 			if ids := is.readI32CsvForStage("ctrlid"); len(ids) > 0 {
+				bgc.bg = nil
 				if len(ids) > 1 || ids[0] != -1 {
 					kishutu := make(map[int32]bool)
 					for _, id := range ids {

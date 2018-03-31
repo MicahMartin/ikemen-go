@@ -1073,7 +1073,7 @@ func (be BytecodeExp) run(c *Char) BytecodeValue {
 		case OC_numtarget:
 			*sys.bcStack.Top() = c.numTarget(*sys.bcStack.Top())
 		case OC_palno:
-			sys.bcStack.PushI(c.gi().palno)
+			sys.bcStack.PushI(c.palno())
 		case OC_pos_x:
 			sys.bcStack.PushF(c.pos[0] - sys.cam.Pos[0])
 		case OC_pos_y:
@@ -3069,11 +3069,17 @@ func (sc hitDef) runSub(c *Char, hd *HitDef, id byte, exp []BytecodeExp) bool {
 		hd.mindist[0] = exp[0].evalF(c)
 		if len(exp) > 1 {
 			hd.mindist[1] = exp[1].evalF(c)
+			if len(exp) > 2 {
+				exp[2].run(c)
+			}
 		}
 	case hitDef_maxdist:
 		hd.maxdist[0] = exp[0].evalF(c)
 		if len(exp) > 1 {
 			hd.maxdist[1] = exp[1].evalF(c)
+			if len(exp) > 2 {
+				exp[2].run(c)
+			}
 		}
 	case hitDef_snap:
 		hd.snap[0] = exp[0].evalF(c)
@@ -4141,8 +4147,10 @@ func (sc angleDraw) Run(c *Char, _ []int32) bool {
 		case angleDraw_value:
 			c.angleSet(exp[0].evalF(c))
 		case angleDraw_scale:
-			c.angleScalse[0] = exp[0].evalF(c)
-			c.angleScalse[1] = exp[1].evalF(c)
+			c.angleScalse[0] *= exp[0].evalF(c)
+			if len(exp) > 1 {
+				c.angleScalse[1] *= exp[1].evalF(c)
+			}
 		}
 		return true
 	})
@@ -4849,6 +4857,7 @@ func (sb *StateBytecode) init(c *Char) {
 		c.ss.physics = sb.physics
 	}
 	sb.ctrlsps = make([]int32, len(sb.ctrlsps))
+	sys.workingState = sb
 	sb.stateDef.Run(c)
 }
 func (sb *StateBytecode) run(c *Char) (changeState bool) {

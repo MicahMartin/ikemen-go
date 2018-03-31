@@ -2306,6 +2306,12 @@ func (c *Char) numTarget(hid BytecodeValue) BytecodeValue {
 	}
 	return BytecodeInt(n)
 }
+func (c *Char) palno() int32 {
+	if c.helperIndex != 0 && c.gi().ver[0] != 1 {
+		return 1
+	}
+	return c.gi().palno
+}
 func (c *Char) getPower() int32 {
 	if sys.powerShare[c.playerNo&1] {
 		return sys.chars[c.playerNo&1][0].power
@@ -4902,7 +4908,8 @@ func (cl *CharList) clsn(getter *Char, proj bool) {
 				getter.p1facing = byf
 			} else if hd.p2facing > 0 {
 				getter.p1facing = -byf
-			} else {
+			}
+			if getter.p1facing == getter.facing {
 				getter.p1facing = 0
 			}
 			if hd.p1stateno >= 0 && c.stateChange1(hd.p1stateno, hd.playerNo) {
