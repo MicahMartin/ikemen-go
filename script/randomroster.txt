@@ -1,0 +1,3 @@
+Rank: 0 
+chars/GokuZ2/GokuZ2.def
+chars/Majin_VegetaZ2/Majin_VegetaZ2.def

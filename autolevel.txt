@@ -1,0 +1,2 @@
+﻿chars/GokuZ2/GokuZ2.def, 0 0 0 0 0 0 0 0 0 0 0 0
+chars/Majin_VegetaZ2/Majin_VegetaZ2.def, 0 0 0 0 0 0 0 0 0 0 0 0
